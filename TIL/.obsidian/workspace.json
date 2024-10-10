@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5dfe8787ea740958",
+        "id": "5e030774f121a735",
         "type": "tabs",
         "children": [
           {
-            "id": "e0ecdc371ad149e5",
+            "id": "f0dfa316f636fcc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "업무일지/2024-10-10.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "업무일지/2024-10-10.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "업무일지/2024-10-10.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "업무일지/2024-10-10.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -147,9 +147,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00670b99acf83689",
+  "active": "f0dfa316f636fcc8",
   "lastOpenFiles": [
     "Welcome.md",
+    "무제 파일.md",
     "업무일지/2024-10-10.md",
     "업무일지"
   ]
