@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,10 +151,11 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4783127cae51acc",
+  "active": "f0dfa316f636fcc8",
   "lastOpenFiles": [
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/자격증/정보처리기사실기.md",
