@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1891f3fc256690f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -155,10 +168,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a5448218bedc125",
+  "active": "d1891f3fc256690f",
   "lastOpenFiles": [
-    "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/자격증/정보처리기사실기.md",
+    "conflict-files-obsidian-git.md",
+    "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/개발/Spring",
     "StudyNote/개발",
     "StudyNote/자격증",
