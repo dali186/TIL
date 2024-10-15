@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e09a72c474432281",
@@ -157,7 +156,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82f520d5eb73cfc0",
+  "active": "f0dfa316f636fcc8",
   "lastOpenFiles": [
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/개발/잡기술",
