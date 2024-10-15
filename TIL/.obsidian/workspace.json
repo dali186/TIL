@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#사용자는",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,7 +156,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0dfa316f636fcc8",
+  "active": "82f520d5eb73cfc0",
   "lastOpenFiles": [
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/개발/잡기술",
