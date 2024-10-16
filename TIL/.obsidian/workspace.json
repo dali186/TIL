@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "821f9f70a9c6ce28",
+        "id": "5e030774f121a735",
         "type": "tabs",
         "children": [
           {
-            "id": "940957b196c97bbd",
+            "id": "f0dfa316f636fcc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+                "file": "StudyNote/개발/Spring/ResponseEntity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+                "file": "StudyNote/개발/Spring/ResponseEntity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+                "file": "StudyNote/개발/Spring/ResponseEntity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md"
+                "file": "StudyNote/개발/Spring/ResponseEntity.md"
               }
             }
           },
@@ -155,16 +155,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "940957b196c97bbd",
+  "active": "f0dfa316f636fcc8",
   "lastOpenFiles": [
-    "StudyNote/자격증/정보처리기사실기.md",
+    "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
+    "StudyNote/개발/잡기술",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
     "StudyNote/개발/리팩터링",
+    "StudyNote/자격증/정보처리기사실기.md",
     "Welcome.md",
-    "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
     "StudyNote/개발/Spring/ResponseEntity.md",
-    "StudyNote/개발/잡기술",
-    "conflict-files-obsidian-git.md",
     "StudyNote/개발/Spring",
     "StudyNote/개발",
     "StudyNote/자격증",
