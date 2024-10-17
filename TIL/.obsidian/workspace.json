@@ -16,10 +16,25 @@
                 "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "공통응답 및 공통예외처리"
+            }
+          },
+          {
+            "id": "78e54979d8232073",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "공통응답 및 공통예외처리의 백링크"
             }
           },
           {
@@ -105,7 +128,9 @@
                 "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "공통응답 및 공통예외처리의 나가는 링크"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +153,9 @@
               "type": "outline",
               "state": {
                 "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "공통응답 및 공통예외처리 개요"
             }
           },
           {
@@ -134,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -155,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a5448218bedc125",
+  "active": "78e54979d8232073",
   "lastOpenFiles": [
     "StudyNote/자격증/정보처리기사실기 족보.md",
     "StudyNote/자격증/정보처리기사실기.md",
