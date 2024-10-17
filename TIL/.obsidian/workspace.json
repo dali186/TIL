@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "공통응답 및 공통예외처리"
             }
-          },
-          {
-            "id": "78e54979d8232073",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78e54979d8232073",
+  "active": "940957b196c97bbd",
   "lastOpenFiles": [
     "StudyNote/자격증/정보처리기사실기 족보.md",
     "StudyNote/자격증/정보처리기사실기.md",
