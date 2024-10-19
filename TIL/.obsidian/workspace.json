@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0dfa316f636fcc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StudyNote/자격증/정보처리기사실기 족보.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5273ae4a5a99e9da",
             "type": "leaf",
             "state": {
@@ -29,6 +17,20 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3719eb778ba46e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adce9f3a95f4553b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기 족보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기 족보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "StudyNote/자격증/정보처리기사실기 족보.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +165,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0dfa316f636fcc8",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "StudyNote/자격증/정보처리기사실기 족보.md",
+    "StudyNote/자료실",
+    "무제 파일.md",
     "StudyNote/자격증/정보처리기사실기.md",
+    "StudyNote/자료실/정보처리기사실기 족보.pdf",
+    "StudyNote/자격증/정보처리기사실기 족보.md",
+    "StudyNote/자격증/정보처리기사실기 족보_tmp.html",
+    "conflict-files-obsidian-git.md",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
@@ -184,7 +186,6 @@
     "StudyNote",
     "작업내역/Intra.md",
     "작업내역",
-    "무제 파일.md",
     "업무일지/2024-10-10.md",
     "업무일지"
   ]
