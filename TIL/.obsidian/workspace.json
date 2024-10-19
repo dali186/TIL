@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e09a72c474432281",
@@ -170,8 +169,9 @@
   },
   "active": "f0dfa316f636fcc8",
   "lastOpenFiles": [
-    "StudyNote/자격증/정보처리기사실기.md",
+    "conflict-files-obsidian-git.md",
     "StudyNote/자격증/정보처리기사실기 족보.md",
+    "StudyNote/자격증/정보처리기사실기.md",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
