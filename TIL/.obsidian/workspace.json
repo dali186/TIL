@@ -11,8 +11,12 @@
             "id": "b37ea85f190541bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "StudyNote/자격증/정보처리기사실기.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "StudyNote/자격증/정보처리기사실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "StudyNote/자격증/정보처리기사실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "StudyNote/자격증/정보처리기사실기.md"
               }
             }
           },
@@ -151,8 +155,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "b37ea85f190541bd",
   "lastOpenFiles": [
-    "Welcome.md"
+    "StudyNote/자격증/정보처리기사실기 족보.md",
+    "conflict-files-obsidian-git.md",
+    "Welcome.md",
+    "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
+    "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+    "StudyNote/개발/Spring/ResponseEntity.md",
+    "StudyNote/자료실/정보처리기사실기 족보.pdf",
+    "StudyNote/자격증/정보처리기사실기.md",
+    "StudyNote/개발/잡기술",
+    "StudyNote/개발/리팩터링",
+    "StudyNote/개발/Spring",
+    "StudyNote/자료실",
+    "StudyNote/자격증",
+    "StudyNote/개발",
+    "StudyNote"
   ]
 }

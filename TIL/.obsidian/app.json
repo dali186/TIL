@@ -1,1 +1,5 @@
-{}
+{
+  "spellcheck": false,
+  "readableLineLength": false,
+  "defaultViewMode": "source"
+}
