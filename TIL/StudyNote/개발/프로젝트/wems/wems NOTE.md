@@ -1,7 +1,7 @@
 Spring boot 3.3.4
 Java 17
 Jar
-MySQL
+MySQL 8.4
 JPA
 
 - 사용자/관리자 화면 UI 구성 및 개발
