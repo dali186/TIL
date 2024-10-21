@@ -93,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "정보처리기사실기의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -112,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "정보처리기사실기의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -139,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "StudyNote/자격증/정보처리기사실기.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-list",
-              "title": "정보처리기사실기 개요"
+              "title": "conflict-files-obsidian-git 개요"
             }
           },
           {
@@ -173,22 +171,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b37ea85f190541bd",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
-    "StudyNote/자격증/정보처리기사실기 족보.md",
+    "StudyNote/자격증/정보처리기사실기.md",
     "conflict-files-obsidian-git.md",
+    "StudyNote/개발/프로젝트/wems/wems NOTE.md",
+    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
+    "StudyNote/개발/프로젝트/wems",
+    "StudyNote/개발/프로젝트/Formwork-Shop",
+    "StudyNote/개발/프로젝트",
+    "StudyNote/자격증/정보처리기사실기 족보.md",
     "Welcome.md",
     "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/자료실/정보처리기사실기 족보.pdf",
-    "StudyNote/자격증/정보처리기사실기.md",
     "StudyNote/개발/잡기술",
     "StudyNote/개발/리팩터링",
     "StudyNote/개발/Spring",
     "StudyNote/자료실",
     "StudyNote/자격증",
-    "StudyNote/개발",
-    "StudyNote"
+    "StudyNote/개발"
   ]
 }
