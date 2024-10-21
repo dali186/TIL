@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/프로젝트/wems/wems NOTE.md",
+                "file": "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wems NOTE"
+              "title": "0. 환경 구축"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "940957b196c97bbd",
   "lastOpenFiles": [
-    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/개발/프로젝트/wems/wems NOTE.md",
+    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
     "StudyNote/개발/프로젝트/wems",
     "StudyNote/개발/프로젝트",
