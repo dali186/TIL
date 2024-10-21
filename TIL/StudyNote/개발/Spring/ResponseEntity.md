@@ -3,4 +3,6 @@
 jqXHR.responseText
 
 
-**`NoArgsConstructor (access = AccessLevel.PROTECTED)`**
+- **`NoArgsConstructor (access = AccessLevel.PROTECTED)`**
+- JPA proxy 조회 (지연로딩)
+- 
