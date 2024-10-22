@@ -16,5 +16,6 @@
 ###### 사용한 라이브러리
 ```
 testImplementation 'org.mockito:mockito-core:3.3.3'
+testImplementation 'org.assertj:assertj-core:3.24.2'
 ```
 [^1]: 하나의 기능 또는 메소드
