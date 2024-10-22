@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e09a72c474432281",
@@ -174,10 +173,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f272f39de44fc169",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
-    "learn.microsoft.com.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
+    "conflict-files-obsidian-git.md",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/개발/Spring/TO_DO NOTE.md",
+    "StudyNote/CS/Cloud/CLOUD-03.md",
+    "StudyNote/CS/Cloud/CLOUD-02.md",
+    "learn.microsoft.com.md",
     "StudyNote/개발/Spring/공통응답 및 공통예외처리.md",
     "StudyNote/CS/Cloud",
     "StudyNote/CS",
@@ -188,7 +192,6 @@
     "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
     "StudyNote/프로젝트/Formwork-Shop/Log.md",
     "StudyNote/자격증/정보처리기사실기.md",
-    "conflict-files-obsidian-git.md",
     "StudyNote/프로젝트/wems/wems NOTE.md",
     "StudyNote/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/프로젝트/wems",
