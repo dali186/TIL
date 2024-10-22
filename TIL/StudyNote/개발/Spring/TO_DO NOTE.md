@@ -1,3 +1,4 @@
+공통응답 및 공통예외처리
 #### 목표
 - Controller Advice + CustomException으로 예외처리 공통화
 - ErrMsg, SuccessMsg 등, 상수값 인터페이스에 정의
