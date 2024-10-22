@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-01.md",
+                "file": "StudyNote/CS/Cloud/CLOUD-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-01"
+              "title": "CLOUD-04"
             }
           }
         ]
@@ -173,14 +173,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00670b99acf83689",
+  "active": "f272f39de44fc169",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/CLOUD-03.md",
+    "StudyNote/CS/Cloud/CLOUD-02.md",
+    "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
     "conflict-files-obsidian-git.md",
     "StudyNote/개발/Spring/TestCode.md",
     "StudyNote/개발/Spring/TO_DO NOTE.md",
-    "StudyNote/CS/Cloud/CLOUD-03.md",
-    "StudyNote/CS/Cloud/CLOUD-02.md",
     "learn.microsoft.com.md",
     "StudyNote/개발/Spring/공통응답 및 공통예외처리.md",
     "StudyNote/CS/Cloud",
