@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-01.md",
+                "file": "StudyNote/CS/Cloud/CLOUD-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-01"
+              "title": "CLOUD-02"
             }
           }
         ]
@@ -175,6 +175,8 @@
   },
   "active": "c9ed6834f1dafa8a",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/CLOUD-01.md",
+    "StudyNote/CS/Cloud/CLOUD-02.md",
     "StudyNote/개발/노트/Note.md",
     "StudyNote/개발/Spring/ResponseEntity.md",
     "StudyNote/프로젝트/wems/wems NOTE.md",
@@ -187,7 +189,6 @@
     "StudyNote/자격증/자료실",
     "StudyNote/개발/노트",
     "StudyNote/개발/Spring/공통응답 및 공통예외처리.md",
-    "StudyNote/CS/Cloud/CLOUD-01.md",
     "StudyNote/CS/Cloud",
     "StudyNote/CS",
     "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
