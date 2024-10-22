@@ -13,4 +13,8 @@
 - `when` : 목표 모듈을 실행하면
 - `then` : 예상한 출력이 나온다.
 
+###### 사용한 라이브러리
+```
+testImplementation 'org.mockito:mockito-core:3.3.3'
+```
 [^1]: 하나의 기능 또는 메소드
