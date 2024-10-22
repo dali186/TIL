@@ -43,4 +43,7 @@
 7. **검토+만들기**
 
 **포트열기**
-가상머신 > 네트워크 설정 > 규칙 (인바운드 포트 규칙) > 22를 My Ip Address
+가상머신 > 네트워크 설정 > 규칙 (인바운드 포트 규칙) > 22를 My Ip Address로 설정
+##### 목표: DB 구축
+**Azure Database for PostgreSQL 유연한 서버**
+	*유연하지 않으면 Windows엠
