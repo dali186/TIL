@@ -15,11 +15,11 @@
 	- `FaaS(Function-as-a-Service)`: 개발자는 인프라를 유지관리 할 필요 없이 *패키지를 기능으로 빌드,실행 관리(코드만 갈겨라)*
 	- `CaaS(Container-as-a-Service)`: 컨ㅌ테이너 기반의 서비스 및 오케스트레이션 지원
 - 클라우드 배포 모델: 애플리케이션을 배포할 수 있는 클라우드 환경에 따른 분류
-	- `퍼블릭 클라우드`
-	- `프라이빗 클라우드`
-	- `하이브리드 클라우드`
-	- `멀티 클라우드`
-	- `커뮤니티 클라우드`
+	- `퍼블릭 클라우드`: any
+	- `프라이빗 클라우드`: only authorization
+	- `하이브리드 클라우드`: public + private
+	- `멀티 클라우드` : AWS + Microsoft Azure
+	- `커뮤니티 클라우드`: Belong to Organizations
 ##### 목표: DB 구축
 **Azure Database for PostgreSQL 유연한 서버**
 	*유연하지 않으면 Windows에서만 사용가능*
