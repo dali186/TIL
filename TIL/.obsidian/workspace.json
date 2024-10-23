@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/프로젝트/wems/0. 환경 구축.md",
+                "file": "StudyNote/개발/React/Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 환경 구축"
+              "title": "Note"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/프로젝트/wems/0. 환경 구축.md",
+                "file": "StudyNote/개발/React/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "0. 환경 구축의 나가는 링크"
+              "title": "Note의 나가는 링크"
             }
           },
           {
@@ -163,8 +163,10 @@
   },
   "active": "c9ed6834f1dafa8a",
   "lastOpenFiles": [
-    "StudyNote/프로젝트/wems/wems NOTE.md",
     "StudyNote/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/개발/React/Note.md",
+    "StudyNote/개발/React",
+    "StudyNote/프로젝트/wems/wems NOTE.md",
     "StudyNote/개발/Spring/TestCode.md",
     "StudyNote/개발/노트/Note.md",
     "StudyNote/CS/Cloud/CLOUD-07.md",
@@ -189,7 +191,6 @@
     "StudyNote/개발/프로젝트/wems/wems NOTE.md",
     "StudyNote/개발/프로젝트/Formwork-Shop",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
-    "StudyNote/개발/프로젝트/wems",
     "StudyNote/자격증/정보처리기사실기 족보.md",
     "StudyNote/자격증/정보처리기사실기.md",
     "Welcome.md",
