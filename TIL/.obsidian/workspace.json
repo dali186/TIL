@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-07.md",
+                "file": "StudyNote/프로젝트/wems/wems NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-07"
+              "title": "wems NOTE"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-07.md",
+                "file": "StudyNote/프로젝트/wems/wems NOTE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CLOUD-07의 나가는 링크"
+              "title": "wems NOTE의 나가는 링크"
             }
           },
           {
@@ -163,18 +163,18 @@
   },
   "active": "c9ed6834f1dafa8a",
   "lastOpenFiles": [
-    "StudyNote/CS/Cloud/CLOUD-06.md",
+    "StudyNote/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/개발/노트/Note.md",
     "StudyNote/CS/Cloud/CLOUD-07.md",
+    "StudyNote/CS/Cloud/CLOUD-06.md",
     "StudyNote/CS/Cloud/CLOUD-05.md",
     "StudyNote/CS/Cloud/CLOUD-02.md",
     "StudyNote/CS/Cloud/CLOUD-03.md",
     "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
-    "StudyNote/개발/Spring/TestCode.md",
     "StudyNote/개발/Spring/TO_DO NOTE.md",
-    "StudyNote/개발/노트/Note.md",
     "StudyNote/프로젝트/wems/wems NOTE.md",
-    "StudyNote/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/프로젝트/Formwork-Shop/Log.md",
     "StudyNote/프로젝트/wems",
     "StudyNote/프로젝트/Formwork-Shop",
