@@ -46,4 +46,19 @@
 		
 		```
 		#사용 시,
+		...
+		{this.state.state01}
+
+		# 수정 시,
+		onClick={()=>{this.setState({state01})}}
 		```
+2. `event`
+	하위 Component에서 상위 Component로 전달(props 넘겨주듯이)
+	**`event`**
+	- 상위 Component에서는 이벤트가 발생한 뒤 동작할 함수를 정의해주면 된다.
+	```
+	# 상위 Component
+	<ChildComponent afterEvent={(res)=>{this.setAppText(res)}}
+	# 하위 Component
+	onClick={()=>{this.props.afterEvent('결과전송');}}
+	```
