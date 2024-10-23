@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-05.md",
+                "file": "StudyNote/CS/Cloud/CLOUD-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-05"
+              "title": "CLOUD-06"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-05.md",
+                "file": "StudyNote/CS/Cloud/CLOUD-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CLOUD-05의 나가는 링크"
+              "title": "CLOUD-06의 나가는 링크"
             }
           },
           {
@@ -144,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,11 +163,12 @@
   },
   "active": "c9ed6834f1dafa8a",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/CLOUD-05.md",
+    "StudyNote/CS/Cloud/CLOUD-06.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
     "StudyNote/CS/Cloud/CLOUD-02.md",
     "StudyNote/CS/Cloud/CLOUD-03.md",
     "StudyNote/CS/Cloud/CLOUD-04.md",
-    "StudyNote/CS/Cloud/CLOUD-05.md",
     "StudyNote/개발/Spring/TestCode.md",
     "StudyNote/개발/Spring/TO_DO NOTE.md",
     "StudyNote/개발/노트/Note.md",
