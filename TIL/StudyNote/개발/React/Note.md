@@ -64,4 +64,10 @@
 	```
 
 ##### 차트 그리기
-0. 라이브러리 Im
+0. 라이브러리, Import
+```
+npm install apexcharts
+npm install react-apexcharts
+
+import ApexCharts from 'react-apexcharts'
+```
