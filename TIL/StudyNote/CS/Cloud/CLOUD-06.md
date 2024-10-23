@@ -44,3 +44,36 @@
 **로드 밸런싱**: 작업 부하를 분산 시켜 한 서버에 작업이 집중되지 않게 하는 기능, `로드밸런서(L4 스위치)`, `브로커 서버`
 
 ##### 목표: 이미지 관리(Blob storage 관리)
+**==코드를 실행시켜서 Blob Storage에 파일 추가==**
+0. 파이썬 스토리지 모듈 설치
+```
+# Windows cmd
+pip install python-storage-blob
+```
+1. python 코드 작성
+```
+# Vscode
+import os
+from azure.storage.blob import BlobServiceClient
+
+try:
+  print("한국방송통신대학교 클라우드 컴퓨팅 Blob 파일 업로드")
+  connect_str = "<연결 문자열>"
+  blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+  container_name = "<컨테이너 이름>"
+
+  local_file_name = "main_carousel.png" 
+
+  container_client = blob_service_client.get_container_client(container=container_name)
+
+  print("\nUploading to Azure Storage as blob:\n\t" + local_file_name)
+  with open(file=os.path.join('', local_file_name), mode="rb") as data:
+    blob_client = container_client.upload_blob(name=local_file_name, data=data, overwrite=True)
+  
+except Exception as ex: 
+  print('Exception:') 
+  print(ex)
+```
+`<컨테이너 이름>` : azure.스토리지계정.해당 스토리지 컨테이너 명
+`<연결문자열>` : ㅂ
+연결 문자열 > 보안 + 네트워킹 > 액세스 키 > 연결문자열 copy
