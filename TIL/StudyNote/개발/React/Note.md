@@ -16,6 +16,8 @@
 	- `index.js`
 - `package.json`: 프로젝트 기본 내용 + 라이브러리 목록
 
+### 클래스형 컴포넌트
+---
 1. `props`, `state`
 	Component의 상태 정보를 가지고 있는 *멤버 변수*, 변경 시 render 함수가 다시 호출(**하위 Component까지 모두**)
 	**`props`**
@@ -71,3 +73,6 @@ npm install react-apexcharts
 
 import ApexCharts from 'react-apexcharts'
 ```
+
+### 함수형 컴포넌트
+---
