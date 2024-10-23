@@ -1,4 +1,3 @@
-
 #### TIPS
 ---
 [Azure 학습](https://learn.microsoft.com/ko-kr/training/azure/) _keyWord: "만들기"_
