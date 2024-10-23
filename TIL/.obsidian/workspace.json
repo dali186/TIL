@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+                "file": "StudyNote/개발/Spring/TestCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "공통응답 및 공통예외처리의 나가는 링크"
+              "title": "TestCode의 나가는 링크"
             }
           },
           {
@@ -134,18 +134,6 @@
             }
           },
           {
-            "id": "c4783127cae51acc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md"
-              },
-              "icon": "lucide-list",
-              "title": "공통응답 및 공통예외처리 개요"
-            }
-          },
-          {
             "id": "3a5448218bedc125",
             "type": "leaf",
             "state": {
@@ -156,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,11 +161,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9ed6834f1dafa8a",
+  "active": "34d3b22addc41647",
   "lastOpenFiles": [
-    "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/개발/Spring/TO_DO NOTE.md",
     "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/CS/Cloud/CLOUD-03.md",
     "StudyNote/CS/Cloud/CLOUD-02.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
