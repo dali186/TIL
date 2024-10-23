@@ -15,3 +15,6 @@
 	- `App.js`
 	- `index.js`
 - `package.json`: 프로젝트 기본 내용 + 라이브러리 목록
+
+1. `props`, `state`
+	Component의 상태 정보르
