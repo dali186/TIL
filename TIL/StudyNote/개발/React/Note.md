@@ -62,3 +62,6 @@
 	# 하위 Component
 	onClick={()=>{this.props.afterEvent('결과전송');}}
 	```
+
+##### 차트 그리기
+0. 라이브러리 Im
