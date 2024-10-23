@@ -17,4 +17,33 @@
 - `package.json`: 프로젝트 기본 내용 + 라이브러리 목록
 
 1. `props`, `state`
-	Component의 상태 정보르
+	Component의 상태 정보를 가지고 있는 *멤버 변수*, 변경 시 render 함수가 다시 호출(**하위 Component까지 모두**)
+	**`props`**
+	- 상위 Component가 하위 Component에게 전달하면 생성되는 변수, ==하위 Component에서는 `props` 값을 수정할 수 없음.==
+		```
+		#상위 컴포넌트
+		<Title title="Title Prop" />
+		#하위 컴포넌트
+		...
+		{this.props.title}
+		```
+	**`state`**
+	- 해당 Component가 직접 생성해서 사용하는 변수, ==수정이 가능.==
+		```
+		#생성 시,
+		class Component01 extends Component {
+			constructor(props) {
+				super(props);
+				
+				#state 변수 초기화
+				this.state = {
+					state01: "state01" ,
+					state02: "state01" ,
+					};
+				}
+			}
+		```
+		
+		```
+		#사용 시,
+		```
