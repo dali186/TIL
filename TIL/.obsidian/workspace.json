@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5e030774f121a735",
+        "id": "17af377713eaab60",
         "type": "tabs",
         "children": [
           {
-            "id": "5273ae4a5a99e9da",
+            "id": "c9ed6834f1dafa8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/노트/Note.md",
+                "file": "StudyNote/CS/Cloud/CLOUD-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "CLOUD-07"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/개발/노트/Note.md",
+                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Note의 백링크"
+              "title": "공통응답 및 공통예외처리의 백링크"
             }
           },
           {
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/개발/노트/Note.md",
+                "file": "StudyNote/개발/React/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -134,18 +134,6 @@
             }
           },
           {
-            "id": "c4783127cae51acc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "StudyNote/개발/노트/Note.md"
-              },
-              "icon": "lucide-list",
-              "title": "Note 개요"
-            }
-          },
-          {
             "id": "3a5448218bedc125",
             "type": "leaf",
             "state": {
@@ -161,18 +149,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "StudyNote/개발/React/Note.md"
+                "file": "StudyNote/CS/Cloud/CLOUD-07.md"
               },
               "icon": "lucide-list",
-              "title": "Note 개요"
+              "title": "CLOUD-07 개요"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,13 +173,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5273ae4a5a99e9da",
+  "active": "c9ed6834f1dafa8a",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/CLOUD-05.md",
+    "StudyNote/CS/Cloud/CLOUD-06.md",
+    "StudyNote/CS/Cloud/CLOUD-07.md",
     "StudyNote/개발/React/Note.md",
-    "StudyNote/개발/노트/Note.md",
-    "StudyNote/자격증/정보처리기사실기.md",
-    "StudyNote/프로젝트/wems/wems NOTE.md",
     "StudyNote/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/개발/React",
+    "StudyNote/프로젝트/wems/wems NOTE.md",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/개발/노트/Note.md",
+    "StudyNote/CS/Cloud/CLOUD-02.md",
+    "StudyNote/CS/Cloud/CLOUD-03.md",
+    "StudyNote/CS/Cloud/CLOUD-04.md",
+    "StudyNote/CS/Cloud/CLOUD-01.md",
+    "StudyNote/개발/Spring/TO_DO NOTE.md",
     "StudyNote/프로젝트/Formwork-Shop/Log.md",
     "StudyNote/프로젝트/wems",
     "StudyNote/프로젝트/Formwork-Shop",
@@ -199,27 +196,20 @@
     "StudyNote/자격증/자료실/정보처리기사실기 족보.pdf",
     "StudyNote/자격증/자료실",
     "StudyNote/개발/노트",
-    "StudyNote/개발/Spring/TestCode.md",
-    "StudyNote/개발/Spring/TO_DO NOTE.md",
-    "StudyNote/개발/React",
-    "StudyNote/CS/Cloud/CLOUD-07.md",
-    "StudyNote/CS/Cloud/CLOUD-06.md",
-    "StudyNote/CS/Cloud/CLOUD-05.md",
-    "StudyNote/CS/Cloud/CLOUD-04.md",
-    "StudyNote/CS/Cloud/CLOUD-03.md",
-    "StudyNote/CS/Cloud/CLOUD-02.md",
-    "StudyNote/CS/Cloud/CLOUD-01.md",
     "StudyNote/CS/Cloud",
     "StudyNote/CS",
-    "StudyNote/자료실",
-    "무제 파일.md",
-    "StudyNote/자격증/정보처리기사실기 족보.md",
-    "conflict-files-obsidian-git.md",
+    "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
+    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/개발/프로젝트/wems/wems NOTE.md",
+    "StudyNote/개발/프로젝트/Formwork-Shop",
     "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
-    "StudyNote/개발/Spring/ResponseEntity.md",
-    "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
+    "StudyNote/자격증/정보처리기사실기 족보.md",
+    "StudyNote/자격증/정보처리기사실기.md",
     "Welcome.md",
+    "StudyNote/개발/잡기술/API Dummy 생성기 (Postman Runner).md",
+    "conflict-files-obsidian-git.md",
     "작업내역/Intra.md",
+    "무제 파일.md",
     "업무일지/2024-10-10.md"
   ]
 }
