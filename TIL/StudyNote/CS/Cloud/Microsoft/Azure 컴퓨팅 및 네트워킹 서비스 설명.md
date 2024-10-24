@@ -60,10 +60,11 @@ az vm extension set
 --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' 
 --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
 ```
-###### `vm extension` 명령어 options
-- `resource-group` : 리소스 그룹, AzurePortal에서 Sandbox 계정 전환 후 발급받아왔음
-- `name` : vm 이름
-- `public-ip-sku` : Standard, [Ref 2. SKU in Azure](https://learn.microsoft.com/ko-kr/azure/virtual-network/ip-services/public-ip-addresses)
-- `image` : OS 지정
-- `admin-username` : hostusername
-- `generate-ssh-keys` : SSH키 발급, ~~이거 .pem으로 안 떨어지나?~~
+###### `vm extension set` 명령어 options
+- `resource-group`
+- `vm-name`
+- `name` : Extension 이름
+- `publisher` : Extension을 제공하는 Publisher
+- `version`
+- `settings` : 사용자 지정(Github에 저장되어 있는) 스크립트를 VM에 다운로드
+- `protected-settings` : `commandToExcute` 명령어로 스크립트 실행
