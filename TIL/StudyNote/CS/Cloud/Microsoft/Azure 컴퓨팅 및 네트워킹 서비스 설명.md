@@ -17,6 +17,8 @@
 #### 실습 코드
 ---
 ***Azure Portal이 아닌, Azure CLI 사용하여 구축***
+#### 1. Linux 가상 머신 만들기 및 Nginx 설치
+##### 1-1. 가상 머신 만들기
 ```
 az vm create 
 --resource-group "learn-061d12b5-46ed-4fb4-b126-396c87f50d4f" 
@@ -25,5 +27,43 @@ az vm create
 --image Ubuntu2204 
 --admin-username azureuser 
 --generate-ssh-keys
-
 ```
+###### `vm create` 명령어 options
+- `resource-group` : 리소스 그룹, AzurePortal에서 Sandbox 계정 전환 후 발급받아왔음
+- `name` : vm 이름
+- `public-ip-sku` : Standard, [Ref 2. SKU in Azure](https://learn.microsoft.com/ko-kr/azure/virtual-network/ip-services/public-ip-addresses)
+- `image` : OS 지정
+- `admin-username` : hostusername
+- `generate-ssh-keys` : SSH키 발급, ~~이거 .pem으로 안 떨어지나?~~
+##### 1-2. Result
+```
+{
+  "fqdns": "",
+  "id": "/subscriptions/66934742-a2f4-4f94-ad7b-07a47d83d2bc/resourceGroups/learn-061d12b5-46ed-4fb4-b126-396c87f50d4f/providers/Microsoft.Compute/virtualMachines/my-vm",
+  "location": "westus",
+  "macAddress": "00-0D-3A-31-AC-20",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "104.40.66.156",
+  "resourceGroup": "learn-061d12b5-46ed-4fb4-b126-396c87f50d4f",
+  "zones": ""
+}
+```
+- `macAddress`, `privateIpAddress`, `publicIpAddress`가 발급됐다.
+##### 2-1. 가상머신에서 Nginx 구성
+```
+az vm extension set 
+--resource-group "learn-061d12b5-46ed-4fb4-b126-396c87f50d4f" 
+--vm-name my-vm --name customScript 
+--publisher Microsoft.Azure.Extensions 
+--version 2.1 
+--settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' 
+--protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
+```
+###### `vm extension` 명령어 options
+- `resource-group` : 리소스 그룹, AzurePortal에서 Sandbox 계정 전환 후 발급받아왔음
+- `name` : vm 이름
+- `public-ip-sku` : Standard, [Ref 2. SKU in Azure](https://learn.microsoft.com/ko-kr/azure/virtual-network/ip-services/public-ip-addresses)
+- `image` : OS 지정
+- `admin-username` : hostusername
+- `generate-ssh-keys` : SSH키 발급, ~~이거 .pem으로 안 떨어지나?~~
