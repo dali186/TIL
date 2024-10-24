@@ -142,6 +142,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "880b07f71261f5e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "StudyNote/개발/React/Note.md"
+              },
+              "icon": "lucide-list",
+              "title": "Note 개요"
+            }
           }
         ],
         "currentTab": 3
