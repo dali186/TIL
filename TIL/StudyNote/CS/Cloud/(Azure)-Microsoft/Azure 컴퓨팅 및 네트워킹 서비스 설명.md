@@ -1,6 +1,4 @@
 [Ref 1. Link #1](https://learn.microsoft.com/ko-kr/training/modules/describe-azure-compute-networking-services/1-introduction)
-
-
 ## #1 Azure VM이란
 ---
 ##### Azure VM(가상머신) 사용 목적
