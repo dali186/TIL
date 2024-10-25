@@ -1,8 +1,8 @@
 - AZ-900 : Fundamentals
-- AZ-10* : IT Pros
-- AZ-20* : Developers
-- AZ-30* : Architects
-- AZ-40* : DevOps
+- AZ-10* : Administrator Associate
+- AZ-20* : Developer Associate
+- AZ-30* : Solutions Architect 
+- AZ-40* : DevOps Engineer
 ### 1. **Azure Administrator Associate (시스템 운영)**
 
 - **주요 역할**: Azure 환경에서 **시스템 운영 및 관리**를 담당하는 역할.
@@ -36,9 +36,7 @@
 - **관련 기술**: CI/CD 파이프라인, 자동화, 인프라 코드화(IaC), 모니터링 및 로깅, 지속적인 테스트, 컨테이너 및 Kubernetes.
 
 ---
-
-### ****
-
+### **정리**
 - **Azure Administrator Associate**는 **시스템 관리**와 인프라 관련 작업에 초점이 맞춰져 있으며, 운영 및 유지 관리 역할을 수행.
 - **Azure Developer Associate**는 **애플리케이션 개발**에 집중하며, 클라우드 네이티브 애플리케이션과 관련된 작업을 수행.
 - **Azure Solutions Architect Expert**는 클라우드 기반 **전체 솔루션 설계 및 아키텍처** 구축에 대한 지식을 필요로 하며, 포괄적인 설계와 구현을 담당.
