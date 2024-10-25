@@ -1,5 +1,5 @@
 [Ref 1. Link #1](https://learn.microsoft.com/ko-kr/training/modules/describe-azure-compute-networking-services/1-introduction)
-[Ref 2. Link #1](https://learn.microsoft.com/ko-kr/training/modules/describe-core-architectural-components-of-azure/)
+[Ref 2. Link](https://learn.microsoft.com/ko-kr/training/modules/describe-core-architectural-components-of-azure/)
 
 ## #1 Azure VM이란
 ---
