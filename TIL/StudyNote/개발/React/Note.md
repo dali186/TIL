@@ -94,14 +94,22 @@ import ApexCharts from 'react-apexcharts'
     });
 ```
 **3. 특정 값이 바뀔 때만 호출**
-
-
-# 2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
+- 2번째 인자에 특정 값(props, state)을 추가
+```
+2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
+    useEffect(() => {
+        alert('test값 바뀜');
+    }, [test]);
+```
+**4. Component가 사라질 때, update 되기 직전에 호출**
+- **cleanup 함수**: return 문에 나오는 함수로 UseEffect 뒷 정리 함수라고도 함
+- 2번째 인자를 빈 배열로 추가: 사라질 때(Unmount 될 때)만 호출
+- 2번째 인자를 특정 값을 추가: 특정 값이 update 될 때 호출
+```
     useEffect(() => {
         alert('재렌더링');
-    }, [test]);
-# 2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
-    useEffect(() => {
-        alert('재렌더링');
-    }, [test]);
+        return() => {
+	        alert('clean up');
+        }
+    }, []);
 ```
