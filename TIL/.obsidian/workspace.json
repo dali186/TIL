@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "17af377713eaab60",
+        "id": "0d8a9e45b4ffc450",
         "type": "tabs",
         "children": [
           {
-            "id": "c9ed6834f1dafa8a",
+            "id": "e637bc93dc4faf96",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,14 +173,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9ed6834f1dafa8a",
+  "active": "e637bc93dc4faf96",
   "lastOpenFiles": [
     "StudyNote/개발/노트/Note.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
+    "StudyNote/개발/React/Note.md",
+    "Imgs/react-lifecycle.png",
+    "Imgs",
+    "StudyNote/무제 폴더",
     "StudyNote/프로젝트/wems/1. Front-end.md",
     "StudyNote/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/프로젝트/wems/wems NOTE.md",
-    "StudyNote/개발/React/Note.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
@@ -205,11 +208,8 @@
     "StudyNote/개발/React",
     "StudyNote/프로젝트/wems",
     "StudyNote/프로젝트/Formwork-Shop",
-    "StudyNote/프로젝트",
-    "StudyNote/자격증/자료실/정보처리기사실기 족보.pdf",
     "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
     "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
-    "StudyNote/개발/프로젝트/wems/wems NOTE.md",
-    "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md"
+    "StudyNote/개발/프로젝트/wems/wems NOTE.md"
   ]
 }

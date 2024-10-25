@@ -76,18 +76,30 @@ import ApexCharts from 'react-apexcharts'
 
 ### 함수형 컴포넌트
 ---
-
-
+![[react-lifecycle.png]]
 #### useEffect()
+**1. 첫 렌더링일 때만 호출 (componentDidMount)**
+- 2번째 인자에 빈 배열을 추가
 ```
-# 2번째 인자를 빈 배열로 선언해주면 처음 렌더링할 때만 호출
     useEffect(() => {
         alert('처음 호출됨');
     }, []);
+```
+**2. 모든 렌더링일 때 호출 (componentDidMount, componentDidUpdate, componentWillUnmount)**
+- 2번째 인자를 생략
+```
 # 2번째 인자를 생략하면 재 렌더링 즉, 이벤트가 발생하는 모든 때에 호출된다
     useEffect(() => {
         alert('재렌더링');
     });
+```
+**3. 특정 값이 바뀔 때만 호출**
+
+
+# 2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
+    useEffect(() => {
+        alert('재렌더링');
+    }, [test]);
 # 2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
     useEffect(() => {
         alert('재렌더링');
