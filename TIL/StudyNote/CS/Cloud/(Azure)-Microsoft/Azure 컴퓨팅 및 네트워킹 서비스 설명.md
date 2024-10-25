@@ -1,5 +1,7 @@
-[Ref 1. Link](https://learn.microsoft.com/ko-kr/training/modules/describe-azure-compute-networking-services/1-introduction)
-### #1 Azure VM이란
+[Ref 1. Link #1](https://learn.microsoft.com/ko-kr/training/modules/describe-azure-compute-networking-services/1-introduction)
+[Ref 2. Link #1](https://learn.microsoft.com/ko-kr/training/modules/describe-core-architectural-components-of-azure/)
+
+## #1 Azure VM이란
 ---
 ##### Azure VM(가상머신) 사용 목적
 - OS(운영 체제)에 대한 완전한 제어
@@ -69,7 +71,7 @@ az vm extension set
 - `settings` : 사용자 지정(Github에 저장되어 있는) 스크립트를 VM에 다운로드
 - `protected-settings` : `commandToExcute` 명령어로 스크립트 실행
 
-### #2 Azure 가상 네트워킹 
+## #2 Azure 가상 네트워킹 
 ---
 ##### Azure 가상 네트워킹
 **Azure 가상 네트워크가 제공하는 기능**
@@ -124,6 +126,10 @@ my-vmNSG
 ```
 - Azure의 각 VM은 **하나 이상의 네트워크 보안 그룹에 연결**
 - 내가 생성한 vm은 `my-vmNSG`라는 네트워크 보안 그룹를 생성 후 연결
+- `az network nsg list`
+	- `resource-group`
+	- `query`
+	- `output`
 ##### 2-2. 현재 네트워크 보안 그룹 규칙 나열
 ```
 az network nsg rule list 
@@ -157,19 +163,34 @@ az network nsg rule list
 - `az network nsg rule list`
 	- `resourcce-group`
 	- `nsg-name ${내 nsg 이름}`
+**좀 더 보기 쉽게**
 ```
-az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' --output table
+az network nsg rule list 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--nsg-name my-vmNSG 
+--query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' 
+--output table
 
 Name               Priority    Port    Access
 -----------------  ----------  ------  --------
 default-allow-ssh  1000        22      Allow
 ```
-기본 규칙인 _default-allow-ssh_가 표시됩니다. 해당 규칙은 포트 22(SSH)를 통한 인바운드 연결을 허용
-
-네트워크 보안 규칙 만들기
+- 기본 규칙인 _default-allow-ssh_가 표시_
+	- 해당 규칙은 포트 22(SSH)를 통한 인바운드 연결을 허용
+- option `query`, `output` 추가
+#### 2. 현재 네트워크 보안 그룹 규칙 만들기
+##### 2-1. 현재 네트워크 보안 그룹에 80(HTTP) 허용하는 규칙 생성
 ```
-az network nsg rule create --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --name allow-http --protocol tcp --priority 100 --destination-port-range 80 --access Allow
+az network nsg rule create 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--nsg-name my-vmNSG 
+--name allow-http 
+--protocol tcp 
+--priority 100 
+--destination-port-range 80 
+--access Allow
 
+# Result
 {
   "access": "Allow",
   "destinationAddressPrefix": "*",
@@ -191,13 +212,19 @@ az network nsg rule create --resource-group "learn-9257009b-4cb4-4d64-be74-c7e62
   "type": "Microsoft.Network/networkSecurityGroups/securityRules"
 }
 ```
-
-구성을 검증하려면 `az network nsg rule list`를 실행하여 업데이트된 규칙 목록을 확인합니다.
+- `az network nsg rule create`
+##### 2-2. 생성된 규칙 확인
 ```
-az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' --output table
+az network nsg rule list 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--nsg-name my-vmNSG 
+--query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' 
+--output table
 
 Name               Priority    Port    Access
 -----------------  ----------  ------  --------
 default-allow-ssh  1000        22      Allow
 allow-http         100         80      Allow
 ```
+- `az network nsg rule list`
+
