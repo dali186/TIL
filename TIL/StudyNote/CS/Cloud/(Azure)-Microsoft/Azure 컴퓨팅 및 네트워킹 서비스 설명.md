@@ -102,9 +102,8 @@ IPADDRESS=
 ##### 1-2. `curl` 명령어로 홈페이지 다운로드
 ```
 curl --connect-timeout 5 http://$IPADDRESS
-```
-##### 1-3. `curl` 명령어로 홈페이지 다운로드: Result
-```
+
+# Result
 curl: (28) Connection timed out after 5001 milliseconds
 # IP 주소 출력
 echo $IPADDRESS
@@ -112,21 +111,93 @@ echo $IPADDRESS
 - 제한 시간 (5s) 내에 엑세스 불가
 - `echo $IPADDRESS` 명령어 결과: 52.160.107.119
 	- 해당 IP를 웹 브라우저로 접속해도 실패
+#### 2. 현재 네트워크 보안 그룹 규칙 확인
 ##### 2-1. 현재 네트워크 보안 그룹 규칙 나열
 ```
 az network nsg list 
 --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
 --query '[].name' 
 --output tsv
-```
-##### 2-2. 현재 네트워크 보안 그룹 규칙 나열: Result
-```
+
+# Result
 my-vmNSG
 ```
-Azure의 각 VM은 하나 이상의 네트워크 보안 그룹에 연결, 생성한 vm은 my-vmNSG라는 가상 네트워크를 생성 후 연결
-
+- Azure의 각 VM은 **하나 이상의 네트워크 보안 그룹에 연결**
+- 내가 생성한 vm은 `my-vmNSG`라는 네트워크 보안 그룹를 생성 후 연결
+##### 2-2. 현재 네트워크 보안 그룹 규칙 나열
 ```
-az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG
+az network nsg rule list 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--nsg-name my-vmNSG
 
+# Result
+[
+  {
+    "access": "Allow",
+    "destinationAddressPrefix": "*",
+    "destinationAddressPrefixes": [],
+    "destinationPortRange": "22",
+    "destinationPortRanges": [],
+    "direction": "Inbound",
+    "etag": "W/\"0aeddee4-9dc3-4415-a88a-c7cdef49da20\"",
+    "id": "/subscriptions/66934742-a2f4-4f94-ad7b-07a47d83d2bc/resourceGroups/learn-9257009b-4cb4-4d64-be74-c7e623afc79b/providers/Microsoft.Network/networkSecurityGroups/my-vmNSG/securityRules/default-allow-ssh",
+    "name": "default-allow-ssh",
+    "priority": 1000,
+    "protocol": "Tcp",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "learn-9257009b-4cb4-4d64-be74-c7e623afc79b",
+    "sourceAddressPrefix": "*",
+    "sourceAddressPrefixes": [],
+    "sourcePortRange": "*",
+    "sourcePortRanges": [],
+    "type": "Microsoft.Network/networkSecurityGroups/securityRules"
+  }
+]
+```
+- `az network nsg rule list`
+	- `resourcce-group`
+	- `nsg-name ${내 nsg 이름}`
+```
+az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' --output table
 
+Name               Priority    Port    Access
+-----------------  ----------  ------  --------
+default-allow-ssh  1000        22      Allow
+```
+기본 규칙인 _default-allow-ssh_가 표시됩니다. 해당 규칙은 포트 22(SSH)를 통한 인바운드 연결을 허용
+
+네트워크 보안 규칙 만들기
+```
+az network nsg rule create --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --name allow-http --protocol tcp --priority 100 --destination-port-range 80 --access Allow
+
+{
+  "access": "Allow",
+  "destinationAddressPrefix": "*",
+  "destinationAddressPrefixes": [],
+  "destinationPortRange": "80",
+  "destinationPortRanges": [],
+  "direction": "Inbound",
+  "etag": "W/\"df654edd-b5ed-4561-aaa3-05dfc4f6395e\"",
+  "id": "/subscriptions/66934742-a2f4-4f94-ad7b-07a47d83d2bc/resourceGroups/learn-9257009b-4cb4-4d64-be74-c7e623afc79b/providers/Microsoft.Network/networkSecurityGroups/my-vmNSG/securityRules/allow-http",
+  "name": "allow-http",
+  "priority": 100,
+  "protocol": "Tcp",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "learn-9257009b-4cb4-4d64-be74-c7e623afc79b",
+  "sourceAddressPrefix": "*",
+  "sourceAddressPrefixes": [],
+  "sourcePortRange": "*",
+  "sourcePortRanges": [],
+  "type": "Microsoft.Network/networkSecurityGroups/securityRules"
+}
+```
+
+구성을 검증하려면 `az network nsg rule list`를 실행하여 업데이트된 규칙 목록을 확인합니다.
+```
+az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' --output table
+
+Name               Priority    Port    Access
+-----------------  ----------  ------  --------
+default-allow-ssh  1000        22      Allow
+allow-http         100         80      Allow
 ```
