@@ -76,3 +76,20 @@ import ApexCharts from 'react-apexcharts'
 
 ### 함수형 컴포넌트
 ---
+
+
+#### useEffect()
+```
+# 2번째 인자를 빈 배열로 선언해주면 처음 렌더링할 때만 호출
+    useEffect(() => {
+        alert('처음 호출됨');
+    }, []);
+# 2번째 인자를 생략하면 재 렌더링 즉, 이벤트가 발생하는 모든 때에 호출된다
+    useEffect(() => {
+        alert('재렌더링');
+    });
+# 2번째 인자를 특정 값으로 설정하면 특정 값(props, state)가 바뀔 때만 호출된다.
+    useEffect(() => {
+        alert('재렌더링');
+    }, [test]);
+```
