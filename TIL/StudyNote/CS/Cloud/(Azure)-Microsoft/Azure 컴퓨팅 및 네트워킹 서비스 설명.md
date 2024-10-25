@@ -90,4 +90,43 @@ az vm extension set
 ```
 az vm list
 ```
-##### 1-1. 가상 머신 만들기
+##### 1-1. VM의 IP 주소를 가져오고 결과를 Bash 변수로 저장
+```
+IPADDRESS=
+"$(az vm list-ip-addresses 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--name my-vm 
+--query "[].virtualMachine.network.publicIpAddresses[*].ipAddress" 
+--output tsv)"
+```
+##### 1-2. `curl` 명령어로 홈페이지 다운로드
+```
+curl --connect-timeout 5 http://$IPADDRESS
+```
+##### 1-3. `curl` 명령어로 홈페이지 다운로드: Result
+```
+curl: (28) Connection timed out after 5001 milliseconds
+# IP 주소 출력
+echo $IPADDRESS
+```
+- 제한 시간 (5s) 내에 엑세스 불가
+- `echo $IPADDRESS` 명령어 결과: 52.160.107.119
+	- 해당 IP를 웹 브라우저로 접속해도 실패
+##### 2-1. 현재 네트워크 보안 그룹 규칙 나열
+```
+az network nsg list 
+--resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" 
+--query '[].name' 
+--output tsv
+```
+##### 2-2. 현재 네트워크 보안 그룹 규칙 나열: Result
+```
+my-vmNSG
+```
+Azure의 각 VM은 하나 이상의 네트워크 보안 그룹에 연결, 생성한 vm은 my-vmNSG라는 가상 네트워크를 생성 후 연결
+
+```
+az network nsg rule list --resource-group "learn-9257009b-4cb4-4d64-be74-c7e623afc79b" --nsg-name my-vmNSG
+
+
+```
