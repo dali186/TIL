@@ -227,4 +227,24 @@ default-allow-ssh  1000        22      Allow
 allow-http         100         80      Allow
 ```
 - `az network nsg rule list`
-
+## #3 Azure VPN 
+---
+##### VPN 게이트웨이
+- 각 가상 네트워크에는 한 개의 VPN Gateway만 배포 가능
+- **VPN 유형**
+	- `정책 기반 VPN Gateway`
+		- 패킷의 목적지 IP를 정적으로 지정
+	- `경로 기반 VPN Gateway`
+		- 패킷의 목적지를 IP라우팅 방식에 따라 (네트워크 인터페이스 / 가상 터널 인터페이스)로 모델링
+- **필요한 경우**
+	- 가상 네트워크 간 연결
+	- 지점 및 사이트 간 연결
+	- 다중 사이트 연결
+	- Azure ExpressRoute 게이트웨이와 동시 사용
+- **고가용성 시나리오**
+	- `활성/대기`
+	- `활성/활성`
+		- BGP
+	- `ExpressRoute 장애 조치 (failover)`
+	- `영역 중복 게이트웨이`
+- **ExpressRoute** : 온-프레미스 네트워크를 Microsoft 클라우드로 확장
