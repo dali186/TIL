@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8a9e45b4ffc450",
+        "id": "5e030774f121a735",
         "type": "tabs",
         "children": [
           {
-            "id": "e637bc93dc4faf96",
+            "id": "5273ae4a5a99e9da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/React/Note.md",
+                "file": "StudyNote/개발/노트/Note.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 300
   },
   "right": {
     "id": "e09a72c474432281",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
+                "file": "StudyNote/개발/노트/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "공통응답 및 공통예외처리의 백링크"
+              "title": "Note의 백링크"
             }
           },
           {
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/개발/React/Note.md",
+                "file": "StudyNote/개발/노트/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -134,6 +134,18 @@
             }
           },
           {
+            "id": "c4783127cae51acc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "StudyNote/개발/노트/Note.md"
+              },
+              "icon": "lucide-list",
+              "title": "Note 개요"
+            }
+          },
+          {
             "id": "3a5448218bedc125",
             "type": "leaf",
             "state": {
@@ -142,25 +154,13 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "880b07f71261f5e3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "StudyNote/CS/네트워크/가상네트워크(Vitual Network).md"
-              },
-              "icon": "lucide-list",
-              "title": "가상네트워크(Vitual Network) 개요"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,43 +173,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e637bc93dc4faf96",
+  "active": "3a5448218bedc125",
   "lastOpenFiles": [
-    "StudyNote/개발/노트/Note.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
-    "StudyNote/개발/React/Note.md",
-    "Imgs/react-lifecycle.png",
-    "Imgs",
-    "StudyNote/무제 폴더",
     "StudyNote/프로젝트/wems/1. Front-end.md",
-    "StudyNote/프로젝트/wems/0. 환경 구축.md",
-    "StudyNote/프로젝트/wems/wems NOTE.md",
-    "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
+    "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
+    "StudyNote/CS/Cloud/ETC",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-05.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate",
-    "StudyNote/CS/Cloud/ETC",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-01.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft",
-    "StudyNote/CS/네트워크/00.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU",
-    "StudyNote/CS/네트워크",
-    "StudyNote/CS/무제 파일.md",
-    "StudyNote/개발/Spring/TO_DO NOTE.md",
-    "StudyNote/개발/Spring/TestCode.md",
-    "StudyNote/프로젝트/Formwork-Shop/Log.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-05.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-02.md",
-    "StudyNote/개발/React",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-01.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU",
+    "Imgs/react-lifecycle.png",
+    "Imgs",
+    "StudyNote/개발/React/Note.md",
+    "StudyNote/개발/노트/Note.md",
+    "StudyNote/자격증/정보처리기사실기.md",
+    "StudyNote/프로젝트/wems/wems NOTE.md",
+    "StudyNote/프로젝트/wems/0. 환경 구축.md",
+    "StudyNote/프로젝트/Formwork-Shop/Log.md",
     "StudyNote/프로젝트/wems",
     "StudyNote/프로젝트/Formwork-Shop",
-    "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
-    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
-    "StudyNote/개발/프로젝트/wems/wems NOTE.md"
+    "StudyNote/프로젝트",
+    "StudyNote/자격증/자료실/정보처리기사실기 족보.pdf",
+    "StudyNote/자격증/자료실",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/개발/Spring/TO_DO NOTE.md",
+    "StudyNote/CS/Cloud/CLOUD-07.md",
+    "StudyNote/CS/Cloud/CLOUD-06.md",
+    "StudyNote/CS/Cloud/CLOUD-05.md",
+    "StudyNote/CS/Cloud/CLOUD-04.md",
+    "StudyNote/CS/Cloud/CLOUD-03.md"
   ]
 }
