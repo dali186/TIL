@@ -15,3 +15,8 @@
 		3. `https://raw.githubusercontent.com/jaehwachung/cloud_computing/refs/heads/main/data_analysis/Titanic_dataset.csv`
 	2. 생성된 데이터 자산 파이프라인 추가
 	3. 데이터 전처리 과정(필요한 데이터만 추출)
+		1. Select Columns in Dataset
+			1. 필요한 컬럼들만 추출 -> 데이터 미리보기
+				1. 누락된(NULL)인 데이터 처리
+				2. 0,1 로 boolean 타입이어야 할 컬럼이 Numeric 인 경우 처리
+		2. 
