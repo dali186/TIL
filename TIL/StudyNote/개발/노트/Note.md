@@ -2,3 +2,7 @@
 ```
 git pull origin pull/#{PR번호}/head:#{가져올 브랜치 명}
 ```
+###### react:build
+```
+npm install
+```

@@ -1,5 +1,6 @@
 {
   "spellcheck": false,
   "readableLineLength": false,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "Imgs"
 }

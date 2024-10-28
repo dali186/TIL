@@ -3,7 +3,7 @@ Java 17
 Jar
 MySQL 8.4
 JPA
-
+https://velog.io/@juno7803/html-to-pdf
 - 사용자/관리자 화면 UI 구성 및 개발
 - Report DB 구조 구성
 - 모니터링 솔루션 시장 조사
