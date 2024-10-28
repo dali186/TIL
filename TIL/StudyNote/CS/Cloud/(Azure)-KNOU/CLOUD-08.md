@@ -32,4 +32,6 @@
 
 ### #2 일기 예보 전송 서비스 구현
 ---
-[날씨 정보 API](https://openweathermap.org/)
+- [날씨 정보 API](https://openweathermap.org/)
+	- Key : `6d8117928a3517459a34d25a6464d24e`
+###### 함수 앱
