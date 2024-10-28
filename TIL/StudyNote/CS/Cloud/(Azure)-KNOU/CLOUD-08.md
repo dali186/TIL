@@ -1,4 +1,4 @@
-### 클라우드 기반 데이터 분석
+### #1 클라우드 기반 데이터 분석
 ---
 ###### Azure Machine Learning
 - 리소스 생성 시,
@@ -29,3 +29,7 @@
 	5. 알고리즘 선택
 		1. [Azure Machine Learning Cheat Sheet](https://learn.microsoft.com/ko-kr/azure/machine-learning/algorithm-cheat-sheet?view=azureml-api-1)
 		2. Two-Class Boosted Descision Tree
+
+### #2 일기 예보 전송 서비스 구현
+---
+[날씨 정보 API](https://openweathermap.org/)
