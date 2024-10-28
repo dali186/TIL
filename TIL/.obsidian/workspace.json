@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-04.md",
+                "file": "StudyNote/개발/노트/Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-04"
+              "title": "Note"
             }
           }
         ]
@@ -175,13 +175,13 @@
   },
   "active": "f272f39de44fc169",
   "lastOpenFiles": [
+    "StudyNote/개발/Spring/TO_DO NOTE.md",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/CS/Cloud/CLOUD-03.md",
     "StudyNote/CS/Cloud/CLOUD-02.md",
-    "StudyNote/CS/Cloud/CLOUD-04.md",
     "StudyNote/CS/Cloud/CLOUD-01.md",
     "conflict-files-obsidian-git.md",
-    "StudyNote/개발/Spring/TestCode.md",
-    "StudyNote/개발/Spring/TO_DO NOTE.md",
     "learn.microsoft.com.md",
     "StudyNote/개발/Spring/공통응답 및 공통예외처리.md",
     "StudyNote/CS/Cloud",
