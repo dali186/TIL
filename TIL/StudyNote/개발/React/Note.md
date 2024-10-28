@@ -107,7 +107,7 @@ import ApexCharts from 'react-apexcharts'
 - 2번째 인자를 특정 값을 추가: 특정 값이 update 될 때 호출
 ```
     useEffect(() => {
-        alert('재렌더링');
+	        alert('재렌더링');
         return() => {
 	        alert('clean up');
         }
