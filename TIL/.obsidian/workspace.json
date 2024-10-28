@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-08.md",
+                "file": "StudyNote/CS/DeepLearning/DeepLearning-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLOUD-08"
+              "title": "DeepLearning-01"
             }
           }
         ]
@@ -175,8 +175,10 @@
   },
   "active": "e637bc93dc4faf96",
   "lastOpenFiles": [
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-08.md",
+    "StudyNote/CS/DeepLearning/DeepLearning-01.md",
+    "StudyNote/CS/DeepLearning",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/개발/React/Note.md",
@@ -208,9 +210,7 @@
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-02.md",
     "StudyNote/개발/React",
     "StudyNote/프로젝트/wems",
-    "StudyNote/프로젝트/Formwork-Shop",
     "StudyNote/개발/프로젝트/Formwork-Shop/Log.md",
-    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md",
-    "StudyNote/개발/프로젝트/wems/wems NOTE.md"
+    "StudyNote/개발/프로젝트/wems/0. 환경 구축.md"
   ]
 }
