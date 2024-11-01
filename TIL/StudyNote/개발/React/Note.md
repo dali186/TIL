@@ -76,7 +76,7 @@ import ApexCharts from 'react-apexcharts'
 
 ### 함수형 컴포넌트
 ---
-![[react-lifecycle.png]]
+![[react_lifecycle.png]]
 #### useEffect()
 **1. 첫 렌더링일 때만 호출 (componentDidMount)**
 - 2번째 인자에 빈 배열을 추가

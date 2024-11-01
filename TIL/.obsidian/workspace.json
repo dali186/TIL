@@ -11,12 +11,14 @@
             "id": "bad9d32e14311739",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imgs/CS/artificialneural.gif"
+                "file": "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "artificialneural"
+              "icon": "lucide-file",
+              "title": "2. AZ-204-Azure Functions"
             }
           }
         ]
@@ -173,19 +175,20 @@
   },
   "active": "bad9d32e14311739",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-08.md",
+    "StudyNote/CS/DeepLearning/DeepLearning-01.md",
     "StudyNote/개발/React/Note.md",
+    "Imgs/CS/cs_artificialneural.gif",
+    "Imgs/React/react_lifecycle.png",
+    "Imgs/CS/Cloud/cloud_baas.png",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2.AZ-204-Azure Functions.md",
-    "Imgs/React/react-lifecycle.png",
-    "Imgs/CS/artificialneural.gif",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
     "Imgs/CS",
     "Imgs/React",
     "Imgs/CS/Cloud",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
     "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
-    "StudyNote/CS/DeepLearning/DeepLearning-01.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-08.md",
     "StudyNote/CS/DeepLearning",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
