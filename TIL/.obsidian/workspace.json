@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
+                "file": "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2.AZ-204-Azure Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 개요-Azure Developer Associate"
+              "title": "2.AZ-204-Azure Functions"
             }
           }
         ]
@@ -175,6 +175,9 @@
   },
   "active": "bad9d32e14311739",
   "lastOpenFiles": [
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2.AZ-204-Azure Functions.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
     "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
     "StudyNote/개발/React/Note.md",
@@ -184,7 +187,6 @@
     "Imgs/artificialneural.gif",
     "StudyNote/CS/DeepLearning",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/개발/노트/Note.md",
     "Imgs",
@@ -192,7 +194,6 @@
     "StudyNote/프로젝트/wems/1. Front-end.md",
     "StudyNote/프로젝트/wems/0. 환경 구축.md",
     "StudyNote/프로젝트/wems/wems NOTE.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md",
