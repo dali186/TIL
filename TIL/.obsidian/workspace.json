@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
+                "file": "StudyNote/CS/DeepLearning/DeepLearning-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. AZ-204-Azure Blob Storage"
+              "title": "DeepLearning-01"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "bad9d32e14311739",
   "lastOpenFiles": [
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
