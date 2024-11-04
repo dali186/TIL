@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27833ed66c0c5326",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
+    "Imgs/CS/Cloud/Vnet-topology-01.png",
     "StudyNote/Project/통합환경구축/통합환경구축.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/Project/통합환경구축/infra-env-key-01 1.pem",
@@ -212,7 +213,6 @@
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "Imgs",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md"
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md"
   ]
 }
