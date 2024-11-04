@@ -1,4 +1,4 @@
-### References
+  ### References
 [Ref 1. 세종대학교 github](https://github.com/sejongresearch/2024.DeepLearning)
 # Personal Study
 ---
