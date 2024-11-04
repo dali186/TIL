@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/Project/통합환경구축.md",
+                "file": "StudyNote/Project/통합환경구축/통합환경구축.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,8 +173,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27833ed66c0c5326",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
+    "StudyNote/Project/통합환경구축/infra-env-key-01 1.pem",
+    "StudyNote/Project/통합환경구축/infra-env-key-01.pem",
+    "StudyNote/Project/통합환경구축",
+    "Imgs/infra-env-key-01 1.pem",
+    "Imgs/infra-env-key-01.pem",
     "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/Project/wems/0. 환경 구축.md",
     "StudyNote/Project/wems/wems NOTE.md",
@@ -185,7 +190,7 @@
     "StudyNote/개발/React/Note.md",
     "StudyNote/개발/노트/Obsidian Plugin.md",
     "StudyNote/개발/노트/Note.md",
-    "StudyNote/Project/통합환경구축.md",
+    "StudyNote/Project/통합환경구축/통합환경구축.md",
     "StudyNote/CS/DeepLearning/DeepLearning-02.md",
     "StudyNote/CS/DeepLearning/DeepLearning-01.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
@@ -208,11 +213,6 @@
     "StudyNote/무제 폴더",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-05.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate",
-    "StudyNote/CS/Cloud/ETC",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft",
-    "StudyNote/CS/Cloud/(Azure)-KNOU"
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md"
   ]
 }
