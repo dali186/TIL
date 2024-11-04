@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/노트/Obsidian Plugin.md",
+                "file": "StudyNote/Project/무제 파일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Plugin"
+              "title": "무제 파일"
             }
           }
         ],
@@ -190,8 +190,12 @@
   },
   "active": "7f109ad8748bad59",
   "lastOpenFiles": [
-    "StudyNote/개발/노트/Markdown-Basic.md",
+    "StudyNote/Project/wems/wems NOTE.md",
+    "StudyNote/Project/무제 파일.md",
+    "StudyNote/Project/wems/0. 환경 구축.md",
+    "StudyNote/Project/wems/1. Front-end.md",
     "StudyNote/개발/노트/Obsidian Plugin.md",
+    "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/개발/노트/Note.md",
     "StudyNote/CS/DeepLearning/DeepLearning-02.md",
     "StudyNote/CS/DeepLearning/DeepLearning-01.md",
@@ -214,9 +218,6 @@
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
     "Imgs",
     "StudyNote/무제 폴더",
-    "StudyNote/프로젝트/wems/1. Front-end.md",
-    "StudyNote/프로젝트/wems/0. 환경 구축.md",
-    "StudyNote/프로젝트/wems/wems NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-03.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-04.md",
@@ -227,7 +228,6 @@
     "StudyNote/CS/Cloud/(Azure)-Microsoft",
     "StudyNote/CS/네트워크/00.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU",
-    "StudyNote/CS/무제 파일.md",
-    "StudyNote/개발/Spring/TO_DO NOTE.md"
+    "StudyNote/CS/무제 파일.md"
   ]
 }
