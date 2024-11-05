@@ -35,8 +35,7 @@
               "title": "1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42a6473c6bb0ab18",
+  "active": "27833ed66c0c5326",
   "lastOpenFiles": [
-    "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/CS/Alogrithm",
     "StudyNote/Project/wems/0. 환경 구축.md",
     "StudyNote/Project/wems/1. Front-end.md",
