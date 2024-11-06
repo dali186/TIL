@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/노트/Note.md",
+                "file": "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "0. 시작하기"
             }
           },
           {
@@ -189,9 +189,13 @@
   },
   "active": "27833ed66c0c5326",
   "lastOpenFiles": [
+    "StudyNote/개발/React/Note.md",
+    "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
+    "StudyNote/개발/노트/Note.md",
+    "StudyNote/개발/Node.js/express.js",
+    "StudyNote/개발/Node.js",
     "StudyNote/개발/노트/Obsidian Plugin.md",
     "StudyNote/개발/노트/순수 Spring 만들기.md",
-    "StudyNote/개발/노트/Note.md",
     "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
@@ -211,7 +215,6 @@
     "StudyNote/Project/wems/wems NOTE.md",
     "StudyNote/개발/Spring/TO_DO NOTE.md",
     "StudyNote/개발/Spring/TestCode.md",
-    "StudyNote/개발/React/Note.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
@@ -225,9 +228,6 @@
     "Imgs/CS/Cloud/cloud_baas.png",
     "Imgs/CS",
     "Imgs/React",
-    "Imgs/CS/Cloud",
-    "StudyNote/CS/DeepLearning",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-06.md"
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-07.md"
   ]
 }
