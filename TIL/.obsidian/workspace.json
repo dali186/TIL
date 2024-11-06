@@ -35,7 +35,8 @@
               "title": "1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,10 +188,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27833ed66c0c5326",
+  "active": "42a6473c6bb0ab18",
   "lastOpenFiles": [
-    "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/개발/노트/Java 프로젝트에서 Spring으로.md",
+    "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
     "StudyNote/개발/React/Note.md",
     "StudyNote/개발/노트/Note.md",
