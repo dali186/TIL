@@ -9,5 +9,8 @@ WAS, WEB, DB 하나 씩 더 생성해서 로드밸런싱 구현하는게 목표
 
 SSH key로 연결하는 방법을 찾았으니, (배스천 호스트 방식 아님, 그냥 pem 키로 접속)
 Jenkins를 다시 구축하고, promethus까지 올리는게 목표
+```
+sudo ssh -i /home/infra-admin/3-tier-pair-key.pem infra-admin@10.1.0.5
+```
 
 공인 IP를 제거했으니, 포트포워딩으로 젠킨스 서버의 8080을 web서버의 포트로 물려보자
