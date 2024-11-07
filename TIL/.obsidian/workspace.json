@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
+                "file": "StudyNote/Project/통합환경구축/통합환경구축.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. AZ-204-Azure Funtions 구현"
+              "title": "통합환경구축"
             }
           }
         ]
@@ -173,10 +173,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "f272f39de44fc169",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
+    "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
+    "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
+    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-02.md",
+    "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
+    "conflict-files-obsidian-git.md",
     "StudyNote/개발/노트/Obsidian Plugin.md",
     "StudyNote/개발/노트/Markdown-Basic.md",
     "StudyNote/개발/노트/Java 프로젝트에서 Spring으로.md",
@@ -186,7 +192,6 @@
     "StudyNote/Project/통합환경구축/통합환경구축.md",
     "StudyNote/Project/통합환경구축/2. Jenkins로 CICD구축.md",
     "StudyNote/Project/통합환경구축/addtional-net.1 베스천 호스트.md",
-    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/Project/wems/wems NOTE.md",
     "StudyNote/Project/wems/1. Front-end.md",
     "StudyNote/Project/wems/0. 환경 구축.md",
@@ -201,9 +206,7 @@
     "StudyNote/Cetification/자료실",
     "StudyNote/Cetification",
     "StudyNote/CS/DeepLearning/DeepLearning-02.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
-    "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/CS/Alogrithm",
     "Imgs/React/react_lifecycle.png",
     "Imgs/CS/Cloud/Vnet-topology-01.png",
@@ -212,9 +215,6 @@
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
-    "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
-    "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
-    "StudyNote/개발/노트/Note.md",
     "Imgs/react-lifecycle.png",
     "Imgs/artificialneural.gif"
   ]
