@@ -2,5 +2,6 @@
   "spellcheck": false,
   "readableLineLength": false,
   "defaultViewMode": "source",
-  "attachmentFolderPath": "Imgs"
+  "attachmentFolderPath": "Imgs",
+  "alwaysUpdateLinks": true
 }
