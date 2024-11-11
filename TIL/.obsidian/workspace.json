@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기"
             }
+          },
+          {
+            "id": "4b573711d13eadbf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5273ae4a5a99e9da",
+  "active": "4b573711d13eadbf",
   "lastOpenFiles": [
     "StudyNote/CS/Alogrithm/최단 거리.md",
     "StudyNote/CS/Alogrithm",
