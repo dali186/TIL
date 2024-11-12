@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "905786382d337547",
+        "id": "e4e4816769f72fc9",
         "type": "tabs",
         "children": [
           {
-            "id": "f272f39de44fc169",
+            "id": "fef79963d32f85ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StudyNote/개발/노트/Note.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "새 탭"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 335.5
   },
   "right": {
     "id": "e09a72c474432281",
@@ -93,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-01.md",
+                "file": "StudyNote/개발/리팩터링/공통응답 및 공통예외처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CLOUD-01의 백링크"
+              "title": "공통응답 및 공통예외처리의 백링크"
             }
           },
           {
@@ -112,12 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-01.md",
+                "file": "StudyNote/개발/React/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CLOUD-01의 나가는 링크"
+              "title": "Note의 나가는 링크"
             }
           },
           {
@@ -134,19 +130,7 @@
             }
           },
           {
-            "id": "c4783127cae51acc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "StudyNote/CS/Cloud/CLOUD-01.md"
-              },
-              "icon": "lucide-list",
-              "title": "CLOUD-01 개요"
-            }
-          },
-          {
-            "id": "4384edbc14152f7b",
+            "id": "3a5448218bedc125",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -154,9 +138,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "880b07f71261f5e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "StudyNote/CS/네트워크/가상네트워크(Vitual Network).md"
+              },
+              "icon": "lucide-list",
+              "title": "가상네트워크(Vitual Network) 개요"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,49 +169,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "3a5448218bedc125",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "StudyNote/개발/노트/Note.md",
-    "StudyNote/Project/통합환경구축/통합환경구축.md",
-    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
-    "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
-    "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
-    "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-02.md",
-    "StudyNote/CS/Alogrithm/최단 거리.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
+    "StudyNote/개발/노트/Java 프로젝트에서 Spring으로.md",
     "StudyNote/개발/노트/Obsidian Plugin.md",
     "StudyNote/개발/노트/Markdown-Basic.md",
-    "StudyNote/개발/노트/Java 프로젝트에서 Spring으로.md",
-    "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
-    "StudyNote/개발/Node.js/express.js",
-    "StudyNote/개발/Node.js",
+    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
     "StudyNote/Project/통합환경구축/2. Jenkins로 CICD구축.md",
     "StudyNote/Project/통합환경구축/addtional-net.1 베스천 호스트.md",
-    "StudyNote/Project/wems/wems NOTE.md",
-    "StudyNote/Project/wems/1. Front-end.md",
-    "StudyNote/Project/wems/0. 환경 구축.md",
-    "StudyNote/Project/Formwork-Shop/Log.md",
-    "StudyNote/Project/통합환경구축",
-    "StudyNote/Project/wems",
-    "StudyNote/Project/Formwork-Shop",
-    "StudyNote/Project",
-    "StudyNote/Cetification/자료실/정보처리기사실기 족보.pdf",
-    "StudyNote/Cetification/정보처리기사실기.md",
-    "StudyNote/Cetification/정보처리기사실기 족보.md",
-    "StudyNote/Cetification/자료실",
-    "StudyNote/Cetification",
-    "StudyNote/CS/DeepLearning/DeepLearning-02.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
+    "StudyNote/Project/통합환경구축/통합환경구축.md",
+    "StudyNote/CS/Alogrithm/최단 거리.md",
+    "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
+    "StudyNote/개발/React/Note.md",
+    "StudyNote/개발/Node.js/express.js",
+    "StudyNote/개발/Node.js",
+    "StudyNote/개발/노트/순수 Spring 만들기.md",
     "StudyNote/CS/Alogrithm",
-    "Imgs/React/react_lifecycle.png",
+    "StudyNote/Project/wems/0. 환경 구축.md",
+    "StudyNote/Project/wems/1. Front-end.md",
+    "StudyNote/CS/DeepLearning/DeepLearning-01.md",
+    "StudyNote/CS/DeepLearning/DeepLearning-02.md",
+    "StudyNote/Project/Formwork-Shop/Log.md",
     "Imgs/CS/Cloud/Vnet-topology-01.png",
-    "Imgs/CS/Cloud/cloud_baas.png",
-    "Imgs/CS/cs_artificialneural.gif",
+    "StudyNote/Project/통합환경구축/infra-env-key-01 1.pem",
+    "StudyNote/Project/통합환경구축/infra-env-key-01.pem",
+    "StudyNote/Project/통합환경구축",
+    "Imgs/infra-env-key-01 1.pem",
+    "Imgs/infra-env-key-01.pem",
+    "StudyNote/Project/wems/wems NOTE.md",
+    "StudyNote/개발/Spring/TO_DO NOTE.md",
+    "StudyNote/개발/Spring/TestCode.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
+    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
-    "Imgs/react-lifecycle.png",
-    "Imgs/artificialneural.gif"
+    "Imgs/CS/cs_artificialneural.gif",
+    "Imgs/React/react_lifecycle.png",
+    "Imgs/CS/Cloud/cloud_baas.png",
+    "Imgs/CS",
+    "Imgs/React"
   ]
 }
