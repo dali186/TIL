@@ -38,3 +38,6 @@ https://velog.io/@juno7803/html-to-pdf
 - `projectSn` (FK): `Project` 테이블의 `projectSn`을 참조하는 외래 키.
 - `ip`: 서버의 IP 주소.
 - `serverName`: 서버 이름.
+
+
+
