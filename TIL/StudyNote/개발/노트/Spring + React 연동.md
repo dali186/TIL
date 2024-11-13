@@ -54,3 +54,5 @@ public class WebConfig implements WebMvcConfigurer {
     }  
 }
 ```
+
+#### [Ref Build-Gradle 자동화 설정](https://h-develop.tistory.com/217)
