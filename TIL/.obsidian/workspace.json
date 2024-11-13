@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/Project/통합환경구축/3. Docker로 배포.md",
+                "file": "StudyNote/Project/wems/wems NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Docker로 배포"
+              "title": "wems NOTE"
             }
           }
         ]
@@ -175,8 +175,9 @@
   },
   "active": "fef79963d32f85ce",
   "lastOpenFiles": [
-    "StudyNote/Project/통합환경구축/2. Jenkins로 CICD구축.md",
+    "StudyNote/Project/wems/0. 환경 구축.md",
     "StudyNote/Project/통합환경구축/3. Docker로 배포.md",
+    "StudyNote/Project/통합환경구축/2. Jenkins로 CICD구축.md",
     "StudyNote/Project/통합환경구축/addtional-net.1 베스천 호스트.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/Project/통합환경구축/통합환경구축.md",
@@ -193,7 +194,6 @@
     "StudyNote/개발/Node.js",
     "StudyNote/개발/노트/순수 Spring 만들기.md",
     "StudyNote/CS/Alogrithm",
-    "StudyNote/Project/wems/0. 환경 구축.md",
     "StudyNote/Project/wems/1. Front-end.md",
     "StudyNote/CS/DeepLearning/DeepLearning-01.md",
     "StudyNote/CS/DeepLearning/DeepLearning-02.md",
