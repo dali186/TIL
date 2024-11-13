@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+                "file": "StudyNote/Project/wems/0. 환경 구축.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기"
+              "title": "0. 환경 구축"
             }
           }
         ]
@@ -190,8 +190,8 @@
   "active": "fef79963d32f85ce",
   "lastOpenFiles": [
     "StudyNote/Project/wems/0. 환경 구축.md",
-    "StudyNote/Project/통합환경구축/3. Docker로 배포.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "StudyNote/Project/통합환경구축/3. Docker로 배포.md",
     "StudyNote/개발/노트/Note.md",
     "StudyNote/개발/노트/Spring + React 연동.md",
     "StudyNote/Project/wems/wems NOTE.md",
