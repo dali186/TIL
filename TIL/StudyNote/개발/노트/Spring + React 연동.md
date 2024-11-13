@@ -56,3 +56,5 @@ public class WebConfig implements WebMvcConfigurer {
 ```
 
 #### [Ref Build-Gradle 자동화 설정](https://h-develop.tistory.com/217)
+
+`git remote set-url origin https://<your-username>:<your-token>@github.com/dali186/wems.git`
