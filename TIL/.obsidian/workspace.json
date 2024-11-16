@@ -11,10 +11,12 @@
             "id": "f272f39de44fc169",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Release Notes 1.7.6"
             }
           }
         ]
@@ -169,10 +171,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00670b99acf83689",
+  "active": "f272f39de44fc169",
   "lastOpenFiles": [
-    "StudyNote/개발/노트/Note.md",
     "conflict-files-obsidian-git.md",
+    "StudyNote/개발/노트/Note.md",
     "StudyNote/개발/노트/Spring + React 연동.md",
     "StudyNote/개발/노트/2. 레퍼런스.md",
     "StudyNote/개발/노트/1. 마크다운 문법.md",
