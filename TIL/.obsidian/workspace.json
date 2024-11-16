@@ -11,14 +11,10 @@
             "id": "f272f39de44fc169",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StudyNote/개발/노트/Note.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "새 탭"
             }
           }
         ]
@@ -173,11 +169,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
-    "StudyNote/CS/Alogrithm/First Search.md",
-    "conflict-files-obsidian-git.md",
     "StudyNote/개발/노트/Note.md",
+    "conflict-files-obsidian-git.md",
+    "StudyNote/개발/노트/Spring + React 연동.md",
+    "StudyNote/개발/노트/2. 레퍼런스.md",
+    "StudyNote/개발/노트/1. 마크다운 문법.md",
+    "StudyNote/개발/노트/0. NOTE.md",
+    "StudyNote/개발/React/0. React 기본 구성.md",
+    "StudyNote/Project/Infra-Study/addtional-net.1 베스천 호스트.md",
+    "StudyNote/Project/Infra-Study/3. Docker로 배포.md",
+    "StudyNote/Project/Infra-Study/2. Jenkins 구축.md",
+    "StudyNote/Project/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "StudyNote/Project/Infra-Study",
+    "StudyNote/Cetification/정보처리기사/정보처리기사실기.md",
+    "StudyNote/Cetification/정보처리기사/정보처리기사실기 족보.md",
+    "StudyNote/Cetification/정보처리기사",
+    "StudyNote/Cetification/certification-info.md",
+    "StudyNote/CS/Network/명령어.md",
+    "StudyNote/CS/Network",
+    "StudyNote/CS/Alogrithm/First Search.md",
     "StudyNote/Project/통합환경구축/통합환경구축.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
@@ -188,33 +200,17 @@
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
     "StudyNote/개발/노트/Obsidian Plugin.md",
     "StudyNote/개발/노트/Markdown-Basic.md",
-    "StudyNote/개발/노트/Java 프로젝트에서 Spring으로.md",
-    "StudyNote/개발/Node.js/express.js/0. 시작하기.md",
     "StudyNote/개발/Node.js/express.js",
     "StudyNote/개발/Node.js",
-    "StudyNote/Project/통합환경구축/2. Jenkins로 CICD구축.md",
-    "StudyNote/Project/통합환경구축/addtional-net.1 베스천 호스트.md",
-    "StudyNote/Project/wems/wems NOTE.md",
-    "StudyNote/Project/wems/1. Front-end.md",
-    "StudyNote/Project/wems/0. 환경 구축.md",
-    "StudyNote/Project/Formwork-Shop/Log.md",
     "StudyNote/Project/통합환경구축",
     "StudyNote/Project/wems",
     "StudyNote/Project/Formwork-Shop",
     "StudyNote/Project",
     "StudyNote/Cetification/자료실/정보처리기사실기 족보.pdf",
-    "StudyNote/Cetification/정보처리기사실기.md",
-    "StudyNote/Cetification/정보처리기사실기 족보.md",
-    "StudyNote/Cetification/자료실",
-    "StudyNote/Cetification",
-    "StudyNote/CS/DeepLearning/DeepLearning-02.md",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
-    "StudyNote/CS/Alogrithm",
     "Imgs/React/react_lifecycle.png",
     "Imgs/CS/Cloud/Vnet-topology-01.png",
     "Imgs/CS/Cloud/cloud_baas.png",
     "Imgs/CS/cs_artificialneural.gif",
-    "StudyNote/CS/Cloud/(Azure)-Microsoft/_NOTE.md",
     "Imgs/react-lifecycle.png",
     "Imgs/artificialneural.gif"
   ]

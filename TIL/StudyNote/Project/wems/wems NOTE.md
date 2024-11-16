@@ -19,9 +19,25 @@ https://velog.io/@juno7803/html-to-pdf
 6. Report 유형 / 기간 / 대상 서버
 	- 대상 서버 -> Report 유형 -> 기간
 
-#### 순서 정리
-1. DB Driver 설정
-2. Basic Domain 생성
-	1. Member
-		- usersn, usernm, userid, userpwd, userrole,
-	2. Comment
+#### DB 구성
+---
+**Member**
+- `memberSn` (PK): 멤버의 고유 식별자.
+- `memberType`: 멤버의 유형 (예: `admin` 또는 `common`).
+- `company` (FK): 멤버가 속한 회사의 외래 키로, `Company` 테이블의 `companySn`을 참조.
+- `memberName`: 멤버 이름.
+**Company**
+- `companySn` (PK): 회사의 고유 식별자.
+- `companyName`: 회사 이름.
+**Project**
+- `projectSn` (PK): 프로젝트의 고유 식별자.
+- `projectName`: 프로젝트 이름.
+- `company` (FK): 프로젝트가 속한 회사의 외래 키로, `Company` 테이블의 `companySn`을 참조.
+**Server**
+- `serverSn` (PK): 서버의 고유 식별자.
+- `projectSn` (FK): `Project` 테이블의 `projectSn`을 참조하는 외래 키.
+- `ip`: 서버의 IP 주소.
+- `serverName`: 서버 이름.
+
+
+
