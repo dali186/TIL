@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "905786382d337547",
+        "id": "43b5d75466e96958",
         "type": "tabs",
         "children": [
           {
-            "id": "f272f39de44fc169",
+            "id": "d122f2ae84d26c15",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "새 탭"
             }
           }
         ]
@@ -171,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f272f39de44fc169",
+  "active": "d122f2ae84d26c15",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "StudyNote/개발/노트/Note.md",
