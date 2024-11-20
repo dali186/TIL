@@ -11,10 +11,12 @@
             "id": "d122f2ae84d26c15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Release Notes 1.7.7"
             }
           }
         ]
