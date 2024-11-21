@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/Next.js/0. 개요.md",
+                "file": "StudyNote/개발/React/0. React 기본 구성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 개요"
+              "title": "0. React 기본 구성"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "97ac7249f002ae79",
   "lastOpenFiles": [
-    "StudyNote/개발/React/0. React 기본 구성.md",
     "StudyNote/개발/Next.js/0. 개요.md",
+    "StudyNote/개발/React/0. React 기본 구성.md",
     "Imgs/React/NextJS-routing.png",
     "StudyNote/개발/Next.js",
     "StudyNote/Project/Utilities",
