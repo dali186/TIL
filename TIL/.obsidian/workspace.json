@@ -11,10 +11,21 @@
             "id": "d122f2ae84d26c15",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "새 탭"
+=======
+              "type": "markdown",
+              "state": {
+                "file": "StudyNote/Project/wems/wems NOTE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "wems NOTE"
+>>>>>>> origin/main
             }
           }
         ]
@@ -171,9 +182,24 @@
   },
   "active": "d122f2ae84d26c15",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "StudyNote/개발/Next.js/0. 개요.md",
     "StudyNote/개발/Next.js",
     "StudyNote/CS/P.L. theory/P.L-1.md",
+=======
+    "StudyNote/개발/Node.js/2. Javascript Basic.md",
+    "StudyNote/개발/Node.js/1. Node.js란.md",
+    "StudyNote/CS/P.L. theory/P.L-1.md",
+    "StudyNote/개발/Node.js",
+    "StudyNote/개발/Next.js/0. 개요.md",
+    "StudyNote/개발/React/0. React 기본 구성.md",
+    "Imgs/React/NextJS-routing.png",
+    "StudyNote/개발/Next.js",
+    "StudyNote/Project/Utilities",
+    "StudyNote/Project/wems/0. 환경 구축.md",
+    "StudyNote/Project/Formwork-Shop/Log.md",
+    "StudyNote/Project/Infra-Study/3. Docker로 배포.md",
+>>>>>>> origin/main
     "StudyNote/CS/P.L. theory",
     "Imgs/React/NextJS-routing.png",
     "conflict-files-obsidian-git.md",
@@ -198,6 +224,7 @@
     "StudyNote/Project/통합환경구축/통합환경구축.md",
     "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/CS/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
+<<<<<<< HEAD
     "StudyNote/CS/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "StudyNote/CS/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
     "StudyNote/CS/Cloud/(Azure)-KNOU/CLOUD-02.md",
@@ -208,6 +235,11 @@
     "StudyNote/Project/통합환경구축",
     "StudyNote/Project/wems",
     "StudyNote/Project/Formwork-Shop",
+=======
+    "StudyNote/개발/Node.js/express.js",
+    "StudyNote/개발/Node.js",
+    "StudyNote/Project/통합환경구축",
+>>>>>>> origin/main
     "Imgs/React/react_lifecycle.png",
     "Imgs/CS/Cloud/Vnet-topology-01.png",
     "Imgs/CS/Cloud/cloud_baas.png",
