@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/Node.js/2. Javascript Basic.md",
+                "file": "StudyNote/Project/wems/wems NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Javascript Basic"
+              "title": "wems NOTE"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "97ac7249f002ae79",
   "lastOpenFiles": [
-    "StudyNote/개발/Node.js/1. Node.js란.md",
     "StudyNote/개발/Node.js/2. Javascript Basic.md",
+    "StudyNote/개발/Node.js/1. Node.js란.md",
     "StudyNote/CS/P.L. theory/P.L-1.md",
     "StudyNote/개발/Node.js",
     "StudyNote/개발/Next.js/0. 개요.md",
