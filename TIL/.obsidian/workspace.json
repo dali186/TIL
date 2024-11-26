@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/개발/Node.js/2. Javascript Basic.md",
+                "file": "StudyNote/개발/Node.js/3. StartNode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Javascript Basic"
+              "title": "3. StartNode"
             }
           }
         ]
@@ -175,9 +175,10 @@
   },
   "active": "97ac7249f002ae79",
   "lastOpenFiles": [
+    "StudyNote/개발/Node.js/2. Javascript Basic.md",
+    "StudyNote/개발/Node.js/3. StartNode.md",
     "StudyNote/CS/P.L. theory/P.L-1.md",
     "StudyNote/Project/wems/wems NOTE.md",
-    "StudyNote/개발/Node.js/2. Javascript Basic.md",
     "StudyNote/개발/Node.js/1. Node.js란.md",
     "StudyNote/개발/Node.js",
     "StudyNote/개발/Next.js/0. 개요.md",
@@ -208,7 +209,6 @@
     "StudyNote/CS/Network",
     "StudyNote/CS/Alogrithm/First Search.md",
     "StudyNote/Project/통합환경구축/통합환경구축.md",
-    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/개발/Node.js/express.js",
     "StudyNote/개발/Node.js",
     "StudyNote/Project/통합환경구축",
