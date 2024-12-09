@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyNote/Project/wems/0. 환경 구축.md",
+                "file": "StudyNote/Project/Infra-Study/3. Docker로 배포.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 환경 구축"
+              "title": "3. Docker로 배포"
             }
           }
         ]
@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "68db521c8f9c119d",
   "lastOpenFiles": [
+    "StudyNote/Project/wems/0. 환경 구축.md",
     "StudyNote/개발/React/Lecture(Udemy)/Chapter 1.md",
     "StudyNote/개발/React/Lecture(Udemy)",
     "StudyNote/개발/Node.js/3. StartNode.md",
@@ -208,7 +209,6 @@
     "StudyNote/CS/Network",
     "StudyNote/CS/Alogrithm/First Search.md",
     "StudyNote/Project/통합환경구축/통합환경구축.md",
-    "StudyNote/Project/통합환경구축/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "StudyNote/개발/Node.js/express.js",
     "StudyNote/Project/통합환경구축",
     "StudyNote/Project/wems",
