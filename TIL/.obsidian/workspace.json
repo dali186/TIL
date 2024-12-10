@@ -160,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fd5b4d31c1c0616",
+  "active": "4384edbc14152f7b",
   "lastOpenFiles": [
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
