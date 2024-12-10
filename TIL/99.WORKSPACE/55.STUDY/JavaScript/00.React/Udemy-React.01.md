@@ -15,17 +15,17 @@
 		- defer
 		- type="module"
 			- js 파일을 모듈로 취급할 경우, import/export 문법을 사용 가능
-- ==React는 프로세스를 활용, 해당 과정에서 HTML 코드에 자동으로 script 태그를 추가해준다.(컴포넌트 스캔 그런 느낌일까...)==
-3. **React코드에는 script 태그 없이 동작하는 이유**
+	- ==React는 프로세스를 활용, 해당 과정에서 HTML 코드에 자동으로 script 태그를 추가해준다.(컴포넌트 스캔 그런 느낌일까...)==
+1. **React코드에는 script 태그 없이 동작하는 이유**
 	- 기존 HTML + Vanilla.js의 경우, 서버가 HTML 문서를 제공하고, 클라이언트(브라우저)가 JavaScript를 실행하여 동적 요소를 처리
 	- React의 경우, JSX(JavaScript XML)으로 작성되고, 빌드 시 해당 코드들이 JavaScript로 변환 후 브라우저에서 실행(react-scripts 패키지)
 	- ==결과적으로, React 애플리케이션은 컴파일된 JavaScript로 동작하므로, HTML 내에 `<script>` 태그를 직접 추가할 필요가 없습니다.==
-4. **React가 빌드 프로세스 과정을 거쳐야하는 이유**
+2. **React가 빌드 프로세스 과정을 거쳐야하는 이유**
 	- JSX 코드 실행 불가(*JavaScript 런타임에서 HTML 요소 실행 불가*)
 		- JSX는 JavaScript 문법에 HTML 요소가 포함된 형태로 작성됩니다. 브라우저의 JavaScript 엔진은 JSX를 직접 실행할 수 없으므로, 빌드 도구(Babel 등)를 사용해 JSX를 표준 JavaScript로 변환해야 합니다.
 	- 프로덕션 최적화 필요
 		- React 개발 환경에서는 디버깅 도구, 주석, 그리고 불필요한 코드를 포함한 상태로 작성됩니다. 빌드 과정에서 코드를 압축하고 최적화하여 파일 크기를 줄이고 성능을 개선하여 프로덕션 배포에 적합하게 만듭니다.
-5. **Export/Import**
+3. **Export/Import**
 	Vanilla JS에서는 스크립트 추가 시, type="module"을 지정해 주어야 함    
 	React는 빌드 프로세스가 import와 export 키워드가 있는 개별 파일을 모두 합쳐 하나의 큰 파일을 만든 다음 기존 문법을 순서대로 사용해 import 구문 처리    
 		-> 브라우저가 **여러 개의 작은 JS파일**을 다운로드 하는 대신 **몇 개의 큰 JS파일**만 다운로드 하면 되므로 효율적임     
