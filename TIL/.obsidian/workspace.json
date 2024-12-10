@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "57abc541ae2f3b00",
+        "id": "7abf3e100fd1132e",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd5b4d31c1c0616",
+            "id": "68db521c8f9c119d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
+                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Udemy-React.02"
+              "title": "Udemy-React.01"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5110321044922
+    "width": 300
   },
   "right": {
     "id": "e09a72c474432281",
@@ -160,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,50 +173,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4384edbc14152f7b",
+  "active": "68db521c8f9c119d",
   "lastOpenFiles": [
-    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
-    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
+    "StudyNote/Project/Infra-Study/3. Docker로 배포.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료/JavaScript-Grammar.pdf",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/CSS 관련.md",
-    "99.WORKSPACE/00.NOTE/0. NOTE.md",
-    "99.WORKSPACE/55.STUDY/JavaScript/00.React",
-    "99.WORKSPACE/55.STUDY/JavaScript",
-    "99.WORKSPACE/55.STUDY",
-    "99.WORKSPACE/00.NOTE/Spring + React 연동.md",
-    "99.WORKSPACE/00.NOTE/2. 레퍼런스.md",
-    "05.C.S/ETC/1. 마크다운 문법.md",
-    "05.C.S/ETC",
-    "02.FRONT/JavaScript/02.Next.js/0. 개요.md",
     "99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
-    "StudyNote/Project/Formwork-Shop/Log.md",
-    "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
     "99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
+    "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
+    "99.WORKSPACE/99.PROJECTS/Infra-Study/addtional-net.1 베스천 호스트.md",
+    "99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React",
+    "99.WORKSPACE/99.PROJECTS/wems",
+    "99.WORKSPACE/99.PROJECTS/Infra-Study",
+    "99.WORKSPACE/55.STUDY/JavaScript",
+    "99.WORKSPACE/00.NOTE/Spring + React 연동.md",
+    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "99.WORKSPACE/99.PROJECTS",
+    "99.WORKSPACE/55.STUDY",
     "99.WORKSPACE/00.NOTE",
-    "05.C.S/NOTE",
+    "06.자격증/정보처리기사/정보처리기사실기.md",
+    "06.자격증/정보처리기사/정보처리기사실기 족보.md",
+    "06.자격증/certification-info.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/3. AZ-204-Azure Blob Storage.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Funtions 구현.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
-    "05.C.S/Cloud/(Azure)-Microsoft/Certification-info.md",
     "05.C.S/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
     "05.C.S/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
+    "05.C.S/Cloud/(Azure)-Microsoft/Certification-info.md",
+    "05.C.S/ETC/1. 마크다운 문법.md",
     "05.C.S/Network/명령어.md",
-    "05.C.S/Algorithm/최단 거리.md",
-    "05.C.S/Algorithm/First Search.md",
-    "06.자격증/certification-info.md",
-    "03.BACK/Spring/TestCode.md",
-    "00.IMGS/React/NextJS-routing.png",
-    "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
     "00.IMGS/CS/Cloud/cloud_baas.png",
+    "00.IMGS/React/react_lifecycle.png",
+    "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/CS/cs_artificialneural.gif",
-    "Imgs/react-lifecycle.png",
-    "Imgs/artificialneural.gif"
+    "Imgs/React/NextJS-routing.png",
+    "Imgs/React/react_lifecycle.png",
+    "Imgs/CS/Cloud/Vnet-topology-01.png",
+    "Imgs/CS/Cloud/cloud_baas.png",
+    "Imgs/CS/cs_artificialneural.gif"
   ]
 }
