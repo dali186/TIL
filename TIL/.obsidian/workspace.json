@@ -11,10 +11,14 @@
             "id": "0a290fdd3dcd7216",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React.01.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Udemy-React.01"
             }
           }
         ]
@@ -73,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e09a72c474432281",
@@ -156,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,11 +173,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00670b99acf83689",
+  "active": "0a290fdd3dcd7216",
   "lastOpenFiles": [
+    "99.WORKSPACE/00.NOTE/0. NOTE.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React.01.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React",
+    "99.WORKSPACE/55.STUDY/JavaScript",
     "99.WORKSPACE/55.STUDY",
     "99.WORKSPACE/00.NOTE/Spring + React 연동.md",
-    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "99.WORKSPACE/00.NOTE/2. 레퍼런스.md",
     "05.C.S/ETC/1. 마크다운 문법.md",
     "05.C.S/ETC",
@@ -199,11 +206,8 @@
     "05.C.S/Network/명령어.md",
     "05.C.S/Algorithm/최단 거리.md",
     "05.C.S/Network",
-    "05.C.S/Cloud",
     "05.C.S/Algorithm/First Search.md",
-    "05.C.S/Algorithm",
     "06.자격증/certification-info.md",
-    "02.FRONT/JavaScript/02.Next.js",
     "03.BACK/Spring/TestCode.md",
     "03.BACK/Node.js/1. Node.js란.md",
     "03.BACK/Node.js/3. StartNode.md",
