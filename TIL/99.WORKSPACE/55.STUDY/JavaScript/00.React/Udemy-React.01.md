@@ -16,6 +16,28 @@
 		- type="module"
 			- js 파일을 모듈로 취급할 경우, import/export 문법을 사용 가능
 	- ==React는 프로세스를 활용, 해당 과정에서 HTML 코드에 자동으로 script 태그를 추가해준다.(컴포넌트 스캔 그런 느낌일까...)==
+	```Javascript
+	const userNameData = ["Max", "Schwarzmuller"];
+	const [firstName, lastName] = ["Max", "Schwarzmuller"];
+
+	const user = {
+		name: "Max",
+		age: 34
+	};
+	/* 동일한 프로퍼티 명 사용해야 함 */
+	const {name, age} = {
+		name: "Max",
+		age: 34
+	};
+	/* 혹은 별칭 추가*/
+	const {name: userName, age} = {
+		name: "Max",
+		age: 34
+	};
+	```
+	- `...` : 배열의 모든 원소를 가져온다.
+	- 함수에 매개변수로 함수를 전달할 때, 미리 정의가 된 함수는 이름만 전달한다.(()괄호를 작성하지 않는다.)
+		- 괄호를 추가하면, 반환 값이 전달된다. (콜백을 말하는 듯)
 1. **React코드에는 script 태그 없이 동작하는 이유**
 	- 기존 HTML + Vanilla.js의 경우, 서버가 HTML 문서를 제공하고, 클라이언트(브라우저)가 JavaScript를 실행하여 동적 요소를 처리
 	- React의 경우, JSX(JavaScript XML)으로 작성되고, 빌드 시 해당 코드들이 JavaScript로 변환 후 브라우저에서 실행(react-scripts 패키지)
