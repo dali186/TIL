@@ -15,3 +15,6 @@
 		- defer
 		- type="module"
 			- js 파일을 모듈로 취급할 경우, import/export 문법을 사용 가능
+- ==React는 프로세스를 활용, 해당 과정에서 HTML 코드에 자동으로 script 태그를 추가해준다.(컴포넌트 스캔 그런 느낌일까...)==
+3. React코드에는 script 태그 없이 동작하는 이유
+- 기존 HTML + Vanilla.js의 경우, 서버에서 HTML을 응답 -> 클라이언트(브라우저)에서 JS
