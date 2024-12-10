@@ -33,4 +33,31 @@
 - 데이터를 컴포넌트로 전달하고 그 데이터를 해당 컴포넌트에서 사용
 - 컴포넌트 태그 안에 속성같이 넘겨주는 값을 `props`이라고 함
 - 컴포넌트의 매개변수로는 `props`하나의 매개변수만 사용 가능
->  컴포넌트 노가다 props 노가다 하지말고, JS 스프레드 함수를 적극 활용해라 (...)
+_코딩 TIPS_
+- 컴포넌트 노가다 props 노가다 하지말고, JS 스프레드 함수를 적극 활용해라 (...)
+```JSX
+<CoreConcept title={CORE_CONCEPTS[0].title} description={CORE_CONCEPTS[0].description} image={CORE_CONCEPTS[0].image}/>
+<CoreConcept {...CORE_CONCEPTS[1]}/>
+```
+- 컴포넌트 props를 개폐 중괄호로 받아서 좀 더 간단하게 작성 가능
+```JSX
+function CoreConcept(props) {
+  return(
+    <li>
+      <img src={props.image} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+    </li>
+  )
+}
+
+function CoreConcept({image, title, description}) {
+  return(
+    <li>
+      <img src={image} alt={title} />
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </li>
+  )
+}
+```
