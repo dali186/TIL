@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React.01.md",
+                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/CSS 관련.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Udemy-React.01"
+              "title": "CSS 관련"
             }
           }
         ]
@@ -175,8 +175,9 @@
   },
   "active": "0a290fdd3dcd7216",
   "lastOpenFiles": [
-    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React.01.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/CSS 관련.md",
+    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React",
     "99.WORKSPACE/55.STUDY/JavaScript",
     "99.WORKSPACE/55.STUDY",
@@ -210,7 +211,6 @@
     "06.자격증/certification-info.md",
     "03.BACK/Spring/TestCode.md",
     "03.BACK/Node.js/1. Node.js란.md",
-    "03.BACK/Node.js/3. StartNode.md",
     "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
