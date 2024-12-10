@@ -61,3 +61,5 @@ function CoreConcept({image, title, description}) {
   )
 }
 ```
+- import './000.css'; 로 특정 컴포넌트에 특정 CSS를 적용 시켜도 해당 컴포넌트에만 제한적으로 적용되지 않는다.(사용하는 페이지에 같은 요소면 적용됨)
+- 
