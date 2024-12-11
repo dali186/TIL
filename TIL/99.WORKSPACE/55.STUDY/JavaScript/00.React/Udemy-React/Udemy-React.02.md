@@ -93,5 +93,23 @@ return (
     );
 };
 export default TabButton;
-/* 컴포넌트 외부에서 props로 함수를 넘겨준 뒤 등록 */*
+/* 컴포넌트 외부에서 props로 함수를 넘겨준 뒤 등록 */
+/* 내부 컴포넌트, props에 onSelect가 추가 됨*/
+const TabButton = ({ children, onSelect }) => {
+return (
+    <li>
+        <button onClick={onSelect}>{children}</button>
+    </li>
+    );
+};
+export default TabButton;
+/* 외부 */
+  function handleSelect() {
+    console.log('Hello World!');
+  }
+  return(
+	  <TabButton onSelect={handleSelect}>Components</TabButton>
+  )
 ```
+- 외부에서 넘겨준 props로 함수를 등록하면, 해당 함수가 외부에 있는 요소와 상호작용 할 수 있는 기회가 생긴다.
+- 뜬금없이 든 생각이지만, JavaScript가 이렇게 함수를 넘기고 받을 수 있는 이유는... 참조 객체형 언어라서 그렇다 O/X
