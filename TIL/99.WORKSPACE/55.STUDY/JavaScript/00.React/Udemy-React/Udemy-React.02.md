@@ -150,3 +150,41 @@ const [ selectedTopic, setSelectedTopic ] = userState('Please click a button');
 - useState에서 반환 된 두번째 요소(setSelectedTopic) = 리액트에서 제공되는 함수, 저장된 값(스냅샷)을 업데이트 해주는 함수
 	- 해당 함수가 실행되면, React에게 이 컴포넌트 함수를 다시 실행해야 함을 알림
 - *useState로 상태를 업데이트 했어도 로그를 출력하면 상태를 변경하기 전의 상태 값이 나온다.*
+
+**분기처리 코드 깔끔하기 갈기기**
+1. 삼항연산자 사용
+```Javascript
+!selectedTopic ? (
+            <p>Please select a topic.</p>
+          ) : (
+            <div id='tab-content'>
+            <h3>{EXAMPLES[selectedTopic].title}</h3>
+            <p>{EXAMPLES[selectedTopic].description}</p>
+            <pre>
+              <code>
+              {EXAMPLES[selectedTopic].code}
+              </code>
+            </pre>
+          </div>
+          )} 
+```
+2. && 연산자 사용
+```Javascript
+{!selectedTopic && <p>Please select a topic.</p>}
+          {selectedTopic && (
+            <div id='tab-content'>
+            <h3>{EXAMPLES[selectedTopic].title}</h3>
+            <p>{EXAMPLES[selectedTopic].description}</p>
+            <pre>
+              <code>
+              {EXAMPLES[selectedTopic].code}
+              </code>
+            </pre>
+          </div>
+          )}
+        </section>
+      </main>
+    </div>
+```
+3. 변수에 JSX 담아서 사용
+	- 미리 JS코드에서 if분기 등 처리 후에 깔끔하게 return문에 집어 넣어줄 수 있음
