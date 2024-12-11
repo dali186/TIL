@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
+                "file": "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Infra"
+              "title": "0. Docs"
             }
           }
         ]
@@ -171,7 +171,7 @@
   },
   "active": "ab4abc3b2f8cba01",
   "lastOpenFiles": [
-    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md"
+    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
+    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md"
   ]
 }
