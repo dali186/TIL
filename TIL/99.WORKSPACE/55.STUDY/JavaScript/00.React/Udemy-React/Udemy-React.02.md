@@ -138,4 +138,12 @@ export default TabButton;
 #### 상태관리와 훅(Hook)
 > React에게 데이터가 변경되었다는 것을 알리고, UI를 업데이트 시켜주기 위한 목적의 리액트 라이브러리 함수
 - `use`로 시작되는 모든 함수는 `React Hook`
-- 일반 함수이지만, 다른 리액트 Hook 안에서 호출
+- **일반 함수이지만, React 컴포넌트 함수 또는 다른 React Hook 안에서 호출되어야 함.**
+- 컴포넌트 함수 최상위에서 호출
+- 데이터가 변경되면 이 Hook이 자신이 속한 컴포넌트 함수를 활성화하여 재렌더링을 시도.
+```Javascript
+const [ selectedTopic, setSelectedTopic ] = userState('Please click a button');
+```
+- useState에서 반환 된 첫번째 요소(selectedTopic) = 컴포넌트 실행 주기의 현재 데이터 스냅샷
+	- 컴포넌트 함수가 처음 실행될 때 이 초기 값이 selectedTopic에 저장됨
+	- 다시 실행될 때에는 업데이트 된 값이 저장됨
