@@ -93,4 +93,5 @@ return (
     );
 };
 export default TabButton;
+/* 컴포넌트 외부에서 props로 함수를 넘겨준 뒤 등록 */*
 ```
