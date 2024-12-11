@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
+                "file": "99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Docs"
+              "title": "1. Infra"
             }
           }
         ]
@@ -175,10 +175,11 @@
   },
   "active": "1fd5b4d31c1c0616",
   "lastOpenFiles": [
-    "99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
     "99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
     "99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
+    "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
     "99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
+    "99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
     "99.WORKSPACE/99.PROJECTS/개인일정관리",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
@@ -198,7 +199,6 @@
     "05.C.S/ETC",
     "02.FRONT/JavaScript/02.Next.js/0. 개요.md",
     "StudyNote/Project/Formwork-Shop/Log.md",
-    "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
     "99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "99.WORKSPACE/99.PROJECTS",
     "99.WORKSPACE/00.NOTE",
