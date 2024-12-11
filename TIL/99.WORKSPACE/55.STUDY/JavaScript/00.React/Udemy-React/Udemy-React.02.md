@@ -188,3 +188,5 @@ const [ selectedTopic, setSelectedTopic ] = userState('Please click a button');
 ```
 3. 변수에 JSX 담아서 사용
 	- 미리 JS코드에서 if분기 등 처리 후에 깔끔하게 return문에 집어 넣어줄 수 있음
+###### css 적용하기
+React에서는 클래스이름을 설정하기 위해 `className` prop를 사용한다. (id, name 등은 html과 동일하다)
