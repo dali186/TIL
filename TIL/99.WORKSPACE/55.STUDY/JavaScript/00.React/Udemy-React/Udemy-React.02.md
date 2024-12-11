@@ -116,10 +116,9 @@ export default TabButton;
 
 **이벤트 핸들러를 등록할 때는 `익명함수`, `함수 참조`를 이용해야 한다.**
 ```Javascript
-/* 익명함수로 이벤트 등록 */
+/* 익명함수로 이벤트 등록 (포인터를 등록한다) */
 <TabButton onSelect={() => handleSelect('components')}>Components</TabButton>
 ```
-- <span style="color:red; font-size: 20px; font-weight:bold"></span>
 - 익명 함수는 이벤트가 발생했을 때 실행되며, 이 함수 내부에서 `handleSelect('components')`를 호출
 	- 결과적으로 `handleSelect('components')`는 이벤트가 발생할 때 실행
 ```Javascript
