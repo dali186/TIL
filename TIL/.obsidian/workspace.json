@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
+                "file": "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Udemy-React.02"
+              "title": "Udemy-React.03"
             }
           }
         ]
@@ -175,10 +175,11 @@
   },
   "active": "1fd5b4d31c1c0616",
   "lastOpenFiles": [
-    "05.C.S/ETC/1. 마크다운 문법.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
-    "99.WORKSPACE/00.NOTE/0. NOTE.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
+    "05.C.S/ETC/1. 마크다운 문법.md",
+    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "conflict-files-obsidian-git.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료/JavaScript-Grammar.pdf",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료",
@@ -210,7 +211,6 @@
     "05.C.S/Network/명령어.md",
     "05.C.S/Algorithm/최단 거리.md",
     "05.C.S/Algorithm/First Search.md",
-    "06.자격증/certification-info.md",
     "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
