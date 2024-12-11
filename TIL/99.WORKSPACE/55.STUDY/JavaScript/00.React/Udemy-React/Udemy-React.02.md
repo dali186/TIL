@@ -80,3 +80,17 @@ document.querySelector('button').addEventListener('click', () => {
 	- **`함수명` 등록** 
 		- 함수 참조를 전달하며, 이벤트 발생 시 해당 함수가 실행됨. 
 		- 일반적으로 사용되는 방식.
+```JSX
+/* 컴포넌트 내부에서 함수 생성 후 등록 */
+const TabButton = ({ children, onSelect }) => {
+    function handelClick() {
+        console.log('Hello World!');
+    }    
+return (
+    <li>
+        <button onClick={handelClick}>{children}</button>
+    </li>
+    );
+};
+export default TabButton;
+```
