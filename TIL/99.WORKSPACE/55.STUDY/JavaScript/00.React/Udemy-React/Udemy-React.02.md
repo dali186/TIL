@@ -147,3 +147,6 @@ const [ selectedTopic, setSelectedTopic ] = userState('Please click a button');
 - useState에서 반환 된 첫번째 요소(selectedTopic) = 컴포넌트 실행 주기의 현재 데이터 스냅샷
 	- 컴포넌트 함수가 처음 실행될 때 이 초기 값이 selectedTopic에 저장됨
 	- 다시 실행될 때에는 업데이트 된 값이 저장됨
+- useState에서 반환 된 두번째 요소(setSelectedTopic) = 리액트에서 제공되는 함수, 저장된 값(스냅샷)을 업데이트 해주는 함수
+	- 해당 함수가 실행되면, React에게 이 컴포넌트 함수를 다시 실행해야 함을 알림
+- *useState로 상태를 업데이트 했어도 로그를 출력하면 상태를 변경하기 전의 상태 값이 나온다.*
