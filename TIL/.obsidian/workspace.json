@@ -173,15 +173,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fd5b4d31c1c0616",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
+    "99.WORKSPACE/00.NOTE/0. NOTE.md",
+    "conflict-files-obsidian-git.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료/JavaScript-Grammar.pdf",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/자료",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/CSS 관련.md",
-    "99.WORKSPACE/00.NOTE/0. NOTE.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React",
     "99.WORKSPACE/55.STUDY/JavaScript",
     "99.WORKSPACE/55.STUDY",
@@ -210,7 +211,6 @@
     "05.C.S/Algorithm/최단 거리.md",
     "05.C.S/Algorithm/First Search.md",
     "06.자격증/certification-info.md",
-    "03.BACK/Spring/TestCode.md",
     "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
