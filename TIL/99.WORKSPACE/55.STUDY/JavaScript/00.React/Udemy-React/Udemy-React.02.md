@@ -113,3 +113,18 @@ export default TabButton;
 ```
 - 외부에서 넘겨준 props로 함수를 등록하면, 해당 함수가 외부에 있는 요소와 상호작용 할 수 있는 기회가 생긴다.
 - 뜬금없이 든 생각이지만, JavaScript가 이렇게 함수를 넘기고 받을 수 있는 이유는... 참조 객체형 언어라서 그렇다 O/X
+
+**이벤트 핸들러를 등록할 때는 `익명함수`, `함수 참조`를 이용해야 한다.**
+```Javascript
+/* 익명함수로 이벤트 등록 */
+<TabButton onSelect={() => handleSelect('components')}>Components</TabButton>
+```
+- <span style="color:red; font-size: 20px; font-weight:bold"></span>
+- 익명 함수는 이벤트가 발생했을 때 실행되며, 이 함수 내부에서 `handleSelect('components')`를 호출
+	- 결과적으로 `handleSelect('components')`는 이벤트가 발생할 때 실행
+```Javascript
+/* 함수를 이벤트로 등록 */
+<TabButton onSelect={handleSelect('components')}>Components</TabButton>
+```
+- JSX가 렌더링 될 때 즉시 실행 -> 반환값이 onSelect에 저장된다.
+	- 이 경우, `handleSelect`가 반환하는 값(`undefined`인 경우가 많음)이 이벤트 핸들러로 등록되기 때문에, 클릭 이벤트가 발생해도 동작하지 않음.
