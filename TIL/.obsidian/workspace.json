@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/99.PROJECTS/개인일정관리/0. 구상.md",
+                "file": "99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 구상"
+              "title": "0. Docs"
             }
           }
         ]
@@ -175,8 +175,11 @@
   },
   "active": "1fd5b4d31c1c0616",
   "lastOpenFiles": [
+    "99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
+    "99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
+    "99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
+    "99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
-    "99.WORKSPACE/99.PROJECTS/개인일정관리/0. 구상.md",
     "99.WORKSPACE/99.PROJECTS/개인일정관리",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.02.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.01.md",
@@ -194,10 +197,8 @@
     "99.WORKSPACE/00.NOTE/2. 레퍼런스.md",
     "05.C.S/ETC",
     "02.FRONT/JavaScript/02.Next.js/0. 개요.md",
-    "99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
     "StudyNote/Project/Formwork-Shop/Log.md",
     "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
-    "99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
     "99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "99.WORKSPACE/99.PROJECTS",
     "99.WORKSPACE/00.NOTE",
@@ -210,7 +211,6 @@
     "05.C.S/Cloud/ETC/Azure의 핵심 아키텍처 구성 요소 설명.md",
     "05.C.S/Cloud/ETC/Azure 컴퓨팅 및 네트워킹 서비스 설명.md",
     "05.C.S/Network/명령어.md",
-    "05.C.S/Algorithm/최단 거리.md",
     "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
