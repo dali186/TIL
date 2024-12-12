@@ -28,5 +28,13 @@ return(<>...content</>);
 /* 상위 컴포넌트 */
 <Test testpp="div"></Test>
 /* 하위 컴포넌트 */
-impot 
+const Cpnm = ({ testpp, testppp=testpp }) => {
+const testppp = testpp;
+return(
+	<>
+		<testpp></testpp>
+		<testppp></testppp>
+	</>
+	)
+}
 ```
