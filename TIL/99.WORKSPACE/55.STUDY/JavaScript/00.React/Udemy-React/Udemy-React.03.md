@@ -11,3 +11,5 @@ return(<Fragment>...content</Fragment>);
 return(<>...content</>);
 ```
 
+- 컴포넌트는 상향식으로 개발하는게 좋은 듯
+	- 작은 컴포넌트 > 중간 컴포넌트 > 큰 컴포넌트 로 묶어서 사용.
