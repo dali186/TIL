@@ -19,3 +19,14 @@ return(<>...content</>);
 - CSS 설정 때문에 id를 props로 넘긴다? :: 매우 비효율 => Forwarded Prorps(Proxy Props 패턴) 사용으로 대체
 - 스프레드 연산자 + 변수명을 props를 받은 후 태그에 사용하면, CSS가 적용됨
 - JSX는 Props로 JSX를 넘겨줄 수 있는데, 이것 또한 하나의 요소만 들어갈 수 있다.
+
+- 컴포넌트 타입을 const로 생성할 수 있다. (소문자로 시작)
+	1. 상위에서 ""로 요소를 props로 전달
+	2. 하위에서는 해당 props를 상수로 만들든, 구조분해로 값을 할당하든 해서 새로운 Wrapper 변수 생성
+	3. 해당 이름 및 변수로 Wrapper 사용 가능
+```JSX
+/* 상위 컴포넌트 */
+<Test testpp="div"></Test>
+/* 하위 컴포넌트 */
+impot 
+```
