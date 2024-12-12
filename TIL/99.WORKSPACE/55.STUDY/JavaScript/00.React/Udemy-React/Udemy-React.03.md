@@ -18,3 +18,4 @@ return(<>...content</>);
 	- 컴포넌트의 대부분이 section - h2 - menu 형식으로 구현되어 있음
 - CSS 설정 때문에 id를 props로 넘긴다? :: 매우 비효율 => Forwarded Prorps(Proxy Props 패턴) 사용으로 대체
 - 스프레드 연산자 + 변수명을 props를 받은 후 태그에 사용하면, CSS가 적용됨
+- JSX는 Props로 JSX를 넘겨줄 수 있는데, 이것 또한 하나의 요소만 들어갈 수 있다.
