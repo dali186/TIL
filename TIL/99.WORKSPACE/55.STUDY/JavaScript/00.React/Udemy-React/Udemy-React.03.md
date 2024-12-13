@@ -137,3 +137,6 @@ React 상태를 업데이트할 때:
 
 `양방향 렌더링`
 onsole.log(event.target.value); : HTML 요소 JS에서 추출
+
+아 그러면 setGameBoard는 내부적으로 const setGameBoard = (콜백함수) => { 1. 큐에 등록 2. 콜백함수 3. 리턴 값 적용 } 이런 식으로 구현되어있는 거구나
+
