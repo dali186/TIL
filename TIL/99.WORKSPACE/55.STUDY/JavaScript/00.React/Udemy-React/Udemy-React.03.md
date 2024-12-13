@@ -134,3 +134,6 @@ React 상태를 업데이트할 때:
 1. 상태 업데이트가 이전 상태에 의존하는 경우, **반드시 함수형 업데이트**를 사용하세요.
 2. `setSomething(!something)`은 직관적이지만, 상태 충돌 문제를 유발할 수 있습니다.
 3. React 권장 방식인 `setSomething((prev) => !prev)`를 사용하면 안정적이고 예측 가능한 상태 업데이트가 가능합니다.
+
+`양방향 렌더링`
+onsole.log(event.target.value); : HTML 요소 JS에서 추출
