@@ -54,3 +54,117 @@ return(
 		- JSX 로드 시 실행되어 자동적으로 상태 값을 갖게 됨
 	- setSomething(() => !something) : O
 		- 매개변수로 인식되어 자동적으로 상태 값을 가지지 않음
+***!! set메서드 인자로 함수를 래핑해서 넣어야하는 이유***
+> 상태 업데이트의 **작동 방식**과 **React 상태 관리의 비동기 특성**
+
+## **1. React 상태 업데이트의 특성**
+
+React에서 `setState` 함수는 **비동기적**으로 작동합니다. 이는 다음 두 가지 의미를 가집니다:
+
+- `setState` 호출 시, React는 즉시 상태를 업데이트하지 않고 **스케줄**합니다.
+- 현재 상태를 바로 업데이트하지 않으므로, 컴포넌트 내 `something` 변수가 업데이트 후 최신 상태를 보장하지 않습니다.
+
+---
+
+## **2. `setSomething(!something)`의 동작**
+
+이 방식은 상태를 직접 참조해서 반전시키는 코드입니다. 예를 들어, `something`이 `true`라면 `!something`은 `false`로 평가됩니다.
+
+### **문제점: 오래된 상태 참조**
+
+React의 비동기 상태 업데이트 특성 때문에, 연속된 상태 업데이트가 발생하면 **이전 상태(`something`)가 정확하지 않을 수 있습니다.**
+
+jsx
+
+코드 복사
+
+`setSomething(!something); // something의 값이 정확하지 않을 가능성이 있음`
+
+#### **연속 호출 시 문제**
+
+상태 업데이트가 즉시 반영되지 않으므로, 같은 `something` 값을 참조하는 모든 `setSomething` 호출은 **동일한 값을 기반으로 동작**합니다.
+
+예를 들어:
+
+jsx
+
+코드 복사
+
+`const [count, setCount] = useState(0);  const incrementTwice = () => {   setCount(count + 1);   setCount(count + 1); // 이전 상태(count = 0)에 기반 };`
+
+- 위 코드는 두 번 `setCount`를 호출했지만, `count` 값은 `1`로 업데이트됩니다. `setCount(count + 1)`이 호출될 때 `count`가 여전히 `0`이기 때문입니다.
+
+---
+
+## **3. `setSomething((prev) => !prev)`의 동작**
+
+이 방식은 **함수형 업데이트**를 사용합니다. `setSomething` 함수에 콜백을 전달하면, React는 이 콜백에 **최신 상태 값(`prev`)**을 전달합니다.
+
+### **장점: 최신 상태 보장**
+
+React는 상태 업데이트의 순서를 보장하므로, 각 콜백에서 항상 최신 상태를 참조합니다.
+
+jsx
+
+코드 복사
+
+`setSomething((prev) => !prev); // React가 prev에 최신 상태를 전달`
+
+#### **연속 호출 시 동작**
+
+함수형 업데이트를 사용하면, 각 `setSomething` 호출이 서로 독립적이며 최신 상태를 정확히 반영합니다.
+
+jsx
+
+코드 복사
+
+`const [count, setCount] = useState(0);  const incrementTwice = () => {   setCount((prev) => prev + 1);   setCount((prev) => prev + 1); // 이전 콜백의 결과를 기반으로 동작 };`
+
+- 여기서는 `setCount((prev) => prev + 1)` 두 번 호출되며 `count`는 `2`로 업데이트됩니다.
+
+---
+
+## **4. 두 방식 비교 요약**
+
+|속성|`setSomething(!something)`|`setSomething((prev) => !prev)`|
+|---|---|---|
+|**상태 참조 방식**|현재 상태(`something`)를 사용|이전 상태(`prev`)를 사용|
+|**비동기적 상태 업데이트**|현재 상태 값이 오래될 가능성 있음|항상 최신 상태(`prev`) 참조 가능|
+|**연속 호출 시 동작**|같은 상태 값 기반으로 동작|각 호출이 독립적으로 처리됨|
+|**React 권장 여부**|권장하지 않음|권장됨|
+
+---
+
+## **5. 실제 예제 시나리오**
+
+### 문제 상황: 상태 충돌
+
+jsx
+
+코드 복사
+
+`const [isToggled, setIsToggled] = useState(false);  const toggleTwice = () => {   setIsToggled(!isToggled); // 첫 번째 호출: isToggled = true   setIsToggled(!isToggled); // 두 번째 호출: 여전히 isToggled = true를 참조 };`
+
+- `toggleTwice` 실행 후 `isToggled`는 `false`가 아니라 여전히 `true`입니다. 이는 두 번의 호출이 모두 같은 `isToggled` 값을 참조했기 때문입니다.
+
+---
+
+### 해결책: 함수형 업데이트
+
+jsx
+
+코드 복사
+
+`const toggleTwice = () => {   setIsToggled((prev) => !prev); // 첫 번째 호출: prev = false → true   setIsToggled((prev) => !prev); // 두 번째 호출: prev = true → false };`
+
+- `toggleTwice` 실행 후 `isToggled`는 예상대로 `false`가 됩니다. `prev`는 항상 최신 상태를 참조하기 때문입니다.
+
+---
+
+### **결론**
+
+React 상태를 업데이트할 때:
+
+1. 상태 업데이트가 이전 상태에 의존하는 경우, **반드시 함수형 업데이트**를 사용하세요.
+2. `setSomething(!something)`은 직관적이지만, 상태 충돌 문제를 유발할 수 있습니다.
+3. React 권장 방식인 `setSomething((prev) => !prev)`를 사용하면 안정적이고 예측 가능한 상태 업데이트가 가능합니다.
