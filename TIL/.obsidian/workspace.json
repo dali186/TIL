@@ -11,14 +11,10 @@
             "id": "7bcb0b0be7a7fd2a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "새 탭"
             }
           }
         ]
@@ -173,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a5448218bedc125",
+  "active": "00670b99acf83689",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "03.BACK/Spring/TestCode.md",
