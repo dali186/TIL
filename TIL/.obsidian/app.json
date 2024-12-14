@@ -3,5 +3,8 @@
   "readableLineLength": false,
   "defaultViewMode": "source",
   "attachmentFolderPath": "Imgs",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "showIndentGuide": true,
+  "promptDelete": false
 }
