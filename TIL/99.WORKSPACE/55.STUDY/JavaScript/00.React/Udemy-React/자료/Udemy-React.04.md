@@ -28,6 +28,7 @@
 	- Context는 최상위에 존재하여, state를 Context에 연결하기만 하면 App 전체에 제공해줌
 		- .Provider
 			- 기본값을 설정했더라도, value={{}} 속성을 추가해주어야 함
+	- 컴포넌트에 직접 prop으로 전달해주는것이 아니라, <Context객체.Provider>로 감싸서 제공해준다.
 ###### 리덕스(Redux)란?
 > A state management system for cross-component or app-wide state
 > 크로스 컴포넌트 또는 앱 와이드 상태를 위한 상태 관리 시스템
