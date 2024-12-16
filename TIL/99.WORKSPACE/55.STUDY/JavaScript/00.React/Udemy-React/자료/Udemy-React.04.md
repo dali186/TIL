@@ -11,8 +11,21 @@
 	- 재사용이 힘들어진다.
 	- 보일러 플레이트가 늘어난다.
 **Prop Drilling 해결 방안**
-1. Components의 합성
-
+1. Components의 합성 (Component Composition)
+	- 상위 컴포넌트, 하위 컴포넌트, 최하위 컴포넌트가 존재할 때,
+		- 하위 컴포넌트 내부에 존재하는 최하위 컴포넌트를 상위 컴포넌트에서 하위 컴포넌트 태그 사이에 해당 로직을 추가
+		- 필요한 함수, 변수들은 최하위 컴포넌트에서 상위 컴포넌트로 이동
+		- 하위 컴포넌트에서는 children props로 태그 안에 추가해주어야 함.
+		```JSX
+		//TO-BE
+		<Middle doSomething={handleDoSomething}/>
+		//AS-IS, 함수,변수 이동
+		<Middle>
+			<Bottom doSomething={handleDoSomething}/>
+		</Middle>
+		```
+2. React Context API
+	- Context는 최상위에 존재하여, state를 Context에 연결하기만 하면 App 전체에 제공해줌
 ###### 리덕스(Redux)란?
 > A state management system for cross-component or app-wide state
 > 크로스 컴포넌트 또는 앱 와이드 상태를 위한 상태 관리 시스템
