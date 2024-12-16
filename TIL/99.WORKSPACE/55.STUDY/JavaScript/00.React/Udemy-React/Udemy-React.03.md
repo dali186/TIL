@@ -148,3 +148,12 @@ onsole.log(event.target.value); : HTML 요소 JS에서 추출
 **React에서 Css 내용은 스코핑 되지 않는다.(하위 컴포넌트에서 import해도 상위 컴포넌트에도 적용된다. => 빌드하기 때문)**
 - Inline Css 적용하기 => {{}} 연속 괄호에 Css 내용 작성 + 카멜케이스   
 - className props 안에 백틱으로 `${삼항연산자}` 이런 식으로 클래스 Name 추가 해제 가능
+
+**`styled-component`** 
+- import { styled } from 'styled-component'
+- ***const ContainerStyled = styled.div`CSS 내용`***    
+- 컴포넌트처럼 감싸서 사용
+**`TailWInd`**
+- [TailWind Doc](https://tailwindui.com/components/preview)
+- 
+
