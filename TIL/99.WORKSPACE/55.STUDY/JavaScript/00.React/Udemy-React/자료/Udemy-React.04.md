@@ -7,7 +7,9 @@
 	- 함수탈출 : `Shift + F11`, `Ctrl + Shift + ;`
 ###### 리액트 컨텍스트
 **Prop Drilling?**
-
+- 하위 자식 컴포넌트에게 데이터를 전달하기 위해서 중간에 존재하는 컴포넌트가 속성을 전달해주는 것(중간 컴포넌트는 해당 데이터가 필요하지 않음.)
+	- 재사용이 힘들어진다.
+	- 보일러 플레이트가 늘어난다.
 
 ###### 리덕스(Redux)란?
 > A state management system for cross-component or app-wide state
