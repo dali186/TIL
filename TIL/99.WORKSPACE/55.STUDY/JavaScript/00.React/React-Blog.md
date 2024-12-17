@@ -1,5 +1,7 @@
 1. Dependencies
+- [References 1. Tailwind Css](https://velog.io/@mjieun/React-React%EC%97%90%EC%84%9C-Tailwind-CSS-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 ```shell
 npm install react-router-dom
 npm install -D tailwindcss
+npx tailwindcss init
 ```
