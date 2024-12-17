@@ -173,10 +173,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00670b99acf83689",
+  "active": "1fd5b4d31c1c0616",
   "lastOpenFiles": [
-    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
+    "02.FRONT/JavaScript/01.React/0.React 기본 구성.md",
     "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.04.md",
+    "99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.03.md",
     "99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
     "99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
     "99.WORKSPACE/55.STUDY/Database/00.Redis/Redis 삽질.md",
@@ -210,7 +211,6 @@
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/2. AZ-204-Azure Functions.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/1. AZ-204-Azure App Service 웹앱 구현.md",
     "05.C.S/Cloud/(Azure)-Microsoft/(AZ-204) Azure Developer Associate/0. 개요-Azure Developer Associate.md",
-    "05.C.S/Cloud/(Azure)-Microsoft/Certification-info.md",
     "00.IMGS/React/NextJS-routing.png",
     "00.IMGS/React/react_lifecycle.png",
     "00.IMGS/CS/Cloud/Vnet-topology-01.png",
