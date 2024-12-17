@@ -33,7 +33,7 @@
 		- 모든 상태와 컨텍스트 값의 관리코드를 따로 분리하여 관리(childern 속성 이용) => return <Context.Provider>
 3. useReducer()
 	- `reducer`: 복잡한 값을 더 단순한 형태로 만드는 함수
-	- const [상태, distpatch함수] = useReducer();
+	- const [상태, distpatch함수] = useReducer(커스텀리듀서함수(state, action));
 		- 상태 업데이트를 위해 함수 형태를 사용하여 최신으로 보장된 상태 스냅샷이 생길 때 리듀서
 ###### 리덕스(Redux)란?
 > A state management system for cross-component or app-wide state
