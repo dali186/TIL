@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
+                "file": "TIL/99.WORKSPACE/55.STUDY/JavaScript/00.React/React-Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Docs"
+              "title": "React-Blog"
             }
           }
         ]
@@ -172,6 +172,11 @@
   "active": "ab4abc3b2f8cba01",
   "lastOpenFiles": [
     "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md"
+    "TIL/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
+    "TIL/99.WORKSPACE/55.STUDY/JavaScript/00.React/Udemy-React/Udemy-React.04.md",
+    "TIL/99.WORKSPACE/55.STUDY/JavaScript/00.React/React-Blog.md",
+    "TIL/99.WORKSPACE/55.STUDY/Database/00.Redis/Redis 삽질.md",
+    "TIL/99.WORKSPACE/55.STUDY/Database/00.Redis",
+    "TIL/99.WORKSPACE/55.STUDY/Database"
   ]
 }

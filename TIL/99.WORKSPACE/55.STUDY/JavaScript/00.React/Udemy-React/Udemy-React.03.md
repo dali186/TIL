@@ -143,4 +143,17 @@ onsole.log(event.target.value); : HTML 요소 JS에서 추출
 ###### State 상태 끌어올리기
 - 정보(데이터)를 확인하기 위해 하위 컴포넌트를 확인하는 것은 비효율적
 	- 상위(부모) 컴포넌트로 데이터를 끌어올려서 효율적으로 관리
+- _끌어올렸다_ => 하위 컴포넌트에서 상위 컴포넌트로 useState 함수/변수를 옮겼다.
+
+**React에서 Css 내용은 스코핑 되지 않는다.(하위 컴포넌트에서 import해도 상위 컴포넌트에도 적용된다. => 빌드하기 때문)**
+- Inline Css 적용하기 => {{}} 연속 괄호에 Css 내용 작성 + 카멜케이스   
+- className props 안에 백틱으로 `${삼항연산자}` 이런 식으로 클래스 Name 추가 해제 가능
+
+**`styled-component`** 
+- import { styled } from 'styled-component'
+- ***const ContainerStyled = styled.div`CSS 내용`***    
+- 컴포넌트처럼 감싸서 사용
+**`TailWInd`**
+- [TailWind Doc](https://tailwindui.com/components/preview)
 - 
+
