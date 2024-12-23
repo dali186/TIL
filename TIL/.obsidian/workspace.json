@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "0. 환경 구축"
             }
+          },
+          {
+            "id": "832811631625b31a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bcb0b0be7a7fd2a",
+  "active": "832811631625b31a",
   "lastOpenFiles": [
     "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
     "conflict-files-obsidian-git.md",
