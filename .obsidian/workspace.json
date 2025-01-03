@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/05.C.S/Algorithm/1. 탐색기법-완전탐색.md",
+                "file": "TIL/99.WORKSPACE/00.NOTE/workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 탐색기법-완전탐색"
+              "title": "workflow"
             }
           }
         ]
@@ -171,8 +171,19 @@
   },
   "active": "ab4abc3b2f8cba01",
   "lastOpenFiles": [
-    "TIL/05.C.S/Algorithm/1. 탐색 기법.md",
+    "TIL/99.WORKSPACE/00.NOTE/0. NOTE.md",
+    "TIL/99.WORKSPACE/00.NOTE/workflow.md",
+    "TIL/99.WORKSPACE/00.NOTE/Spring + React 연동.md",
     "TIL/05.C.S/Algorithm/1. 탐색기법-완전탐색.md",
+    "TIL/05.C.S/Cloud/AWS/0. Basic.md",
+    "TIL/05.C.S/Cloud/AWS",
+    "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/다익스트라.md",
+    "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/Boj1916.md",
+    "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라",
+    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/너비우선탐색.md",
+    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/Boj7562.md",
+    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색",
+    "TIL/05.C.S/Algorithm/1. 탐색 기법.md",
     "TIL/05.C.S/Algorithm/최단 거리.md",
     "TIL/05.C.S/Algorithm/First Search.md",
     "TIL/99.WORKSPACE/55.STUDY/JavaScript/00.React/React-Blog.md",
