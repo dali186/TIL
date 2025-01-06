@@ -53,7 +53,51 @@ FLUSH PRIVILEGES;
 ## docker-compose로 이미지 컨테이너화 묶기
 1. 프로젝트 파일에 init.sql, docker-compose.yml 파일 생성
 ```
+CREATE DATABASE commerce_db CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'commerce_admin'@'%' IDENTIFIED BY 'commerceadmin12!@';
+GRANT ALL PRIVILEGES ON commerce_db.* TO 'commerce_admin'@'%';
+FLUSH PRIVILEGES;
 ```
 ```
+version: '3.8'
 
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqladmin
+    ports:
+      - "3306:3306"
+    networks:
+      - was_net
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+  commerce_was:
+    build:
+      context: .  # Dockerfile이 있는 디렉토리 (현재 디렉토리로 설정)
+    container_name: commerce_was
+    ports:
+      - "8080:8080"
+    networks:
+      - was_net
+    depends_on:
+      - mysql
+    restart: unless-stopped
+
+networks:
+  was_net:
+    driver: bridge
+
+volumes:
+  mysql_data:
+    driver: local
 ```
+2. 이후 프로젝트 내에서 `docker-compose up -d` 명령어로 실행
+
+> __단점: gradlew 빌드가 선행되지 않으면 실행되지 않음__
+
+## Github Actions를 이용하여 배포 자동화
