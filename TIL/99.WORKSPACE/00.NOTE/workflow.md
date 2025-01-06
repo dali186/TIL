@@ -17,8 +17,8 @@
 ```
 FROM openjdk:21
 ARG JAR_FILE=build/libs/*.jar
-COPY ${JAR_FILE} /Commerce.jar
-ENTRYPOINT ["java", "-jar", "/Commerce.jar"]
+COPY ${JAR_FILE} /Mercado.jar
+ENTRYPOINT ["java", "-jar", "/Mercado.jar"]
 ```
 2. 프로젝트 클론 (develop 브랜치 내용 가져옴)
 `git clone -b develop --single-branch https://github.com/dali186/Commerce.git`
