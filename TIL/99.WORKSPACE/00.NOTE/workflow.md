@@ -36,9 +36,9 @@ chmod 777 gradlew
 
 #### 3. 네트워크 설정
 1. docker 네트워크 생성
-`docker network create was_net`
-2. DB 컨테이너 실행
-`docker run -d --name mysql --network was_net -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mysqladmin -v mysql:/var/lib/mysql --restart unless-stopped mysql:latest`
+	`docker network create was_net`
+1. DB 컨테이너 실행
+`docker run -d --name mysql --network mercado_net -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mysqladmin -v mysql:/var/lib/mysql --restart unless-stopped mysql:latest`
 __호스트에서 컨테이너 내부 Mysql 접속__
 `docker exec -it ea5 mysql -u root -p`
 ```
