@@ -13,6 +13,10 @@
 #### Test
 1. Mockito
 	- DB 연결없이 가짜 객체를 만들어서 테스트 진행
+	- Junit5으로만 테스트 진행 시
+		-  @Test를 수행하는 testsIsNotNullCodeList() 메서드 실행
+		- 서비스 호출을 위해 ‘Local Server’를 실행시켜서 DB 데이터를 조회
+		- 로컬 서버를 사용하지 않기 위해 Mockito로 대체
 
 #### Logging
 - Docker container 내부 Was의 로그를 Host에서 받아 보기 위해서
