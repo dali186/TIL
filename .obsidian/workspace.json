@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
+                "file": "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(Back-end) was"
+              "title": "(Infra) GitHub Actions - workflow"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "ab4abc3b2f8cba01",
   "lastOpenFiles": [
-    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
+    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "TIL/99.WORKSPACE/99.PROJECTS/Meracdo",
     "TIL/99.WORKSPACE/00.NOTE/무제 폴더",
     "TIL/99.WORKSPACE/00.NOTE/Spring + React 연동.md",
