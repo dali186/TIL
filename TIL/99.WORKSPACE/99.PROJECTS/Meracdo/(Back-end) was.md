@@ -13,3 +13,8 @@
 #### Test
 1. Mockito
 	- DB 연결없이 가짜 객체를 만들어서 테스트 진행
+
+#### Logging
+- Docker container 내부 Was의 로그를 Host에서 받아 보기 위해서
+	1. 기본 로깅 설정 (application.yml)
+	2. Dockerfile 설정 ()
