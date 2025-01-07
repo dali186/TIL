@@ -32,3 +32,9 @@
 		```
 	1. Dockerfile 설정 (디렉터리 지정)
 	2. docker-compose 설정 (docker volume 설정)
+
+
+스웨거
+Dev(Business Logic)+Ops(Cloud)
+SRE
+IASC:Infrastructure As A Code
