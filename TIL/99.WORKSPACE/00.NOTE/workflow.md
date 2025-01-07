@@ -4,6 +4,7 @@
 4. Gihub Actions를 이용하여 푸시할 때마다 배포
 
 [Ref. 1](https://velog.io/@rivkode/Docker-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EB%A1%9C-Spring-MySQL-%EC%97%B0%EB%8F%99)
+[Ref. 2](https://tech.kakao.com/posts/516)
 ##### Github Actions Workflows 작성하기
 
 - Git으로 클론한 프로젝트를 컨테이너화
@@ -36,19 +37,19 @@ chmod 777 gradlew
 
 #### 3. 네트워크 설정
 1. docker 네트워크 생성
-	`docker network create was_net`
+	`docker network create mercado_net`
 1. DB 컨테이너 실행
 `docker run -d --name mysql --network mercado_net -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mysqladmin -v mysql:/var/lib/mysql --restart unless-stopped mysql:latest`
 __호스트에서 컨테이너 내부 Mysql 접속__
 `docker exec -it ea5 mysql -u root -p`
 ```
-CREATE DATABASE commerce_db CHARACTER SET utf8 COLLATE utf8_general_ci;
-CREATE USER 'commerce_admin'@'%' IDENTIFIED BY 'commerceadmin12!@';
-GRANT ALL PRIVILEGES ON commerce_db.* TO 'commerce_admin'@'%';
+CREATE DATABASE mercado_db CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'mercado_admin'@'%' IDENTIFIED BY 'mercadoadmin12!@';
+GRANT ALL PRIVILEGES ON mercado_db.* TO 'mercado_admin'@'%';
 FLUSH PRIVILEGES;
 ```
 3. WAS(Spring Boot) 실행
-`docker run -d --name commerce_was --network was_net -p 8080:8080 --restart unless-stopped commerce_was:latest`
+`docker run -d --name mercado_was --network mercado_net -p 8080:8080 --restart unless-stopped mercado-was:latest`
 
 ## docker-compose로 이미지 컨테이너화 묶기
 1. 프로젝트 파일에 init.sql, docker-compose.yml 파일 생성
@@ -97,6 +98,8 @@ volumes:
     driver: local
 ```
 2. 이후 프로젝트 내에서 `docker-compose up -d` 명령어로 실행
+docker-compose -f ./docker/docker-compose.yml up -d
+
 
 > __단점: gradlew 빌드가 선행되지 않으면 실행되지 않음__
 
