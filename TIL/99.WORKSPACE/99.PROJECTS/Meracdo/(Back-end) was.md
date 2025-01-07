@@ -38,3 +38,5 @@
 Dev(Business Logic)+Ops(Cloud)
 SRE
 IASC:Infrastructure As A Code
+
+AWS의 책임은 클라우드 보안에만 
