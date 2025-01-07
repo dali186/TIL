@@ -17,4 +17,14 @@
 #### Logging
 - Docker container 내부 Was의 로그를 Host에서 받아 보기 위해서
 	1. 기본 로깅 설정 (application.yml)
-	2. Dockerfile 설정 ()
+		```
+		  logging:
+			  pattern:
+				  console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # 콘솔 로그 출력 패턴 설정
+				  file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # 파일 로그 출력 패턴 설정
+			  level:
+				  root: INFO
+				  com.dali186.Mercado: DEBUG
+		```
+	1. Dockerfile 설정 (디렉터리 지정)
+	2. docker-compose 설정 (docker volume 설정)
