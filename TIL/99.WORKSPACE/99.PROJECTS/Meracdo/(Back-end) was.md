@@ -41,3 +41,7 @@ IASC:Infrastructure As A Code
 
 AWS의 책임은 클라우드 보안에만 
 기업 연혁을 보고 그때쯤에 유행하던 기술을 삭 보고 가라(infra는 잘 안바뀜)
+
+인프라에서 캐시 (DB -> Redis -> In-memory), 자주 요청되는 query를 redis에 캐싱
+캐싱 정책
+- 
