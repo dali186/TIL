@@ -33,6 +33,7 @@
 	1. Dockerfile 설정 (디렉터리 지정)
 	2. docker-compose 설정 (docker volume 설정)
 
+<<<<<<< HEAD
 ##### Chat
 - 채팅방 정보는 Redis에 저장
 - STOMP 연결이 지속되는 동안에는 redis에 저장
@@ -49,3 +50,17 @@ implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 		- 해당 여기서는 LettuceConnectionFactory를 사용하여 host와 port 정보를 기반으로 연결을 생성
 	2. RedisTemplate<String, Object>
 		- Redis 데이터 처리를 위한 템플릿을 구성하는 메서드입니다. 이 메서드에서는 Redis와의 데이터 통신을 처리하기 위한 직렬화를 수행합니다.
+=======
+
+스웨거
+Dev(Business Logic)+Ops(Cloud)
+SRE
+IASC:Infrastructure As A Code
+
+AWS의 책임은 클라우드 보안에만 
+기업 연혁을 보고 그때쯤에 유행하던 기술을 삭 보고 가라(infra는 잘 안바뀜)
+
+인프라에서 캐시 (DB -> Redis -> In-memory), 자주 요청되는 query를 redis에 캐싱
+캐싱 정책
+이미지 리사이징 프로젝트
+>>>>>>> a2bebc8c16b66f2b04048b7cfb0d87ca757d315f
