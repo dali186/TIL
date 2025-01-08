@@ -37,3 +37,15 @@
 - 채팅방 정보는 Redis에 저장
 - STOMP 연결이 지속되는 동안에는 redis에 저장
 	- TTL을 사용하여 시간이 지나면 RDBMS에 저장하도록 트리거
+
+##### 1. Redis 연결
+1. gradle 추가
+```
+implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+```
+2. RedisConfig 추가
+	1. RedisConnectionFactory
+		- Redis와의 연결을 위한 'Connection'을 생성하고 관리하는 메서드
+		- 해당 여기서는 LettuceConnectionFactory를 사용하여 host와 port 정보를 기반으로 연결을 생성
+	2. RedisTemplate<String, Object>
+		- Redis 데이터 처리를 위한 템플릿을 구성하는 메서드입니다. 이 메서드에서는 Redis와의 데이터 통신을 처리하기 위한 직렬화를 수행합니다.
