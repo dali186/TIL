@@ -32,3 +32,8 @@
 		```
 	1. Dockerfile 설정 (디렉터리 지정)
 	2. docker-compose 설정 (docker volume 설정)
+
+##### Chat
+- 채팅방 정보는 Redis에 저장
+- STOMP 연결이 지속되는 동안에는 redis에 저장
+	- TTL을 사용하여 시간이 지나면 RDBMS에 저장하도록 트리거
