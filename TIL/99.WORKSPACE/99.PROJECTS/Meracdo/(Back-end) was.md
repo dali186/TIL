@@ -66,3 +66,17 @@ Internet Gateway
 - 인터넷과 연결된 통로
 	- VPC와 인터넷 연결
 	- 퍼블릭 IP 통신 지원
+
+ACL
+Internet Gateway
+VPC
+NAT Gateway
+Subnet
+Routing Table
+
+TIP
+- 기본 VPC 사용하지 않기(국룰)
+	- 삭제가 안되니 태그를 달아놓자 쓰지말라고
+- VPC 마법사를 통해 신규 생성
+- NAT Gateway는 프리티어가 없다. 개인 프로젝트에서는 굳이 사용 X
+- private 서브넷에 중요 자원을 두고 보호
