@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100.WORK/250115.md",
+                "file": "100.WORK/250116.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "250115"
+              "title": "250116"
             }
           }
         ],
@@ -190,9 +190,10 @@
   },
   "active": "b9faedc36da63fa3",
   "lastOpenFiles": [
+    "100.WORK/250115.md",
+    "100.WORK/250116.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
-    "100.WORK/250115.md",
     "100.WORK",
     "06.자격증/SQLP/0. NOTE.md",
     "99.WORKSPACE/00.NOTE/0. NOTE.md",
@@ -220,7 +221,6 @@
     "99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
     "03.BACK/Spring/TestCode.md",
     "03.BACK/Node.js/3. StartNode.md",
-    "03.BACK/Node.js/2. Javascript Basic.md",
     "03.BACK/Spring",
     "03.BACK/Node.js",
     "03.BACK",
