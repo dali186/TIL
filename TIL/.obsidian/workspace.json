@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100.WORK/250123.md",
+                "file": "99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "250123"
+              "title": "(Infra) GitHub Actions - workflow"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "b9faedc36da63fa3",
   "lastOpenFiles": [
-    "100.WORK/250116.md",
     "100.WORK/250123.md",
+    "100.WORK/250116.md",
     "100.WORK/250115.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
