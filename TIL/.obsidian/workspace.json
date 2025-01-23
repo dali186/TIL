@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
+                "file": "100.WORK/250123.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(Infra) GitHub Actions - workflow"
+              "title": "250123"
             }
           }
         ]
@@ -175,10 +175,10 @@
   },
   "active": "b9faedc36da63fa3",
   "lastOpenFiles": [
-    "100.WORK/250123.md",
     "100.WORK/250116.md",
-    "100.WORK/250115.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
+    "100.WORK/250123.md",
+    "100.WORK/250115.md",
     "99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "100.WORK",
     "06.자격증/SQLP/0. NOTE.md",
