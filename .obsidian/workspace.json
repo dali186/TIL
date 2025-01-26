@@ -11,14 +11,10 @@
             "id": "ab4abc3b2f8cba01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIL/100.WORK/250116.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "250116"
+              "title": "새 탭"
             }
           }
         ]
@@ -147,8 +143,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           }
         ],
@@ -165,8 +161,7 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "ab4abc3b2f8cba01",
