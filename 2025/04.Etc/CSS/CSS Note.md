@@ -7,3 +7,4 @@
 ###### justify-content: space-between;
 - 자식 요소 간의 간격을 수직 방향으로 동일하게 배치
 - 첫번째 요소부터 위에서 아래로 배치
+  1we
