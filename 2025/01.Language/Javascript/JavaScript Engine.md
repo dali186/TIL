@@ -29,3 +29,7 @@ javascript에서 제공하는 OR의 `추가 기능`
 ==&&가 || 보다 우선순위 높다==, ==alert은 undefined를 반환한다==
 ##### ??, Nullish 병합 연산자
 a ?? b, a가 `null`이 아니고 `undefined`도 아니면 b
+```javascript
+height = height ?? 100;
+```
+- 괄호 없이 `??`를 `||`나 `&&`와 함께 사용하는 것은 금지되어있습니다.
