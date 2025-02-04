@@ -47,3 +47,7 @@ checkPermission(..) // 승인 여부를 확인하고 true나 false를 반환함
 > 괄호 없는 함수 => 해당 함수를 참조(실행 X)
 ##### Lexical Enviroment
 `code block`, `function`, `script`를 실행하기 앞서 생성되는 객체 실행 범위 안에 있는 **변수, 함수**를 프로퍼티로 저장하는 객체
+**실행 컨텍스트(execution context)**
+- 실행하는 함수를 트래킹하기 위한 자료 구조.
+- 함수 내의 변수 상태와 this 값 등을 저장.
+- 현재 실행 중인 line정보 저장.
