@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/01.Language/Readme.md",
+                "file": "2025/01.Language/Javascript/JavaScript Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme"
+              "title": "JavaScript Basic"
             }
           }
         ],
@@ -187,8 +187,9 @@
   },
   "active": "122c7866ea4c6207",
   "lastOpenFiles": [
-    "2025/01.Language/Javascript/JavaScript Basic.md",
     "2025/99.Efficiency/Readme.md",
+    "2025/01.Language/Javascript/JavaScript Basic.md",
+    "2025/01.Language/Readme.md",
     "2025/04.Etc/CSS/CSS Note.md",
     "2025/01.Language/Javascript",
     "2025/무제 파일.md",
@@ -221,7 +222,6 @@
     "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/너비우선탐색.md",
     "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/Boj7562.md",
     "TIL/05.C.S/Algorithm/BFS, 너비우선탐색",
-    "TIL/05.C.S/Algorithm/1. 탐색 기법.md",
-    "TIL/05.C.S/Algorithm/최단 거리.md"
+    "TIL/05.C.S/Algorithm/1. 탐색 기법.md"
   ]
 }
