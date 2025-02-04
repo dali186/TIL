@@ -33,3 +33,15 @@ a ?? b, a가 `null`이 아니고 `undefined`도 아니면 b
 height = height ?? 100;
 ```
 - 괄호 없이 `??`를 `||`나 `&&`와 함께 사용하는 것은 금지되어있습니다.
+##### 함수
+1. return문이 없는 함수는 `undefined`를 반환한다.
+2. 함수 명명 규칙
+```javascript
+showMessage(..)     // 메시지를 보여줌
+getAge(..)          // 나이를 나타내는 값을 얻고 그 값을 반환함
+calcSum(..)         // 합계를 계산하고 그 결과를 반환함
+createForm(..)      // form을 생성하고 만들어진 form을 반환함
+checkPermission(..) // 승인 여부를 확인하고 true나 false를 반환함
+```
+> 괄호 있는 함수 => 리턴 값을 반환
+> 괄호 없는 함수 => 해당 함수를 참조(실행 X)
