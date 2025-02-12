@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/99.Efficiency/Readme.md",
+                "file": "2025/01.Language/Javascript/JavaScript Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme"
+              "title": "JavaScript Basic"
             }
           },
           {
@@ -187,9 +187,11 @@
   },
   "active": "122c7866ea4c6207",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Javascript/JavaScript Basic.md",
     "2025/99.Efficiency/Readme.md",
+    "2025/01.Language/Java",
+    "conflict-files-obsidian-git.md",
     "2025/01.Language/Readme.md",
     "2025/04.Etc/CSS/CSS Note.md",
     "2025/01.Language/Javascript",
@@ -220,8 +222,6 @@
     "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/다익스트라.md",
     "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/Boj1916.md",
     "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라",
-    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/너비우선탐색.md",
-    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/Boj7562.md",
-    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색"
+    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/너비우선탐색.md"
   ]
 }
