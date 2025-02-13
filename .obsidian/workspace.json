@@ -35,8 +35,7 @@
               "title": "Readme"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,8 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "122c7866ea4c6207",
+  "active": "da9736338997bb5d",
   "lastOpenFiles": [
+    "2025/02.Infra/Readme.md",
     "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Javascript/JavaScript Basic.md",
     "2025/01.Language/Readme.md",
@@ -221,7 +221,6 @@
     "TIL/05.C.S/Cloud/AWS",
     "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/다익스트라.md",
     "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라/Boj1916.md",
-    "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라",
-    "TIL/05.C.S/Algorithm/BFS, 너비우선탐색/너비우선탐색.md"
+    "TIL/05.C.S/Algorithm/Dijkstra, 다익스트라"
   ]
 }
