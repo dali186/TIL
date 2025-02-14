@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02.Infra/Readme.md",
+                "file": "2025/99.Efficiency/Readme.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,8 +187,8 @@
   },
   "active": "122c7866ea4c6207",
   "lastOpenFiles": [
-    "2025/99.Efficiency/Readme.md",
     "2025/02.Infra/Readme.md",
+    "2025/99.Efficiency/Readme.md",
     "2025/01.Language/Javascript/JavaScript Test Tool.md",
     "2025/01.Language/Javascript/JavaScript Basic.md",
     "2025/01.Language/Java/Java Basic.md",
