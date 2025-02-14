@@ -22,7 +22,13 @@ JavaScript를 테스트할 수 있는 툴: `Jest(React)`, `Cypress`, `Mocha`...
 ###### Assertion
 > 비동기적으로 동작하며 조건이 만족할 때까지 대기, 체이닝 가능.
 
-- get
+[CypressDoc](https://docs.cypress.io/api/node-events/after-screenshot-api)
+- get()
+- check(), 라디오나 체크박스 체크
+- clear(), input이나 textarea를 비움
+- clearAllCookies()
+- clearAllLocalStorage()
+- clearAllSessionStorage()
 - should
 - its
 - and
