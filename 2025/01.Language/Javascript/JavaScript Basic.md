@@ -52,4 +52,4 @@ checkPermission(..) // 승인 여부를 확인하고 true나 false를 반환함
 - 함수 내의 변수 상태와 this 값 등을 저장.
 - 현재 실행 중인 line정보 저장.
 
-##### 
+##### BDD(Behavior Driven Development)
