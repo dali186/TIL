@@ -1,0 +1,3 @@
+JavaScript를 테스트할 수 있는 툴: `Jest(React)`, `Cypress`, `Mocha`...
+### Cypress
+테스트 결과를 시각적으로 확인할 수 있음.
