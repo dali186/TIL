@@ -2,7 +2,8 @@ JavaScript를 테스트할 수 있는 툴: `Jest(React)`, `Cypress`, `Mocha`...
 ### Cypress
 [Cypress](https://www.cypress.io/) 테스트 결과를 시각적으로 확인할 수 있음.
 ###### Getting Start
-* 
+	* `npm install cypress -D`
+	* `npx cypress open`
 1. Cypress 실행
 2. project upload
 3. config 생성
@@ -21,3 +22,25 @@ JavaScript를 테스트할 수 있는 툴: `Jest(React)`, `Cypress`, `Mocha`...
 ###### Assertion
 > 비동기적으로 동작하며 조건이 만족할 때까지 대기, 체이닝 가능.
 
+- get
+- should
+- its
+- and
+- or
+- cy.window()
+- cy.wrap()
+###### boilerPlate 설정
+- `cypress > support > commands.js`
+```javascript
+Cypress.Commands.add('login', (email, password) => {
+  cy.get('input[name=email]').type(email);
+  cy.get('input[name=password]').type(password);
+  cy.get('form').submit();
+});
+```
+###### cypress.config.js
+- e2e
+	- viewportWidth
+	- viewportHeight
+	- pageLoadTimeout
+	- chromeWebSecurity: false
