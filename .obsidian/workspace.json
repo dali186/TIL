@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/인생관리/계획안.md",
+                "file": "2025/01.Language/Java/TDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "계획안"
+              "title": "TDD"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "4029f7739c7e4d82",
   "lastOpenFiles": [
-    "2025/05.Project/인생관리/Infra Settings.md",
+    "2025/01.Language/Java/Java Basic.md",
+    "2025/01.Language/Java/TDD.md",
     "2025/05.Project/인생관리/계획안.md",
+    "2025/05.Project/인생관리/Infra Settings.md",
     "2025/05.Project/인생관리",
     "2025/05.Project",
     "2025/03.Data/Readme.md",
@@ -182,7 +184,6 @@
     "2025/99.Efficiency/Readme.md",
     "2025/02.Infra/Readme.md",
     "2025/01.Language/Javascript/JavaScript Test Tool.md",
-    "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Readme.md",
     "2025/01.Language/Java",
     "conflict-files-obsidian-git.md",
@@ -206,7 +207,6 @@
     "TIL/99.WORKSPACE/00.NOTE/Spring + React 연동.md",
     "TIL/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "TIL/99.WORKSPACE/00.NOTE/workflow.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo",
-    "TIL/99.WORKSPACE/00.NOTE/0. NOTE.md"
+    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo"
   ]
 }
