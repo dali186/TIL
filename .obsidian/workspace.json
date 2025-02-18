@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/인생관리/계획안.md",
+                "file": "2025/01.Language/Java/Java Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "계획안"
+              "title": "Java Basic"
             }
           }
         ],
@@ -187,8 +187,8 @@
   },
   "active": "7a396853267a8b50",
   "lastOpenFiles": [
-    "2025/01.Language/Java/TDD.md",
     "2025/05.Project/인생관리/계획안.md",
+    "2025/01.Language/Java/TDD.md",
     "2025/01.Language/Java/Java Basic.md",
     "2025/05.Project/인생관리/Infra Settings.md",
     "2025/05.Project/인생관리",
