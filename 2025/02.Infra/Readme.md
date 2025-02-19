@@ -21,4 +21,9 @@
 - SOA
 - REST 등 가벼운 통신 아키텍처, 또는 Kafka 등을 이용한 message stream을 주로 사용
 - 각각의 서비스는 모듈화가 되어있으며 이러한 모듈까리는 RPC 또는 message-driven API등을 이용하여 통신
-- 
+
+
+Get-NetIPConfiguration
+
+Get-DnsClientServerAddress
+Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
