@@ -4,3 +4,4 @@ RAM 8192MD(8GB)
 CPU core 4
 HDD 100GB
 - 미리 전체 크기 할당 옵션 off (on 일 경우 생성 시 해당 크기만큼 차지)
+https://m.blog.naver.com/jrkim/221522494580
