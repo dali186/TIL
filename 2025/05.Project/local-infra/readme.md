@@ -17,4 +17,15 @@ HostIP: VirtualBox IP / Guest IP: VitrualBox NAT IP
 ##### VM Headless Mode Execute
 가상머신을 백그라운드에서 실행하기
 --환경변수 설정 생략--
-1. VirtualBox 설치 경로 + vBoxManage 
+1. VirtualBox 설치 경로 + VBoxManage 설치 경로 확인
+	C:\Program Files\Oracle\VirtualBox
+2. PowerShell 실행 후 해당 디렉터리로 이동
+	dir C:\Program Files\Oracle\VirtualBox
+3. 명령어 실행
+	./VBoxManage startvm "가상 머신 이름" --type headless
+	./VBoxManage startvm "ubuntu-local" --type headless
+근데 좀 많이 느림
+
+> VirtualBox를 설치하면 HostOS에 VirtualBox용 NIC가 생성되고 생성된 NIC 안 NAT처리된 사설네트워크IP 중 하나를 VM이 차지
+
+
