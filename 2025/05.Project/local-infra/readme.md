@@ -12,4 +12,9 @@ HDD 100GB
 **VM이 할당받은 VitrualBox NAT IP**
 10.0.2.15
 **포트포워딩 설정**
-HostIP: VirtualBox IP / 
+HostIP: VirtualBox IP / Guest IP: VitrualBox NAT IP
+
+##### VM Headless Mode Execute
+가상머신을 백그라운드에서 실행하기
+--환경변수 설정 생략--
+1. VirtualBox 설치 경로 + vBoxManage 
