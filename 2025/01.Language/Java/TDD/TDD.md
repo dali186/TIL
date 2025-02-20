@@ -20,3 +20,8 @@
 - _@AfterAll_ – 주석이 달린 메서드가 현재 클래스의 모든 테스트 메서드 이후에 실행됨을 나타냅니다(이전에는 _@AfterClass_ ).
 - _@Disabled_ – 테스트 클래스 또는 메서드를 비활성화합니다(이전에는 _@Ignore_ )
 
+##### Assertions(주장) Assumptions(가정)
+**Assertions**
+- assertTrue()
+- assertEquals()
+- assertAll()
