@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
+                "file": "2025/05.Project/local-infra/readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Docker로 배포"
+              "title": "readme"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "4029f7739c7e4d82",
   "lastOpenFiles": [
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "2025/05.Project/local-infra/readme.md",
     "2025/01.Language/Java/TDD/TDD.md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
@@ -206,7 +207,6 @@
     "TIL/100.WORK",
     "TIL/06.자격증/SQLP/0. NOTE.md",
     "TIL/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md"
+    "TIL/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md"
   ]
 }
