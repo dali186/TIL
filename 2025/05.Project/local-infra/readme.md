@@ -35,3 +35,8 @@ useradd -m -s /bin/bash dockerusr
 passwd dockerusr
 - 그룹 추가
 usermod -aG docker dockerusr
+
+### Docker Network
+- docker가 설치되면 `docker0`이라는 NIC가 생성됨
+- _**해당 도커 컨테이너에 아무런 설정을 하지 않는다면 외부에서 접근할 수 없으며 오로지 해당 도커 컨테이너를 구동시킨 호스트에서만 접근 가능**_
+- 
