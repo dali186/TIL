@@ -46,3 +46,5 @@ usermod -aG docker dockerusr
 apparmor를 제거하는 명령어.
 docker를 snap으로 설치하는 경우, AppArmor profile이 쌓이고 충돌이 나는 경우라고 함
 
+이후 과정은 [gitea 구축하기](https://medium.com/@dudwls96/gitea-runner-%ED%86%B5%ED%95%9C-gitea-actions-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0-9f7f7544ee8e) 참고
+
