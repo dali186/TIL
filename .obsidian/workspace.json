@@ -226,12 +226,15 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/05.Project/local-infra/readme.md",
+    "2025/00.Notes/Images/act-runner/act-runner_02.png",
+    "2025/00.Notes/Images/act-runner/act-runner_01.png",
+    "2025/00.Notes/Images/VirtualBox/virtual_box_04.png",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
+    "2025/00.Notes/Images/act-runner",
+    "2025/05.Project/local-infra/readme.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
     "2025/00.Notes/Images/VirtualBox/virtual_box_06.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_05.png",
-    "2025/00.Notes/Images/VirtualBox/virtual_box_04.png",
     "2025/02.Infra/Readme.md",
     "2025/00.Notes/Images/VirtualBox/vitual_box_01.png",
     "2025/00.Notes/Images/VirtualBox/vitual_box_03.png",
@@ -261,12 +264,10 @@
     "2025/01.Language/Javascript",
     "2025/무제 파일.md",
     "2025/04.Etc/CSS",
-    "2025/04.Etc",
     "2025/00.Notes/Plan/plan.md",
     "2025/00.Notes/Readme.md",
     "TIL/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "TIL/100.WORK/250116.md",
-    "TIL/100.WORK/250115.md",
-    "TIL/06.자격증/SQLP/0. NOTE.md"
+    "TIL/100.WORK/250115.md"
   ]
 }
