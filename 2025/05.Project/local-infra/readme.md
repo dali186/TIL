@@ -45,3 +45,4 @@ usermod -aG docker dockerusr
 
 apparmor를 제거하는 명령어.
 docker를 snap으로 설치하는 경우, AppArmor profile이 쌓이고 충돌이 나는 경우라고 함
+
