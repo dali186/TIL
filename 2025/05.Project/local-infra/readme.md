@@ -28,4 +28,10 @@ HostIP: VirtualBox IP / Guest IP: VitrualBox NAT IP
 
 > VirtualBox를 설치하면 HostOS에 VirtualBox용 NIC가 생성되고 생성된 NIC 안 NAT처리된 사설네트워크IP 중 하나를 VM이 차지
 
-
+### Docker용 사용자 생성
+- Linux 사용자 생성
+useradd -m -s /bin/bash dockerusr
+- 비밀번호 설정
+passwd dockerusr
+- 그룹 추가
+usermod -aG docker dockerusr
