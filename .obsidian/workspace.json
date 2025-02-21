@@ -211,9 +211,14 @@
   },
   "active": "4029f7739c7e4d82",
   "lastOpenFiles": [
+    "2025/02.Infra/Readme.md",
     "2025/05.Project/local-infra/readme.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
-    "2025/02.Infra/Readme.md",
+    "2025/00.Notes/Images/VirtualBox/vitual_box_01.png",
+    "2025/00.Notes/Images/VirtualBox/vitual_box_03.png",
+    "2025/00.Notes/Images/VirtualBox/vitual_box_02.png",
+    "2025/00.Notes/Images/VirtualBox",
+    "2025/00.Notes/Images",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "2025/01.Language/Java/TDD/TDD.md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
@@ -240,12 +245,9 @@
     "2025/04.Etc",
     "2025/00.Notes/Plan/plan.md",
     "2025/00.Notes/Readme.md",
-    "2025/00.Notes/Plan",
     "TIL/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "TIL/100.WORK/250116.md",
     "TIL/100.WORK/250115.md",
-    "TIL/100.WORK",
-    "TIL/06.자격증/SQLP/0. NOTE.md",
-    "TIL/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md"
+    "TIL/06.자격증/SQLP/0. NOTE.md"
   ]
 }
