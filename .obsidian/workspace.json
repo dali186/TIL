@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02.Infra/02-01. workflow.md",
+                "file": "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-01. workflow"
+              "title": "(Infra) GitHub Actions - workflow"
             }
           }
         ],
@@ -227,6 +227,7 @@
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
+    "2025/05.Project/local-infra/readme.md",
     "2025/02.Infra/02-01. workflow.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
@@ -236,7 +237,6 @@
     "2025/00.Notes/Images/act-runner/act-runner_01.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_04.png",
     "2025/00.Notes/Images/act-runner",
-    "2025/05.Project/local-infra/readme.md",
     "2025/00.Notes/Images/VirtualBox/virtual_box_06.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_05.png",
     "2025/02.Infra/Readme.md",
