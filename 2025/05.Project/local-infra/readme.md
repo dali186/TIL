@@ -39,4 +39,9 @@ usermod -aG docker dockerusr
 ### Docker Network
 - docker가 설치되면 `docker0`이라는 NIC가 생성됨
 - _**해당 도커 컨테이너에 아무런 설정을 하지 않는다면 외부에서 접근할 수 없으며 오로지 해당 도커 컨테이너를 구동시킨 호스트에서만 접근 가능**_
-- 
+
+##### ISSUE `docker stop` PERMISSION DENIED
+> sudo aa-remove-unknown
+
+apparmor를 제거하는 명령어.
+docker를 snap으로 설치하는 경우, AppArmor profile이 쌓이고 충돌이 나는 경우라고 함
