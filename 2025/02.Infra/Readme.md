@@ -29,4 +29,6 @@ Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
 
 ### CI/CD용 SSH 키 생성
 1. ssh-keygen -t rsa -b 4096 -C "nnagicarp@gmail.com"
-2. cd ~/.ssh/id_rsa
+2. cat ~/.ssh/id_rsa.pub
+3. cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+4. 
