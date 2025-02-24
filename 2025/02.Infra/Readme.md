@@ -26,3 +26,7 @@
 Get-NetIPConfiguration
 Get-DnsClientServerAddress
 Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
+
+### CI/CD용 SSH 키 생성
+1. ssh-keygen -t rsa -b 4096 -C "nnagicarp@gmail.com"
+2. cd ~/.ssh/id_rsa
