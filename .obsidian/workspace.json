@@ -35,7 +35,8 @@
               "title": "02-01. workflow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4029f7739c7e4d82",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
+    "2025/02.Infra/Readme.md",
     "2025/02.Infra/02-02. workflow 최적화.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/05.Project/local-infra/readme.md",
@@ -202,7 +204,6 @@
     "2025/00.Notes/Images/act-runner",
     "2025/00.Notes/Images/VirtualBox/virtual_box_06.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_05.png",
-    "2025/02.Infra/Readme.md",
     "2025/00.Notes/Images/VirtualBox/vitual_box_01.png",
     "2025/00.Notes/Images/VirtualBox/vitual_box_03.png",
     "2025/00.Notes/Images/VirtualBox/vitual_box_02.png",

@@ -33,3 +33,9 @@ Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
 3. chmod 700 ~/.ssh/
 4. chmod 600 ~/.ssh/authorized_keys
 5. chmod 600 ~/.ssh/local.pem
+(FTP 설정)
+1. apt-get install vsftpd
+2. systemctl start vsftpd
+(PowerShell)
+1. ftp
+2. open ${ip}
