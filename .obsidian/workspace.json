@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/Blog/2. Develop Document.md",
+                "file": "2025/05.Project/Blog/1. Outline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Develop Document"
+              "title": "1. Outline"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/Blog/1. Outline.md",
+                "file": "2025/05.Project/Blog/2. Develop Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Outline"
+              "title": "2. Develop Document"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,11 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4029f7739c7e4d82",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/05.Project/Blog/0. OverView.md",
-    "2025/05.Project/Blog/2. Develop Document.md",
     "2025/05.Project/Blog/1. Outline.md",
+    "2025/05.Project/Blog/2. Develop Document.md",
+    "2025/05.Project/Blog/0. OverView.md",
     "2025/02.Infra/Readme.md",
     "2025/02.Infra/02-01. workflow.md",
     "2025/05.Project/Blog",
