@@ -185,10 +185,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86c85d5e3b6bb448",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
-    "2025/05.Project/Blog/1. Outline.md",
+    "2025/00.Notes/Images/BLOG/blog_erd_full.png",
+    "2025/00.Notes/Images/BLOG/blog_erd.png",
+    "2025/00.Notes/Images/BLOG",
+    "2025/00.Notes/Images/무제.md",
     "2025/05.Project/Blog/2. Develop Document.md",
+    "2025/05.Project/Blog/1. Outline.md",
     "2025/05.Project/Blog/0. OverView.md",
     "2025/02.Infra/Readme.md",
     "2025/02.Infra/02-01. workflow.md",
@@ -227,9 +231,6 @@
     "2025/05.Project/무제.md",
     "2025/01.Language/Java/Java Basic.md",
     "2025/05.Project/인생관리/계획안.md",
-    "2025/05.Project/인생관리/Infra Settings.md",
-    "2025/05.Project/인생관리",
-    "2025/05.Project",
-    "2025/03.Data/Readme.md"
+    "2025/05.Project/인생관리"
   ]
 }
