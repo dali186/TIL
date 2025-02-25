@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/01.Language/Java/TDD/TDD.md",
+                "file": "2025/05.Project/Blog/2. Develop Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TDD"
+              "title": "2. Develop Document"
             }
           },
           {
@@ -199,13 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
-    "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
+    "2025/05.Project/Blog/1. Outline.md",
     "2025/05.Project/Blog/2. Develop Document.md",
     "2025/01.Language/Java/TDD/TDD.md",
-    "2025/05.Project/Blog/1. Outline.md",
+    "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
+    "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
     "2025/01.Language/Java/TDD/테스트 요구사항(단일).md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
     "2025/00.Notes/Images/BLOG/blog_erd_full.png",
@@ -238,7 +238,6 @@
     "2025/00.Notes/Images/VirtualBox/virtual_box_06.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_05.png",
     "2025/00.Notes/Images/VirtualBox/vitual_box_01.png",
-    "2025/00.Notes/Images/VirtualBox/vitual_box_03.png",
     "2025/00.Notes/Images/VirtualBox",
     "2025/00.Notes/Images",
     "2025/01.Language/Java/TDD",
