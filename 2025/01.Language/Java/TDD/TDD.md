@@ -25,3 +25,12 @@
 - assertTrue()
 - assertEquals()
 - assertAll()
+
+F.I.R.S.T
+Fast
+Independent
+- 객체의 상태, 메소드, 이전 테스트 상태, 다른 메소드의 결과등에 의존해서는 안됩니다.
+Repeatable
+Self-validating
+- Assert문 등에 의해 성공 여부가 결과로 나타나야함
+Timely
