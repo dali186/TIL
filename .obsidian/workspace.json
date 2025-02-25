@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/Blog/0. OverView.md",
+                "file": "2025/05.Project/Blog/2. Develop Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. OverView"
+              "title": "2. Develop Document"
             }
           },
           {
@@ -186,8 +186,9 @@
   },
   "active": "4029f7739c7e4d82",
   "lastOpenFiles": [
-    "2025/05.Project/Blog/1. Outline.md",
     "2025/05.Project/Blog/0. OverView.md",
+    "2025/05.Project/Blog/2. Develop Document.md",
+    "2025/05.Project/Blog/1. Outline.md",
     "2025/02.Infra/Readme.md",
     "2025/02.Infra/02-01. workflow.md",
     "2025/05.Project/Blog",
@@ -228,7 +229,6 @@
     "2025/05.Project/인생관리/Infra Settings.md",
     "2025/05.Project/인생관리",
     "2025/05.Project",
-    "2025/03.Data/Readme.md",
-    "2025/01.Language/Javascript/JavaScript Basic.md"
+    "2025/03.Data/Readme.md"
   ]
 }
