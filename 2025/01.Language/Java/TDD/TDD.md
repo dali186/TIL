@@ -34,3 +34,30 @@ Repeatable
 Self-validating
 - Assert문 등에 의해 성공 여부가 결과로 나타나야함
 Timely
+
+
+### 1. `@Mock`
+
+- **용도**: 테스트 대상 클래스에서 의존하는 외부 객체를 모의(mock) 객체로 생성합니다. 이는 실제 구현체가 아닌 가짜 객체로, 메서드의 호출을 기록하고 정의한 대로 동작할 수 있습니다.
+- **예시**:
+    
+    java
+    
+    복사편집
+    
+    `@Mock private ArticleRepository articleRepository;`
+    
+    위 코드는 `ArticleRepository`의 Mock 객체를 생성합니다.
+
+### 2. `@InjectMocks`
+
+- **용도**: 테스트할 클래스에 Mock 객체를 주입(inject)합니다. 이 어노테이션을 사용하면 Mockito가 자동으로 Mock 객체를 찾아서 테스트 대상 클래스의 필드에 주입합니다.
+- **예시**:
+    
+    java
+    
+    복사편집
+    
+    `@InjectMocks private ArticleService articleService;`
+    
+    위 코드는 `ArticleService` 객체를 생성하고, `@Mock`으로 생성된 `articleRepository`를 `ArticleService`의 필드에 주입합니다.

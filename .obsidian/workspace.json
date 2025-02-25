@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c913a5d0147efacb",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
+    "2025/05.Project/Blog/2. Develop Document.md",
     "2025/01.Language/Java/TDD/TDD.md",
     "2025/05.Project/Blog/1. Outline.md",
     "2025/01.Language/Java/TDD/테스트 요구사항(단일).md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
-    "2025/05.Project/Blog/2. Develop Document.md",
     "2025/00.Notes/Images/BLOG/blog_erd_full.png",
     "2025/00.Notes/Images/BLOG/blog_erd.png",
     "2025/00.Notes/Images/BLOG",
