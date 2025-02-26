@@ -99,3 +99,34 @@ JavaScript에서는 존재하지 않는 프로퍼티에 접근하였을 때, 런
 문자열 또는 숫자를 받을 수 있는 함수를 작성해보겠습니다.
 
 `   function printId(id: number | string) {    console.log("Your ID is: " + id);  }   `
+
+TypeScript는 오직 `string` 값만이 `typeof` 연산의 결괏값으로 `"string"`을 가질 수 있다는 것을 알고 있습니다.
+```TypeScript
+function printId(id: number | string) {
+	if (typeof id === "string") {
+	// 이 분기에서 id는 'string' 타입을 가집니다
+	console.log(id.toUpperCase());
+	} else {
+	// 여기에서 id는 'number' 타입을 가집니다
+	console.log(id);
+	}
+}
+```
+
+##### 타입 별칭
+똑같은 타입을 한 번 이상 재사용하거나 또 다른 이름으로 부르고 싶은 경우도 존재합니다.
+
+_타입 별칭_은 바로 이런 경우를 위하여 존재하며, _타입_을 위한 _이름_을 제공합니다. 타입 별칭의 구문은 아래와 같습니다.
+```TypeScript
+type Point = {
+	x: number;
+	y: number;
+};
+// 앞서 사용한 예제와 동일한 코드입니다
+function printCoord(pt: Point) {
+	console.log("The coordinate's x value is " + pt.x);
+	console.log("The coordinate's y value is " + pt.y);
+}
+printCoord({ x: 100, y: 100 });
+```
+
