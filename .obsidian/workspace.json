@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
+                "file": "2025/05.Project/Blog/2. Develop Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NextJS_TypeScript-1"
+              "title": "2. Develop Document"
             }
           },
           {
@@ -201,8 +201,8 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
     "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
+    "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
     "2025/01.Language/Javascript/TypeScript/TypeScript-1.md",
     "2025/05.Project/Blog/2. Develop Document.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
