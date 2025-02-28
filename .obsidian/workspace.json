@@ -199,12 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86c85d5e3b6bb448",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
+    "2025/05.Project/Blog/2. Develop Document.md",
+    "conflict-files-obsidian-git.md",
     "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
     "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
     "2025/01.Language/Javascript/TypeScript/TypeScript-1.md",
-    "2025/05.Project/Blog/2. Develop Document.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/01.Language/Javascript/TypeScript",
     "2025/01.Language/Javascript/Vanilla/JavaScript Test Tool.md",
@@ -245,7 +246,6 @@
     "2025/00.Notes/Images/VirtualBox",
     "2025/00.Notes/Images",
     "2025/01.Language/Java/TDD",
-    "2025/05.Project/local-infra",
-    "2025/05.Project/무제.md"
+    "2025/05.Project/local-infra"
   ]
 }
