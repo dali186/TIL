@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/01.Language/Java/Java Basic.md",
+                "file": "2025/05.Project/Blog/2. Develop Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java Basic"
+              "title": "2. Develop Document"
             }
           },
           {
@@ -201,8 +201,9 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/01.Language/Readme.md",
+    "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/01.Language/Java/Java Basic.md",
+    "2025/01.Language/Readme.md",
     "2025/02.Infra/Readme.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/02.Infra/02-03. BareMetal Act-Runner.md",
@@ -235,7 +236,6 @@
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/addtional-net.1 베스천 호스트.md",
     "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
-    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
     "2025/00.Notes/Images/act-runner/act-runner_02.png",
     "2025/00.Notes/Images/act-runner/act-runner_01.png",
     "2025/00.Notes/Images/VirtualBox/virtual_box_04.png",
