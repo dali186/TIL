@@ -15,3 +15,5 @@ Dynamic Route
 	- SSR은 사용자 요청 시에 HTML생성 및 구성하여 전달하지만, SSG는 애초에 빌드시에 생성된다.
 	- 캐싱가능(CDN)
 - NextJS는 SSR과 SSG를 조합하여 사용한다. (정적인 페이지에 경우는 SSG가 효율적이다.)
+- BBD(## **Behavior Driven Development**, 잘 짠 TDD)는 TDD의 한 종류이다.
+- 
