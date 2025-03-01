@@ -10,3 +10,18 @@ annotationProcessor "jakarta.persistence:jakarta.persistence-api"
 - QueryDSL을 사용할 interface 생성 `DomainRepositoryDSL`
 - 기존 Repository interface에 implement `public interface DomainRepository extends JpaRepository<Domain, Long>, DomainRepositoryDSL`
 - QueryDSL inteface 작성 후 구현체 작성
+
+##### 3. JPAQueryFactory Bean 등록
+```Java
+@Configuration  
+public class QueryDSLConfiguration {  
+  
+    @PersistenceContext  
+    private EntityManager entityManager;  
+  
+    @Bean  
+    public JPAQueryFactory jpaQueryFactory() {  
+        return new JPAQueryFactory(entityManager);  
+    }  
+}
+```
