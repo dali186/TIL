@@ -2,4 +2,16 @@
 Dynamic Route
 [NextJS doc](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)
  [locale] 폴더를 만들어 이 폴더 하위에 페이지들을 관리하면, 앞에 en / ja / ko 등을 붙였을 때 텍스트는 다르지만 레이아웃은 같도록 할 수 있다.
- 1-2. TDD 방식으로 Article CRUD 구현
+
+03/01(토)
+- SSR, SSG 그리고 CSR의 차이점
+- SSG의 도입 필요성
+	- CSR(클라이언트 사이드 렌더링)의 경우에는 첫 페이지 로드 시의 딜레이가 큰 단점이다.
+	- 서버에서 HTML을 만들고 클라이언트에서 전송, 클라이언트는 JS로 UI를 구성한다. (딜레이 발생)
+- SSR(서버사이드 렌더링)
+	- 서버에서 HTML을 만들고 UI를 구성하여 클라이언트에게 전달
+	- 빠르지만, 서버의 부하가 크다.
+- SSG(스태틱 사이트 제너레이션)
+	- SSR은 사용자 요청 시에 HTML생성 및 구성하여 전달하지만, SSG는 애초에 빌드시에 생성된다.
+	- 캐싱가능(CDN)
+- NextJS는 SSR과 SSG를 조합하여 사용한다. (정적인 페이지에 경우는 SSG가 효율적이다.)
