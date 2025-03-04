@@ -17,3 +17,9 @@ Dynamic Route
 - NextJS는 SSR과 SSG를 조합하여 사용한다. (정적인 페이지에 경우는 SSG가 효율적이다.)
 - BBD(## **Behavior Driven Development**, 잘 짠 TDD)는 TDD의 한 종류이다.
 - (Spring) QueryDSL 설정
+
+03/04(화)
+**목표**
+- React 동작과정
+- React Hooks
+- React Context
