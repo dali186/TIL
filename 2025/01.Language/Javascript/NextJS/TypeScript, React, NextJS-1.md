@@ -42,3 +42,26 @@ TO-BE: 서버에서 HTML을 생성하고 클라이언트에게 전송 후 UI 구
 ###### 컨테이너 컴포넌트
 : 디자인은 구현하지 않고 비즈니스 로직만 담당
 : Hooks를 가짐
+
+
+화살표 함수의 명시적 반환(Explicit Return)과 암시적 반환(Implicit Return)
+###### 암시적 반환
+화살표 함수에서 중괄호 `{}`를 생략하면, **암시적으로** `return`이 포함됩니다. 따라서 `return`을 명시적으로 작성하지 않아도 값을 반환할 수 있습니다.
+```Javascript
+const Logo = () => (
+    <a className="gh-head-logo" href="/">
+        <img src="/images/logo.png" alt="MainLogo" className="h-8" />
+    </a>
+);
+```
+###### 명시적 반환
+만약 함수 본문이 여러 줄로 이루어져 있거나, 추가 로직이 필요하다면 중괄호 `{}`를 사용하고, `return`을 명시적으로 작성해야 합니다.
+```Javascript
+const Logo = () => {
+    return (
+        <a className="gh-head-logo" href="/">
+            <img src="/images/logo.png" alt="MainLogo" className="h-8" />
+        </a>
+    );
+};
+```
