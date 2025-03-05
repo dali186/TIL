@@ -32,5 +32,5 @@ React:state
 Next JS google Fonts 적용
 - src/styles/global.css에 @import 문 추가
 
-Docker: mount / Dokcer: Volume
-/var/lib/docker/image/overlay2/layerdb/sha256
+컴포넌트에 대한 로직은 어디에 작성해야하는가?
+TypeScript의 타입은 어디에 정의해야하는가?
