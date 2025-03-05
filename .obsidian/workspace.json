@@ -49,8 +49,7 @@
               "title": "개발서버"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,11 +198,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27f3e4a56231a3d",
+  "active": "7f54cefa901cbb3b",
   "lastOpenFiles": [
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
-    "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
     "2025/04.Etc/개발서버.md",
+    "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
     "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
     "2025/05.Project/Blog/2. Develop Document.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
