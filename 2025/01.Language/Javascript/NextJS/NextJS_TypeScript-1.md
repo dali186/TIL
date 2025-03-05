@@ -31,4 +31,6 @@ React:state
 
 Next JS google Fonts 적용
 - src/styles/global.css에 @import 문 추가
-- 
+
+Docker: mount / Dokcer: Volume
+/var/lib/docker/image/overlay2/layerdb/sha256
