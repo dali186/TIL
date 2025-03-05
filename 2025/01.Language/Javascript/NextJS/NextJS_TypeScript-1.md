@@ -23,3 +23,8 @@ Dynamic Route
 - React 동작과정
 - React Hooks
 - React Context
+03/05(수)
+React:state
+- **시간이 지나도 변하지 않나요?** 그러면 확실히 state가 아닙니다.
+- **부모로부터 props를 통해 전달됩니까?** 그러면 확실히 state가 아닙니다.
+- 컴포넌트 안의 다른 state나 props를 가지고 **계산 가능한가요?** 그렇다면 _절대로_ state가 아닙니다!
