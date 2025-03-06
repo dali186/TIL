@@ -17,6 +17,45 @@ Dynamic Route
 - NextJS는 SSR과 SSG를 조합하여 사용한다. (정적인 페이지에 경우는 SSG가 효율적이다.)
 - BBD(## **Behavior Driven Development**, 잘 짠 TDD)는 TDD의 한 종류이다.
 - (Spring) QueryDSL 설정
+<<<<<<< HEAD
 - (Spring) ResponseEntity가 아닌 Custom으로만 응답했을경우 응답코드가 제대로 전해지지 않음 (super 로직 필요할 듯)
 - 
 
+=======
+
+03/04(화)
+**목표**
+- React 동작과정
+- React Hooks
+- React Context
+03/05(수)
+React:state
+- **시간이 지나도 변하지 않나요?** 그러면 확실히 state가 아닙니다.
+- **부모로부터 props를 통해 전달됩니까?** 그러면 확실히 state가 아닙니다.
+- 컴포넌트 안의 다른 state나 props를 가지고 **계산 가능한가요?** 그렇다면 _절대로_ state가 아닙니다!
+
+Next JS google Fonts 적용
+- src/styles/global.css에 @import 문 추가
+
+컴포넌트에 대한 로직은 어디에 작성해야하는가?
+TypeScript의 타입은 어디에 정의해야하는가?
+
+03/06(목)
+이제는 개념 정리
+**hook**
+_훅_은 React가 오직 [렌더링](https://ko.react.dev/learn/render-and-commit#step-1-trigger-a-render) 중일 때만 사용할 수 있는 특별한 함수입니다. (이에 대해서는 다음 페이지에서 자세히 알아보겠습니다) 이를 통해 다양한 React 기능을 “연결”할 수 있습니다.
+
+useState => 지역 상태 저장
+useEffect => 
+`setup(설정)`: Effect의 로직이 포함된 함수입니다. 설정 함수는 선택적으로 _clean up(정리)_ 함수를 반환
+`dependencies` **선택사항** : `설정` 함수의 코드 내부에서 참조되는 모든 반응형 값들이 포함된 배열로 구성됩니다. 반응형 값에는 props와 state, 모든 변수 및 컴포넌트 body에 직접적으로 선언된 함수들이 포함
+
+
+##### NextJS Redux 세팅
+1. 의존성 다운로드
+```
+npm install @reduxjs/toolkit redux
+```
+1. src 디렉터리 내부에 redux 디렉터리 생성, `store.ts`, `redux.ts` 파일 생성
+2. 
+>>>>>>> origin/main
