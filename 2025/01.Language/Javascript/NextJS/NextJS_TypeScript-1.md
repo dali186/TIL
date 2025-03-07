@@ -57,5 +57,6 @@ useEffect =>
 npm install @reduxjs/toolkit redux
 ```
 1. src 디렉터리 내부에 redux 디렉터리 생성, `store.ts`, `redux.ts` 파일 생성
-2. 
->>>>>>> origin/main
+
+##### 클라이언트 컴포넌트와 서버 컴포넌트
+
