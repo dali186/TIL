@@ -58,5 +58,24 @@ npm install @reduxjs/toolkit redux
 ```
 1. src 디렉터리 내부에 redux 디렉터리 생성, `store.ts`, `redux.ts` 파일 생성
 
-##### 클라이언트 컴포넌트와 서버 컴포넌트
+##### NextJS - Spring 간 통신 (CORS 에러 해결)
+`next.config.ts` 에 config를 추가.
+```next.configs.ts
+import type { NextConfig } from "next";
 
+const nextConfig: NextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/:path*",
+        destination: "http://localhost:8080/:path*",
+      },
+    ];
+  },
+};
+
+export default nextConfig;
+```
+
+1. 공통 응답 TypeScript
+2. 색상 설정
