@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02.Infra/02-01. workflow.md",
+                "file": "2025/04.Etc/개발서버/Test By VMWare.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-01. workflow"
+              "title": "Test By VMWare"
             }
           }
         ],
@@ -201,9 +201,10 @@
   },
   "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
-    "2025/01.Language/Java/TDD/테스트 요구사항.md",
-    "2025/04.Etc/개발서버/Test By VMWare.md",
     "2025/04.Etc/개발서버/Test By Virtual Box.md",
+    "2025/04.Etc/개발서버/Test By VMWare.md",
+    "2025/02.Infra/02-01. workflow.md",
+    "2025/01.Language/Java/TDD/테스트 요구사항.md",
     "2025/04.Etc/개발서버",
     "2025/00.Notes/Work.md",
     "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
@@ -234,7 +235,6 @@
     "2025/00.Notes/Images/BLOG/blog_erd_full.png",
     "2025/00.Notes/Images/BLOG/blog_erd.png",
     "2025/00.Notes/Images/BLOG",
-    "2025/00.Notes/Images/무제.md",
     "2025/05.Project/Blog",
     "2025/01.Language/Javascript/Vanilla",
     "2025/01.Language/Javascript/NextJS",
