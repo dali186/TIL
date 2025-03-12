@@ -134,7 +134,8 @@ volumes:
 4. copy한 설정파일 수정 후 docker-compose에 mount 
 
 ##### 5. 형상관리 및 War 배포 테스트를 위해 gitea 구축
-
+[[02. Gitea 구축 및 act-runner 설정]]
+계정정보 : gitea / gitea12!@
 
 
 

@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86c85d5e3b6bb448",
+  "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
+    "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/04.Etc/개발서버/Test By Virtual Box.md",
     "2025/04.Etc/개발서버/Test By VMWare.md",
     "2025/02.Infra/02-01. workflow.md",
@@ -212,7 +213,6 @@
     "2025/00.Notes/PCCP",
     "2025/04.Etc/RDBMS 설계.md",
     "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
-    "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/05.Project/Blog/2. Develop Document.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
     "conflict-files-obsidian-git.md",
