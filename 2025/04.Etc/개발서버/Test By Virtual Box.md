@@ -137,6 +137,15 @@ volumes:
 [[02. Gitea 구축 및 act-runner 설정]]
 계정정보 : gitea / gitea12!@
 
+##### 6. 설정파일 Mount 및 로그파일 설정
+ISSUE) (로그파일) Container to Host 마운트 시, 그냥 빈 디렉터리로 적용됨.
+마운트 된 호스트 디렉터리 확인 -> empty
+마운트 된 컨테이너 디렉터리 확인 -> empty
+도커 로그 확인 `cd /var/lib/docker/containers/(containerId)/(containerId)-json.log`
+{"log":"Caused by: java.io.FileNotFoundException: /opt/jboss/wildfly/standalone/log/server.log (Permission denied)\n","stream":"stderr","time":"2025-03-12T03:55:57.977303552Z"}
+**`sudo chown -R 1000:1000 ./JBOSS/logs`**
+**`chmod 775 ./JBOSS/`**
+
 
 
 
