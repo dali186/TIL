@@ -137,9 +137,16 @@ volumes:
 Docker: mount / Dokcer: Volume
 /var/lib/docker/image/overlay2/layerdb/sha256
 
+##### 추가 확인
 1. Linux Group 및 Account 분리
+2. 설정파일 호스트 to 컨테이너 마운트
+3. 컨테이너 로그 호스트 to 컨테이너 설정
 
-##### Docker 설정
-1. 설정파일 호스트 to 컨테이너 마운트
-2. 컨테이너 로그 호스트 to 컨테이너 설정
-3. 
+##### 솔루션 작업 프로세스
+1. jdk + was 컨테이너를 생성
+2. 버전관리
+3. 엔지니어가 컨테이너 내부에서 작업
+4. 해당 컨테이너 이미지화
+5. (Nexus Repository에 push)
+6. 해당 이미지를 계속 실행
+
