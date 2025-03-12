@@ -150,7 +150,9 @@ ISSUE) (로그파일) Container to Host 마운트 시, 그냥 빈 디렉터리�
 **`sudo chown -R 1000:1000 ./JBOSS/logs`**
 성공
 
-
+- **마운트 동작**: ./JBOSS/logs가 /opt/jboss/wildfly/standalone/log로 마운트되면, 호스트 디렉터리의 소유자(UID/GID)와 권한이 컨테이너 내부로 그대로 전달됩니다.
+- **UID/GID 불일치**: 호스트에서 ./JBOSS/logs의 소유자가 예를 들어 user:user (UID 1001)이라면, 컨테이너 내부의 jboss (UID 1000)가 이 디렉터리에 접근하려고 할 때 권한이 맞지 않을 수 있어요.
+- **컨테이너 내부 초기화**: 마운트 전 /opt/jboss/wildfly/standalone/log에 로그가 쌓였다면, 마운트 후 새 디렉터리로 덮어씌워지면서 WildFly가 새 파일을 생성하지 못하는 상황.
 
 
 
