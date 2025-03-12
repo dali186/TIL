@@ -136,3 +136,10 @@ volumes:
 
 Docker: mount / Dokcer: Volume
 /var/lib/docker/image/overlay2/layerdb/sha256
+
+1. Linux Group 및 Account 분리
+
+##### Docker 설정
+1. 설정파일 호스트 to 컨테이너 마운트
+2. 컨테이너 로그 호스트 to 컨테이너 마운트
+3. 
