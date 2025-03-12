@@ -143,8 +143,15 @@ ISSUE) (로그파일) Container to Host 마운트 시, 그냥 빈 디렉터리�
 마운트 된 컨테이너 디렉터리 확인 -> empty
 도커 로그 확인 `cd /var/lib/docker/containers/(containerId)/(containerId)-json.log`
 {"log":"Caused by: java.io.FileNotFoundException: /opt/jboss/wildfly/standalone/log/server.log (Permission denied)\n","stream":"stderr","time":"2025-03-12T03:55:57.977303552Z"}
-**`sudo chown -R 1000:1000 ./JBOSS/logs`**
+1. 
 **`chmod 775 ./JBOSS/`**
+권한 부족으로 아직도 로그 파일을 작성하지 못함
+2. 
+**`sudo chown -R 1000:1000 ./JBOSS/logs`**
+성공
+
+
+
 
 
 
