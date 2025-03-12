@@ -155,9 +155,6 @@ ISSUE) (로그파일) Container to Host 마운트 시, 그냥 빈 디렉터리�
 - **컨테이너 내부 초기화**: 마운트 전 /opt/jboss/wildfly/standalone/log에 로그가 쌓였다면, 마운트 후 새 디렉터리로 덮어씌워지면서 WildFly가 새 파일을 생성하지 못하는 상황.
 
 
-
-
-
 Docker: mount / Dokcer: Volume
 /var/lib/docker/image/overlay2/layerdb/sha256
 
