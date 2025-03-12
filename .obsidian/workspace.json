@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27f3e4a56231a3d",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/04.Etc/개발서버/Test By VMWare.md",
     "2025/04.Etc/개발서버/Test By Virtual Box.md",
+    "2025/04.Etc/개발서버/Test By VMWare.md",
     "2025/02.Infra/02-01. workflow.md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
     "2025/04.Etc/개발서버",

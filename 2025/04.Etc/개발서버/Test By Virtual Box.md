@@ -133,6 +133,11 @@ volumes:
 3. `docker cp <container_id>:/container/file/path /path/to/host` 명령어로 설정파일 copy
 4. copy한 설정파일 수정 후 docker-compose에 mount 
 
+##### 5. 형상관리 및 War 배포 테스트를 위해 gitea 구축
+
+
+
+
 
 Docker: mount / Dokcer: Volume
 /var/lib/docker/image/overlay2/layerdb/sha256
