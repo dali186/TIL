@@ -6,4 +6,4 @@
 			 `resources 생성
 			 `webapp` 생성
 		 /test 
-```
+##### 2. pom.xml 작
