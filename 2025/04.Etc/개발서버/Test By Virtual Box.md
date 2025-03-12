@@ -150,3 +150,6 @@ Docker: mount / Dokcer: Volume
 5. (Nexus Repository에 push)
 6. 해당 이미지를 계속 실행
 
+
+docker cp <컨테이너_이름 또는 ID>:/컨테이너/경로/파일명 /호스트/경로/
+/opt/jboss/wildfly/standalone/configuration/standalone.xml
