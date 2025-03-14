@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02.Infra/ISSUES.md",
+                "file": "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ISSUES"
+              "title": "02. Gitea 구축 및 act-runner 설정"
             }
           }
         ]
@@ -172,13 +172,15 @@
   },
   "active": "da9736338997bb5d",
   "lastOpenFiles": [
-    "2025/02.Infra/Readme.md",
-    "2025/02.Infra/ISSUES.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
-    "2025/02.Infra/01. VirtualBox로 VM 구축.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
     "2025/04.Etc/개발서버/Test By Virtual Box.md",
-    "2025/00.Notes/PCCP/기출문제.md",
     "2025/04.Etc/개발서버/Test By VMWare.md",
+    "2025/02.Infra/01. VirtualBox로 VM 구축.md",
+    "2025/02.Infra/ISSUES.md",
+    "2025/02.Infra/Readme.md",
+    "2025/00.Notes/PCCP/기출문제.md",
     "2025/04.Etc/개발서버",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
     "2025/00.Notes/Work.md",
@@ -207,10 +209,8 @@
     "2025/01.Language/Javascript/Vanilla/JavaScript Test Tool.md",
     "2025/01.Language/Javascript/NextJS",
     "2025/01.Language/Javascript/무제.canvas",
-    "2025/00.Notes/Plan/plan.md",
     "2025/01.Language/Javascript/Vanilla",
     "2025/01.Language/무제",
-    "2025/00.Notes/Readme.md",
     "2025/05.Project/인생관리",
     "2025/05.Project",
     "2025/00.Notes/Images/VirtualBox/vitual_box_03.png",
