@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/04.Etc/개발서버/Test By Virtual Box.md",
+                "file": "2025/05.Project/Blog/3. NextJS로 전환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test By Virtual Box"
+              "title": "3. NextJS로 전환"
             }
           },
           {
@@ -184,13 +184,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c683958a2a083dd5",
+  "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
+    "2025/05.Project/Blog/2. Develop Document.md",
+    "2025/05.Project/Blog/3. NextJS로 전환.md",
+    "2025/05.Project/Blog/1. Outline.md",
+    "2025/05.Project/Blog/0. OverView.md",
+    "2025/04.Etc/개발서버/Test By Virtual Box.md",
     "2025/98.GOHIGH/Log.md",
     "2025/98.GOHIGH",
     "2025/02.Infra/ISSUES.md",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
-    "2025/04.Etc/개발서버/Test By Virtual Box.md",
     "2025/04.Etc/RDBMS 설계.md",
     "2025/00.Notes/Work.md",
     "2025/04.Etc/개발서버/Test By VMWare.md",
@@ -203,7 +207,6 @@
     "2025/00.Notes/PCCP/기출문제.md",
     "2025/00.Notes/PCCP",
     "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
-    "2025/05.Project/Blog/2. Develop Document.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
     "conflict-files-obsidian-git.md",
     "2025/01.Language/Java/QueryDSL 설정.md",
@@ -212,9 +215,6 @@
     "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Readme.md",
     "2025/02.Infra/02-03. BareMetal Act-Runner.md",
-    "2025/05.Project/Blog/0. OverView.md",
-    "2025/05.Project/Blog/1. Outline.md",
-    "2025/01.Language/Javascript/TypeScript/TypeScript-1.md",
     "2025/01.Language/Javascript/TypeScript",
     "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
     "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
