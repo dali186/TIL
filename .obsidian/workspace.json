@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/00.Notes/TIPS.md",
+                "file": "2025/05.Project/Blog/3. NextJS로 전환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TIPS"
+              "title": "3. NextJS로 전환"
             }
           }
         ]
@@ -170,14 +170,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "a5d65cb141bd53a6",
   "lastOpenFiles": [
-    "2025/99.Efficiency/Readme.md",
     "2025/98.GOHIGH/Log.md",
+    "2025/99.Efficiency/Readme.md",
+    "2025/00.Notes/TIPS.md",
     "2025/05.Project/인생관리/계획안.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
-    "2025/00.Notes/TIPS.md",
     "2025/98.GOHIGH",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
