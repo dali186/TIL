@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
+                "file": "2025/05.Project/Blog/3. NextJS로 전환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. NOTE"
+              "title": "3. NextJS로 전환"
             }
           },
           {
@@ -186,6 +186,7 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
+    "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/00.Notes/TIPS.md",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
@@ -211,7 +212,6 @@
     "conflict-files-obsidian-git.md",
     "2025/01.Language/Java/QueryDSL 설정.md",
     "2025/05.Project/인생관리/계획안.md",
-    "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Readme.md",
     "2025/02.Infra/02-03. BareMetal Act-Runner.md",
