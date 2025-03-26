@@ -64,3 +64,10 @@ CMD에서 명령어로 설정하려면:
     - /M은 시스템 변수에 적용(관리자 권한 필요).
 3. CMD 재시작:
     - 명령어가 적용되려면 기존 CMD 창을 닫고 새로 열어야 합니다.
+
+
+#### Intellij JavaDoc 주석 설정하기
+###### 1. Method 주석 템플릿
+1. Plugin `JavaDoc` Install.
+2. Settings > Tools > JavaDoc
+3. Templates > Method Level
