@@ -67,6 +67,21 @@ CMD에서 명령어로 설정하려면:
 
 
 #### Intellij JavaDoc 주석 설정하기
+###### 1. Class 주석 템플릿
+1. Settings > Editor > File and Code Templates
+2. Includes > File Header
+```
+/**
+  * packageName    : ${PACKAGE_NAME}
+  * fileName       : ${NAME}
+  * author         : ${USER}
+  * description    :
+  * ===========================================================
+  * DATE              AUTHOR             NOTE
+  * -----------------------------------------------------------
+  * ${DATE}        ${USER}       최초 생성
+  */
+```
 ###### 1. Method 주석 템플릿
 1. Plugin `JavaDoc` Install.
 2. Settings > Tools > JavaDoc
