@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
+                "file": "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Docker로 배포"
+              "title": "(Back-end) was"
             }
           },
           {
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,8 +187,10 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
+    "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/00.Notes/TIPS.md",
     "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/05.Project/Blog/2. Develop Document.md",
@@ -213,8 +216,6 @@
     "2025/01.Language/Java/QueryDSL 설정.md",
     "2025/05.Project/인생관리/계획안.md",
     "2025/01.Language/Java/Java Basic.md",
-    "2025/01.Language/Readme.md",
-    "2025/02.Infra/02-03. BareMetal Act-Runner.md",
     "2025/01.Language/Javascript/TypeScript",
     "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
     "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
