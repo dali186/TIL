@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "terser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86c85d5e3b6bb448",
+  "active": "368ec61959cb6b6e",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
