@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "terser",
+                "query": "압축",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
