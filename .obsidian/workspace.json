@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "368ec61959cb6b6e",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
