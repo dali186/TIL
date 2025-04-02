@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "압축",
+                "query": "root",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86c85d5e3b6bb448",
+  "active": "368ec61959cb6b6e",
   "lastOpenFiles": [
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
