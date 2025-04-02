@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/Blog/3. NextJS로 전환.md",
+                "file": "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. NextJS로 전환"
+              "title": "1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기"
             }
           },
           {
@@ -186,11 +186,14 @@
   },
   "active": "4b4055964d5e7122",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/addtional-net.1 베스천 호스트.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md",
+    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
+    "conflict-files-obsidian-git.md",
     "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
-    "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
     "2025/00.Notes/TIPS.md",
     "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/05.Project/Blog/2. Develop Document.md",
@@ -212,9 +215,6 @@
     "2025/00.Notes/PCCP",
     "2025/01.Language/Javascript/NextJS/NextJS_TypeScript-1.md",
     "2025/02.Infra/01. VirtualBox로 VM 구축.md",
-    "2025/01.Language/Java/QueryDSL 설정.md",
-    "2025/05.Project/인생관리/계획안.md",
-    "2025/01.Language/Java/Java Basic.md",
     "2025/01.Language/Javascript/TypeScript",
     "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
     "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
