@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "1. TDD로 개발 시작하기"
             }
+          },
+          {
+            "id": "a76c3351b919d4d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27f3e4a56231a3d",
+  "active": "a76c3351b919d4d5",
   "lastOpenFiles": [
-    "2025/04.Etc/인생관리/계획안.md",
     "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
+    "2025/04.Etc/인생관리/계획안.md",
     "2025/05.Project/WPMS",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
