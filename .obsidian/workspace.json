@@ -39,14 +39,18 @@
             "id": "a76c3351b919d4d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025/98.GOHIGH/Traffic/1. Container 구성도 그리기.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1. Container 구성도 그리기"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,13 +199,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27f3e4a56231a3d",
+  "active": "a76c3351b919d4d5",
   "lastOpenFiles": [
+    "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
+    "2025/98.GOHIGH/Traffic/1. Container 구성도 그리기.md",
+    "2025/98.GOHIGH/Traffic",
     "2025/00.Notes/Images/TDD/TDD_09.png",
     "2025/00.Notes/Images/TDD/TDD_08.png",
     "2025/00.Notes/Images/TDD/TDD_07.png",
     "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
-    "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
     "2025/00.Notes/Images/TDD/TDD_01.png",
     "2025/00.Notes/Images/TDD/TDD_02.png",
     "2025/00.Notes/Images/TDD/TDD_03.png",
@@ -233,15 +239,12 @@
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/02.Infra/Readme.md",
     "2025/02.Infra/02-01. workflow.md",
-    "2025/01.Language/Java/TDD/테스트 요구사항.md",
     "2025/04.Etc/개발서버",
     "2025/00.Notes/PCCP",
     "2025/01.Language/Javascript/TypeScript",
     "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
-    "2025/00.Notes/Images/BLOG/spring_tdd_gren.png",
     "2025/00.Notes/Images/BLOG",
     "2025/05.Project/Blog",
-    "2025/01.Language/Javascript/Vanilla",
-    "2025/01.Language/Javascript/NextJS"
+    "2025/01.Language/Javascript/Vanilla"
   ]
 }
