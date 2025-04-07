@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
+                "file": "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. TDD로 개발 시작하기"
+              "title": "2. TDD 예시 작성하기"
             }
           },
           {
@@ -197,7 +197,15 @@
   },
   "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
+    "2025/00.Notes/Images/TDD/TDD_01.png",
+    "2025/00.Notes/Images/TDD/TDD_02.png",
+    "2025/00.Notes/Images/TDD/TDD_03.png",
+    "2025/00.Notes/Images/TDD/TDD_05.png",
+    "2025/00.Notes/Images/TDD/TDD_04.png",
+    "2025/00.Notes/Images/TDD/TDD_06.png",
+    "2025/00.Notes/Images/TDD",
     "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
+    "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
     "2025/04.Etc/인생관리/계획안.md",
     "2025/05.Project/WPMS",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
@@ -224,8 +232,6 @@
     "2025/02.Infra/02-01. workflow.md",
     "2025/01.Language/Java/TDD/테스트 요구사항.md",
     "2025/04.Etc/개발서버",
-    "2025/01.Language/Javascript/NextJS/TypeScript, React, NextJS-1.md",
-    "2025/00.Notes/PCCP/기출문제.md",
     "2025/00.Notes/PCCP",
     "2025/01.Language/Javascript/TypeScript",
     "2025/00.Notes/Images/BLOG/spring_tdd_red.png",
@@ -236,12 +242,6 @@
     "2025/05.Project/Blog",
     "2025/01.Language/Javascript/Vanilla",
     "2025/01.Language/Javascript/NextJS",
-    "2025/00.Notes/Images/act-runner/act-runner_02.png",
-    "2025/00.Notes/Images/act-runner/act-runner_01.png",
-    "2025/00.Notes/Images/VirtualBox/virtual_box_04.png",
-    "2025/00.Notes/Images/act-runner",
-    "2025/00.Notes/Images/VirtualBox/virtual_box_06.png",
-    "2025/00.Notes/Images/VirtualBox/virtual_box_05.png",
-    "2025/00.Notes/Images/VirtualBox/vitual_box_01.png"
+    "2025/00.Notes/Images/act-runner/act-runner_02.png"
   ]
 }
