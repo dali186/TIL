@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02.Infra/서버 CPU 100% 이슈.md",
+                "file": "2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서버 CPU 100% 이슈"
+              "title": "0. Container and Cloud"
             }
           },
           {
@@ -184,8 +184,8 @@
   },
   "active": "86c85d5e3b6bb448",
   "lastOpenFiles": [
-    "2025/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "2025/02.Infra/서버 CPU 100% 이슈.md",
+    "2025/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "2025/02.Infra/workflow",
     "2025/05.Project/WPMS/3. 이미지 업로드 테스트.md",
     "2025/00.Notes/Images/TDD/TDD_file_02.png",
