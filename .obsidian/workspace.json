@@ -185,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27f3e4a56231a3d",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
+    "2025/00.Notes/Images/TDD/TDD_file_01.png",
     "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
     "2025/05.Project/WPMS/3. 이미지 업로드 테스트.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
@@ -227,7 +228,6 @@
     "2025/04.Etc/개발서버/Test By VMWare.md",
     "2025/02.Infra/02. Gitea 구축 및 act-runner 설정.md",
     "2025/02.Infra/Readme.md",
-    "2025/02.Infra/02-01. workflow.md",
     "2025/04.Etc/개발서버",
     "2025/00.Notes/PCCP",
     "2025/01.Language/Javascript/TypeScript",
