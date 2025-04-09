@@ -6,6 +6,7 @@
 	- 도메인 적용
 	- SSL 인증서 적용
 	- MongoDB Atlas 적용
+	- 백업 정책
 - Article 작성 (정리)
 - Resume
 ###### 04.09(수)
