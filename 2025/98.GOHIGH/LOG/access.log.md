@@ -62,7 +62,7 @@
 	2. Local Project 생성 후 토큰 발급
 	3. 검사할 프로젝트 clone 및 환경설정
 		- 테스트 진행한 프로젝트는 WPMS(Springboot + gradle)
-		```
+		```build.gradle
 		id "org.sonarqube" version '6.0.1.5171'
 		
 		sonar {
@@ -76,3 +76,5 @@
 		
 		```
 	4. 빌드 진행
+		- './gradlew build sonar'
+	5. 결과 확인 (localhost:9000)
