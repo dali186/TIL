@@ -14,4 +14,7 @@
 		1. GithubAction DockerHub 인증 오류
 			next Error pull access denied for ---/next-blog, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
 			**=> YML 파일에 DockerHubId가 중복으로 기입되어있음**
+	2. 코드 리팩터링
+		1. BlobStorage 이미지 연동 확인
+		2. 다크모드 CS
 2. 
