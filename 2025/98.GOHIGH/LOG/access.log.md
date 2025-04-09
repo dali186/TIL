@@ -20,4 +20,48 @@
 		2. 다크모드 CSS 수정
 		3. 게시글 Update 로직 수정
 		4. 로깅 수정
-2. 
+2. (SonarQube)
+	1. SonarQube 구축
+		- SonarQube와 PostgreSQL 필요
+		- 컨테이너 환경에서 구축
+		```yml
+		services:
+		  sonarqube:
+		    image: sonarqube:latest
+		    container_name: sonarqube
+		    depends_on:
+		      - db
+		    ports:
+		      - "9000:9000"
+		    environment:
+		      SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonarqube
+		      SONAR_JDBC_USERNAME: sonar
+		      SONAR_JDBC_PASSWORD: sonar
+		    volumes:
+		      - sonarqube_data:/opt/sonarqube/data
+		      - sonarqube_extensions:/opt/sonarqube/extensions
+		      - sonarqube_logs:/opt/sonarqube/logs
+		
+		  db:
+		    image: postgres:13
+		    container_name: postgres-sonar
+		    environment:
+		      POSTGRES_USER: sonar
+		      POSTGRES_PASSWORD: sonar
+		      POSTGRES_DB: sonarqube
+		    volumes:
+		      - postgresql:/var/lib/postgresql/data
+		
+		volumes:
+		  sonarqube_data:
+		  sonarqube_extensions:
+		  sonarqube_logs:
+		  postgresql:
+		```
+		127.0.0.1:9000 접속 후 초기 설정
+	2. Local Project 생성 후 토큰 발급
+	3. 검사할 프로젝트 clone 및 환경설정
+		- 테스트 진행한 프로젝트는 WPMS(Springboot + gradle)
+```
+
+```

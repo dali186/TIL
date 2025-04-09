@@ -31,8 +31,7 @@
               "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b706a22d78f977ba",
+  "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
     "2025/98.GOHIGH/LOG/access.log.md",
     "2025/98.GOHIGH/Log.md",
