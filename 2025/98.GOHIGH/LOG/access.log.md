@@ -78,3 +78,10 @@
 	4. 빌드 진행
 		- './gradlew build sonar'
 	5. 결과 확인 (localhost:9000)
+
+###### 04.10(목)
+1. (NEXT-BLOG)
+	1. Cursor 도입 
+		1. middleware.ts 수정 설정
+		2. 게시글 update 로직 구현
+		3. logging 수정
