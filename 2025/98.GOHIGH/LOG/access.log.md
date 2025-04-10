@@ -85,3 +85,7 @@
 		1. middleware.ts 수정 설정
 		2. 게시글 update 로직 구현
 		3. logging 수정
+	2. 레전드 상황발생
+		1. mongoDB 테스트 용으로 계정설정안해놓음
+		2. All your data is backed up. You must pay 0.0045 BTC to bc1q7stxy9axrwmpu77kme55523a723spvcurnyt9x In 48 hours, your data will be publicly disclosed and deleted. (more information: go to http://2info.win/mdb)After paying send mail to us: rambler+1betfn@onionmail.org and we will provide a link for you to download your data. Your DBCODE is: 1BETFN
+		3. 털림 ㅋㅋ
