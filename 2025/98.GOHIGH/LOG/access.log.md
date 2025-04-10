@@ -114,3 +114,4 @@ db.createUser({
 		1. 에러페이지
 		2. 화면 전환
 npx tailwindcss -i ./util/css/input/style.css -o ./util/css/output/style.css
+npx tailwindcss -i ./public/css/input/style.css -o ./public/css/output/style.css
