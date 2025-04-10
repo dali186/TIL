@@ -97,8 +97,18 @@
 ```
 use admin
 db.createUser({
-	u
-})
+	user: 'root',
+	pwd: 'mongodbadmin',
+	roles: [ 'root' ]
+});
+
+db.createUser({
+	user: 'blogadmin',
+	pwd: 'blogadmin',
+	roles: [
+		{ role: 'readWrite', db: 'blog' }
+	]
+});
 ```
 	1. TO-DO
 		1. 에러페이지
