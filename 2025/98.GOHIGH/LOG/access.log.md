@@ -94,6 +94,12 @@
 		2. 해결방안
 			1. 보안그룹에서 포트를 내 PC만 적용
 			2. mongodb 계정 설정
-	3. TO-DO
+```
+use admin
+db.createUser({
+	u
+})
+```
+	1. TO-DO
 		1. 에러페이지
 		2. 화면 전환
