@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/98.GOHIGH/LOG/access.log.md",
+                "file": "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "access.log"
+              "title": "3. Docker로 배포"
             }
           },
           {
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,8 +183,9 @@
   },
   "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
-    "2025/98.GOHIGH/Log.md",
+    "2025/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
     "2025/98.GOHIGH/LOG/access.log.md",
+    "2025/98.GOHIGH/Log.md",
     "2025/98.GOHIGH/LOG",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/05.Project/Blog/Article/1. VM 배포.md",
@@ -224,7 +226,6 @@
     "2025/04.Etc/개발서버/Test By Virtual Box.md",
     "2025/98.GOHIGH",
     "2025/02.Infra/ISSUES.md",
-    "2025/04.Etc/RDBMS 설계.md",
     "2025/04.Etc/개발서버",
     "2025/00.Notes/PCCP"
   ]
