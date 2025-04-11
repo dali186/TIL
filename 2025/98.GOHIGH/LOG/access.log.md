@@ -115,3 +115,5 @@ db.createUser({
 		2. 화면 전환
 npx tailwindcss -i ./util/css/input/style.css -o ./util/css/output/style.css
 npx tailwindcss -i ./public/css/input/style.css -o ./public/css/output/style.css
+
+https://velog.io/@smat91/Docker%EC%95%88%EC%9D%98-MySQL-%EB%8D%B0%EC%9D%B4%ED%84%B0-Dump-exportimport
