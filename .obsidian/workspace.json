@@ -11,14 +11,10 @@
             "id": "0859657ce89a0fdf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "새 탭"
             }
           }
         ]
@@ -170,7 +166,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c683958a2a083dd5",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
