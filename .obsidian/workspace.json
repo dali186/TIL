@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/05.Project/Blog/Article/1. VM 배포.md",
+                "file": "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. VM 배포"
+              "title": "1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정"
             }
           },
           {
@@ -182,6 +182,11 @@
   },
   "active": "0859657ce89a0fdf",
   "lastOpenFiles": [
+    "2025/05.Project/Blog/Article/1. VM 배포.md",
+    "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
+    "2025/100.docs/projects/next-blog",
+    "2025/100.docs/projects",
+    "2025/100.docs",
     "2025/05.Project/Blog/0. OverView.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
     "2025/98.GOHIGH/LOG/access.log.md",
@@ -203,7 +208,6 @@
     "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
     "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
     "2025/05.Project/WPMS",
-    "2025/05.Project/Blog/Article/1. VM 배포.md",
     "2025/05.Project/Blog/Article",
     "2025/04.Etc/인생관리/계획안.md",
     "2025/04.Etc/인생관리",
@@ -214,7 +218,6 @@
     "2025/02.Infra/workflow/02-01. workflow.md",
     "2025/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "2025/02.Infra/workflow",
-    "2025/02.Infra/ISSUES.md",
     "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_05.png",
     "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_04.png",
     "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_03.png",
@@ -224,9 +227,6 @@
     "2025/00.Notes/Images/TDD/TDD_file_01.png",
     "2025/00.Notes/Images/TDD/TDD_09.png",
     "2025/00.Notes/Images/TDD/TDD_08.png",
-    "2025/00.Notes/Images/TDD/TDD_07.png",
-    "2025/00.Notes/Images/TDD",
-    "2025/00.Notes/Images/Container",
-    "2025/04.Etc/개발서버"
+    "2025/00.Notes/Images/TDD/TDD_07.png"
   ]
 }
