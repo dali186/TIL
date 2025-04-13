@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
+                "file": "2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정"
+              "title": "0. Container and Cloud"
             }
           },
           {
@@ -182,14 +182,14 @@
   },
   "active": "0859657ce89a0fdf",
   "lastOpenFiles": [
-    "2025/05.Project/Blog/Article/1. VM 배포.md",
+    "2025/98.GOHIGH/LOG/access.log.md",
     "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
+    "2025/05.Project/Blog/Article/1. VM 배포.md",
     "2025/100.docs/projects/next-blog",
     "2025/100.docs/projects",
     "2025/100.docs",
     "2025/05.Project/Blog/0. OverView.md",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
-    "2025/98.GOHIGH/LOG/access.log.md",
     "2025/99.Efficiency/Readme.md",
     "2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
     "2025/98.GOHIGH/Log.md",
