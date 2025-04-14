@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "368ec61959cb6b6e",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "2025/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
     "2025/05.Project/Blog/Article/1. VM 배포.md",
