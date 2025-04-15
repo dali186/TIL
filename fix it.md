@@ -17,10 +17,10 @@
 			next Error pull access denied for ---/next-blog, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
 			**=> YML 파일에 DockerHubId가 중복으로 기입되어있음**
 	2. 코드 리팩터링
-		1. BlobStorage 이미지 연동 확인
-		2. 다크모드 CSS 수정
-		3. 게시글 Update 로직 수정
-		4. 로깅 수정
+		2. BlobStorage 이미지 연동 확인
+		3. 다크모드 CSS 수정
+		4. 게시글 Update 로직 수정
+		5. 로깅 수정
 2. (SonarQube)
 	1. SonarQube 구축
 		- SonarQube와 PostgreSQL 필요
@@ -87,13 +87,13 @@
 		2. 게시글 update 로직 구현
 		3. logging 수정
 	2. 레전드 상황발생
-		1. 문제
+		4. 문제
 			1. mongoDB 테스트 용으로 계정설정안해놓음
 			2. All your data is backed up. You must pay 0.0045 BTC to bc1q7stxy9axrwmpu77kme55523a723spvcurnyt9x In 48 hours, your data will be publicly disclosed and deleted. (more information: go to http://2info.win/mdb)After paying send mail to us: rambler+1betfn@onionmail.org and we will provide a link for you to download your data. Your DBCODE is: 1BETFN
 			3. 털림 ㅋㅋ
-		2. 해결방안
-			1. 보안그룹에서 포트를 내 PC만 적용
-			2. mongodb 계정 설정
+		5. 해결방안
+			4. 보안그룹에서 포트를 내 PC만 적용
+			5. mongodb 계정 설정
 ```
 use admin
 db.createUser({
