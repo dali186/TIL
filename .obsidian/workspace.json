@@ -11,10 +11,14 @@
             "id": "67322beca0d6c7f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_org/3. NextJS로 전환.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "3. NextJS로 전환"
             }
           }
         ]
@@ -167,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
