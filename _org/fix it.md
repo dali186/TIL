@@ -117,3 +117,21 @@ npx tailwindcss -i ./util/css/input/style.css -o ./util/css/output/style.css
 npx tailwindcss -i ./public/css/input/style.css -o ./public/css/output/style.css
 
 https://velog.io/@smat91/Docker%EC%95%88%EC%9D%98-MySQL-%EB%8D%B0%EC%9D%B4%ED%84%B0-Dump-exportimport
+
+### Windows 외부 DNS 제거
+Get-NetIPConfiguration
+Get-DnsClientServerAddress
+Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
+
+### CI/CD용 SSH 키 생성
+1. ssh-keygen -t rsa -b 4096 -m PEM -f ~/.ssh/local.pem
+2. cat ~/.ssh/local.pem.pub >> ~/.ssh/authorized_keys
+3. chmod 700 ~/.ssh/
+4. chmod 600 ~/.ssh/authorized_keys
+5. chmod 600 ~/.ssh/local.pem
+(FTP 설정)
+6. apt-get install vsftpd
+7. systemctl start vsftpd
+(PowerShell)
+8. ftp
+9. open ${ip}
