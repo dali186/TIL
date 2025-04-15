@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe4e8bda7f7827c6",
+        "id": "57b50b7a14680518",
         "type": "tabs",
         "children": [
           {
-            "id": "88d2b388e16ccfd7",
+            "id": "67322beca0d6c7f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "(Back-end) was"
+              "title": "새 탭"
             }
           }
         ]
@@ -173,6 +169,7 @@
   },
   "active": "4b4055964d5e7122",
   "lastOpenFiles": [
+    "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
     "05.Development/01.TDD/01.TDD in WPMS/03. TDD로 개발 시작하기 3.md",
@@ -202,7 +199,6 @@
     "_org/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "_org/02.Infra/workflow/02-01. workflow.md",
     "_org/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
-    "04.Infrastructure/02.CICD/01.act-runner/03.act-runner 구축해보기 - 3.md",
     "04.Infrastructure/02.CICD/01.act-runner",
     "03.Language/03.JavaScript/03.Runtime/02.TypeScript",
     "03.Language/02.Java/02.Library/01.QueryDSL",
