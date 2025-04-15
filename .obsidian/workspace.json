@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "07.Tips/01.Windows/01.CMD 명령어설정하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01.CMD 명령어설정하기"
+            }
+          },
+          {
+            "id": "9394d7a0aa96baaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Storage/2025/100.Notes/TIPS.md",
                 "mode": "source",
                 "source": false
@@ -174,6 +188,13 @@
   },
   "active": "0b1530eef414e8a0",
   "lastOpenFiles": [
+    "Storage/2025/100.Notes/TIPS.md",
+    "07.Tips/01.Windows/01.CMD 명령어설정하기.md",
+    "readme.md",
+    "07.Tips/01.Windows/무제",
+    "07.Tips/01.Windows",
+    "07.Tips",
+    "_env/Templates/Default-TIL.md",
     "Storage/2025/100.Notes/Plan/plan.md",
     "Storage/2025/100.Notes/PCCP/기출문제.md",
     "Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
@@ -181,8 +202,6 @@
     "Storage/2024/99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
     "Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
-    "readme.md",
-    "_env/Templates/Default-TIL.md",
     "Storage/2024/01.KNOU/DeepLearning/DeepLearning-02.md",
     "Storage/2024/01.KNOU/DeepLearning/DeepLearning-01.md",
     "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-08.md",
@@ -203,13 +222,8 @@
     "03.Language/03.JavaScript/02. Library/02.React",
     "03.Language/03.JavaScript/02. Library/01.Vanilla",
     "03.Language/03.JavaScript/01.Framework/01.NextJS",
-    "03.Language/02.Java/01.Framework/01.Spring",
-    "03.Language/05.GO/02. Library",
-    "03.Language/04.PHP/02. Library",
     "TEST.md",
     "Storage/2025/01.Language/Readme.md",
-    "Storage/2025/99.Efficiency/Readme.md",
-    "Storage/2025/05.Project/WPMS/3. 이미지 업로드 테스트.md",
     "Storage/2025/100.Notes/Images/TDD/TDD_file_02.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_file_01.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_Repository_Yellow_01.png",

@@ -38,6 +38,8 @@
 			1. CleanCode
 	6. Project
 		1. BLOG
+	7. Tips
+		1. Windows
 ##### 1-2. 디렉터리에는 필수로 하위 목록 문서를 생성한다.
 
 ### 2. 문서 규칙
