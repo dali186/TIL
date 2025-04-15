@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/98.GOHIGH/LOG/access.log.md",
+                "file": "_env/Templates/Default-TIL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "access.log"
-            }
-          },
-          {
-            "id": "b706a22d78f977ba",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Default-TIL"
             }
           }
         ]
@@ -177,15 +167,20 @@
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "b27f3e4a56231a3d",
   "lastOpenFiles": [
+    "TEST.md",
+    "_env/Templates/Default-TIL.md",
+    "2025/98.GOHIGH/LOG/access.log.md",
+    "_env/Templates",
+    "_env",
     "2025/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
     "2025/05.Project/Blog/Article/1. VM 배포.md",
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
-    "2025/98.GOHIGH/LOG/access.log.md",
     "2025/98.GOHIGH/Log.md",
     "2025/98.GOHIGH/LOG",
     "2025/05.Project/Blog/3. NextJS로 전환.md",
@@ -195,20 +190,20 @@
     "2025/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "2025/02.Infra/workflow",
     "2025/05.Project/WPMS/3. 이미지 업로드 테스트.md",
-    "2025/00.Notes/Images/TDD/TDD_file_02.png",
-    "2025/00.Notes/Images/TDD/TDD_file_01.png",
+    "2025/100.Notes/Images/TDD/TDD_file_02.png",
+    "2025/100.Notes/Images/TDD/TDD_file_01.png",
     "2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
-    "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_01.png",
-    "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_05.png",
-    "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_04.png",
-    "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_03.png",
-    "2025/00.Notes/Images/TDD/TDD_Repository_Yellow_02.png",
+    "2025/100.Notes/Images/TDD/TDD_Repository_Yellow_01.png",
+    "2025/100.Notes/Images/TDD/TDD_Repository_Yellow_05.png",
+    "2025/100.Notes/Images/TDD/TDD_Repository_Yellow_04.png",
+    "2025/100.Notes/Images/TDD/TDD_Repository_Yellow_03.png",
+    "2025/100.Notes/Images/TDD/TDD_Repository_Yellow_02.png",
     "2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
-    "2025/00.Notes/Images/Container/VMversusContainer.png.png",
-    "2025/00.Notes/Images/Container/Virtualization.png.png",
-    "2025/00.Notes/Images/Container",
+    "2025/100.Notes/Images/Container/VMversusContainer.png.png",
+    "2025/100.Notes/Images/Container/Virtualization.png.png",
+    "2025/100.Notes/Images/Container",
     "2025/98.GOHIGH/Traffic",
-    "2025/00.Notes/Images/TDD",
+    "2025/100.Notes/Images/TDD",
     "2025/04.Etc/인생관리/계획안.md",
     "2025/05.Project/WPMS",
     "2025/01.Language/Java/No Boot SpringFrameWork.md",
@@ -217,15 +212,11 @@
     "2024/99.WORKSPACE/99.PROJECTS/Infra-Study/2. Jenkins 구축.md",
     "conflict-files-obsidian-git.md",
     "2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
-    "2025/00.Notes/TIPS.md",
+    "2025/100.Notes/TIPS.md",
     "2024/99.WORKSPACE/00.NOTE/0. NOTE.md",
     "2025/05.Project/Blog/2. Develop Document.md",
     "2025/05.Project/Blog/1. Outline.md",
     "2025/05.Project/Blog/0. OverView.md",
-    "2025/04.Etc/개발서버/Test By Virtual Box.md",
-    "2025/98.GOHIGH",
-    "2025/02.Infra/ISSUES.md",
-    "2025/04.Etc/개발서버",
-    "2025/00.Notes/PCCP"
+    "2025/98.GOHIGH"
   ]
 }
