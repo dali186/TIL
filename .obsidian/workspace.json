@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45532dfbe66b2693",
+        "id": "a964928e772115f8",
         "type": "tabs",
         "children": [
           {
-            "id": "491bf12a8fb91bc8",
+            "id": "74c6b10d91054b9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_env/readme.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "readme"
+              "title": "새 탭"
             }
           }
         ]
@@ -173,19 +169,20 @@
   },
   "active": "4b4055964d5e7122",
   "lastOpenFiles": [
+    "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
+    "conflict-files-obsidian-git.md",
+    "_env/readme.md",
+    "2025/100.docs/projects/next-blog",
+    "2025/100.docs/projects",
+    "2025/100.docs",
+    "2025",
     "03.Language/03.JavaScript/02. Library/02.React",
     "03.Language/03.JavaScript/02. Library/01.Vanilla",
     "03.Language/03.JavaScript/01.Framework/01.NextJS",
     "03.Language/02.Java/01.Framework/01.Spring",
     "03.Language/05.GO/02. Library",
     "03.Language/04.PHP/02. Library",
-    "03.Language/03.JavaScript/02. Library",
-    "03.Language/02.Java/02. Library",
-    "03.Language/05.GO/01.Framework",
-    "03.Language/04.PHP/01.Framework",
-    "03.Language/03.JavaScript/01.Framework",
     "무제.md",
-    "_env/readme.md",
     "_env/Templates/Default-TIL.md",
     "TEST.md",
     "Storage/2025/01.Language/Readme.md",
@@ -216,7 +213,6 @@
     "Storage/2025/100.Notes/Images/Container/VMversusContainer.png.png",
     "Storage/2025/100.Notes/Images/Container/Virtualization.png.png",
     "Storage/2025/04.Etc/인생관리/계획안.md",
-    "Storage/2025/01.Language/Java/No Boot SpringFrameWork.md",
-    "Storage/2024/99.WORKSPACE/99.PROJECTS/Infra-Study/1. 인스턴스 3-Tier (WEB, WAS, DB) 구성하기.md"
+    "Storage/2025/01.Language/Java/No Boot SpringFrameWork.md"
   ]
 }
