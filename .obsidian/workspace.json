@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a964928e772115f8",
+        "id": "da01983658c20c56",
         "type": "tabs",
         "children": [
           {
-            "id": "74c6b10d91054b9c",
+            "id": "0b1530eef414e8a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Storage/2025/100.Notes/TIPS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "TIPS"
             }
           }
         ]
@@ -153,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,11 +172,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "0b1530eef414e8a0",
   "lastOpenFiles": [
+    "Storage/2025/100.Notes/Plan/plan.md",
+    "Storage/2025/100.Notes/PCCP/기출문제.md",
+    "Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
+    "Storage/2024/99.WORKSPACE/99.PROJECTS/wems/wems NOTE.md",
+    "Storage/2024/99.WORKSPACE/99.PROJECTS/wems/1. Front-end.md",
+    "Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
+    "Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
+    "readme.md",
+    "_env/Templates/Default-TIL.md",
+    "Storage/2024/01.KNOU/DeepLearning/DeepLearning-02.md",
+    "Storage/2024/01.KNOU/DeepLearning/DeepLearning-01.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-08.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-07.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-06.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-05.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-04.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-03.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-02.md",
+    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-01.md",
+    "무제.md",
     "2025/100.docs/projects/next-blog/1.BLOG 1 블로그 프로젝트 기획과 기술 스택 선정.md",
     "conflict-files-obsidian-git.md",
-    "_env/readme.md",
     "2025/100.docs/projects/next-blog",
     "2025/100.docs/projects",
     "2025/100.docs",
@@ -182,26 +206,10 @@
     "03.Language/02.Java/01.Framework/01.Spring",
     "03.Language/05.GO/02. Library",
     "03.Language/04.PHP/02. Library",
-    "무제.md",
-    "_env/Templates/Default-TIL.md",
     "TEST.md",
     "Storage/2025/01.Language/Readme.md",
-    "Storage/2024/01.KNOU/CLOUD(Azure)/CLOUD-01.md",
     "Storage/2025/99.Efficiency/Readme.md",
     "Storage/2025/05.Project/WPMS/3. 이미지 업로드 테스트.md",
-    "Storage/2025/05.Project/WPMS/2. TDD 예시 작성하기.md",
-    "Storage/2025/05.Project/Blog/3. NextJS로 전환.md",
-    "Storage/2025/05.Project/Blog/2. Develop Document.md",
-    "Storage/2025/05.Project/Blog/1. Outline.md",
-    "Storage/2025/03.Data/Readme.md",
-    "Storage/2025/98.GOHIGH/LOG/access.log.md",
-    "Storage/2025/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
-    "Storage/2025/05.Project/Blog/Article/1. VM 배포.md",
-    "Storage/2024/99.WORKSPACE/99.PROJECTS/Infra-Study/3. Docker로 배포.md",
-    "Storage/2025/98.GOHIGH/Log.md",
-    "Storage/2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
-    "Storage/2025/02.Infra/서버 CPU 100% 이슈.md",
-    "Storage/2025/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "Storage/2025/100.Notes/Images/TDD/TDD_file_02.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_file_01.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_Repository_Yellow_01.png",
@@ -209,10 +217,7 @@
     "Storage/2025/100.Notes/Images/TDD/TDD_Repository_Yellow_04.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_Repository_Yellow_03.png",
     "Storage/2025/100.Notes/Images/TDD/TDD_Repository_Yellow_02.png",
-    "Storage/2025/05.Project/WPMS/1. TDD로 개발 시작하기.md",
     "Storage/2025/100.Notes/Images/Container/VMversusContainer.png.png",
-    "Storage/2025/100.Notes/Images/Container/Virtualization.png.png",
-    "Storage/2025/04.Etc/인생관리/계획안.md",
-    "Storage/2025/01.Language/Java/No Boot SpringFrameWork.md"
+    "Storage/2025/100.Notes/Images/Container/Virtualization.png.png"
   ]
 }

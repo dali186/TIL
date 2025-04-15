@@ -1,4 +1,5 @@
-##### 1. Category는 아래로 구성된다.
+### 1. 디렉터리 규칙
+##### 1-1. Category는 아래로 구성된다.
 	1. Documents
 	2. Database
 		1. PostgreSQL
@@ -37,3 +38,6 @@
 			1. CleanCode
 	6. Project
 		1. BLOG
+##### 1-2. 디렉터리에는 필수로 하위 목록 문서를 생성한다.
+
+### 2. 문서 규칙
