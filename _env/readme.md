@@ -1,9 +1,10 @@
-1. Category는 아래로 구성된다.
-	1. Database
+##### 1. Category는 아래로 구성된다.
+	1. Documents
+	2. Database
 		1. PostgreSQL
 		2. MySQL
 		3. MongoDB
-	2. Language
+	3. Language
 		1. Tools
 			1. Framework
 				1. Obsidian
@@ -24,15 +25,15 @@
 		5. Go
 			1. Framework
 			2. Library
-	3. Infrastructure
+	4. Infrastructure
 		1. Cloud
 			1. Azure
 			2. AWS
 		2. CI/CD
 		3. Docker
-	4. Study
-		1. CleanCode
-	5. Project
-		1. BLOG
-	6. Development
+	5. Development
 		1. TDD
+		2. Study
+			1. CleanCode
+	6. Project
+		1. BLOG
