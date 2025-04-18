@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_org/3. NextJS로 전환.md",
+                "file": "04.Infrastructure/02.CICD/02.Jenkins/01. Gitea-Jenkins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. NextJS로 전환"
+              "title": "01. Gitea-Jenkins"
             }
           }
         ]
@@ -173,6 +173,9 @@
   },
   "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
+    "_org/3. NextJS로 전환.md",
+    "04.Infrastructure/02.CICD/02.Jenkins/01. Gitea-Jenkins.md",
+    "04.Infrastructure/02.CICD/02.Jenkins",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
@@ -188,7 +191,6 @@
     "04.Infrastructure/Index.md",
     "04.Infrastructure/03.Docker/Index.md",
     "_org/1. VM 배포.md",
-    "_org/3. NextJS로 전환.md",
     "04.Infrastructure/05.OnPremise/01.Build/01.Httpd-Wildfly-Postgres.md",
     "_org/Test By Virtual Box.md",
     "_org/fix it.md",
@@ -202,13 +204,11 @@
     "_org/02.Infra/서버 CPU 100% 이슈.md",
     "_org/02.Infra/workflow/01. VirtualBox로 VM 구축.md",
     "_org/02.Infra/workflow/02-01. workflow.md",
-    "_org/02.Infra/workflow/02. Gitea 구축 및 act-runner 설정.md",
     "04.Infrastructure/02.CICD/01.act-runner",
     "03.Language/03.JavaScript/03.Runtime/02.TypeScript",
     "03.Language/02.Java/02.Library/01.QueryDSL",
     "_org",
     "03.Language/03.JavaScript/02.Library/01.Vanilla/무제",
-    "03.Language/03.JavaScript/03.Runtime/01.NodeJS",
     "01.Documents/00.Images/BLOG/spring_tdd_red.png",
     "01.Documents/00.Images/BLOG/spring_tdd_gren.png",
     "01.Documents/00.Images/BLOG/blog_erd_full.png",
