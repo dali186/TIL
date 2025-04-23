@@ -166,8 +166,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c683958a2a083dd5",
+  "active": "4b04d261bec03e12",
   "lastOpenFiles": [
+    "2025/98.GOHIGH/Traffic/0. Container and Cloud.md",
     "_env/Templates/Index.md",
     "_env/Templates/Default-TIL.md",
     "_env/Templates",
@@ -203,7 +204,6 @@
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/개인일정관리/1. Infra.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/개인일정관리/0. Docs.md",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
-    "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
     "01.Documents/00.Images/CS/Cloud/Vnet-topology-01.png",
     "01.Documents/00.Images/CS/Cloud/cloud_baas.png",
     "01.Documents/00.Images/VirtualBox/vitual_box_03.png",
