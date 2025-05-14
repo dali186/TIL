@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "368ec61959cb6b6e",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "04.Infrastructure/05.OnPremise/01.Build/01.Httpd-Wildfly-Postgres.md",
     "06.Project/02.PRS/1. 명세서.md",
