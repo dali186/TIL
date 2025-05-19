@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_org/3. NextJS로 전환.md",
+                "file": "04.Infrastructure/01.Cloud/02.AWS/AWS-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. NextJS로 전환"
+              "title": "AWS-1"
             }
           }
         ]
@@ -173,6 +173,10 @@
   },
   "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
+    "04.Infrastructure/01.Cloud/Index.md",
+    "04.Infrastructure/01.Cloud/02.AWS/AWS-1.md",
+    "03.Language/02.Java/02.Library/01.QueryDSL/01.QueryDSL - 1.md",
+    "_org/3. NextJS로 전환.md",
     "04.Infrastructure/01.Cloud/01.Azure/01.Cloud_Azure(KNOU).md",
     "05.Development/01.TDD/01.TDD in WPMS/01. TDD로 개발 시작하기.md",
     "05.Development/01.TDD/01.TDD in WPMS/03. TDD로 개발 시작하기 3.md",
@@ -180,7 +184,6 @@
     "05.Development/Index.md",
     "_org/fix it.md",
     "_org/1. VM 배포.md",
-    "_org/3. NextJS로 전환.md",
     "06.Project/02.PRS/1. 명세서.md",
     "conflict-files-obsidian-git.md",
     "04.Infrastructure/05.OnPremise/01.Build/01.Httpd-Wildfly-Postgres.md",
@@ -201,10 +204,7 @@
     "05.Development/01.TDD/01.TDD in WPMS",
     "04.Infrastructure/Index.md",
     "04.Infrastructure/03.Docker/Index.md",
-    "_org/Test By Virtual Box.md",
-    "04.Infrastructure/05.OnPremise/Index.md",
     "04.Infrastructure/03.Docker/01.Conatiner",
-    "04.Infrastructure/03.Docker/01.Conatiner/01.컨테이너 Deep-dive.md",
     "04.Infrastructure/05.OnPremise/01.Build",
     "04.Infrastructure/05.OnPremise",
     "04.Infrastructure/02.CICD/01.act-runner",
