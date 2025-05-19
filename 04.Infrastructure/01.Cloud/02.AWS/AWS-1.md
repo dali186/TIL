@@ -4,9 +4,8 @@
 3. Multi Factor 인증(MFA)
 4. Identity Federation
 
-##### 사용자 생성하기
-1. IAM > 사용자 > 사용자 생성
-2. AWS Management Console에 대한 사용자 엑세스 권한 제공
-	- 콘솔 액세스 여부
-	- 모범사례: Identity Center에서 사용자 지정
-		- IAM 사용자는 최소화하고 필요 시에만 생성
+### 사용자(Users), 그룹(Groups), 역할(Roles), 정책(Policy)
+1. 사용자
+	- AWS를 사용하는 개인이나 서비스를 나타냄
+	- 사용자는 자격증명(Credentials)을 갖는 최소 단위
+	- 각 사용자는 하나의 AWS 계정에서만 파생된ㄷ
