@@ -171,10 +171,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67322beca0d6c7f4",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
-    "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
+    "04.Infrastructure/01.Cloud/02.AWS/fragments/VPC 생성 가이드.md",
     "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
+    "04.Infrastructure/01.Cloud/02.AWS/fragments",
+    "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
     "04.Infrastructure/01.Cloud/Index.md",
     "04.Infrastructure/01.Cloud/01.Azure/01.Cloud_Azure(KNOU).md",
     "03.Language/02.Java/02.Library/01.QueryDSL/01.QueryDSL - 1.md",
@@ -207,7 +209,6 @@
     "04.Infrastructure/05.OnPremise/01.Build",
     "04.Infrastructure/05.OnPremise",
     "04.Infrastructure/02.CICD/01.act-runner",
-    "03.Language/03.JavaScript/03.Runtime/02.TypeScript",
     "01.Documents/00.Images/BLOG/spring_tdd_red.png",
     "01.Documents/00.Images/BLOG/spring_tdd_gren.png",
     "01.Documents/00.Images/BLOG/blog_erd_full.png",
