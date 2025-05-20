@@ -171,10 +171,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
-    "04.Infrastructure/01.Cloud/02.AWS/fragments/VPC 생성 가이드.md",
+    "04.Infrastructure/01.Cloud/02.AWS/fragments/시작 템플릿(Launch Template) 생성 가이드.md",
     "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
+    "04.Infrastructure/01.Cloud/02.AWS/fragments/VPC 생성 가이드.md",
     "04.Infrastructure/01.Cloud/02.AWS/fragments",
     "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
     "04.Infrastructure/01.Cloud/Index.md",
@@ -203,7 +204,6 @@
     "05.Development/01.TDD/01.TDD in WPMS/02. TDD로 개발 시작하기 2.md",
     "_org/WPMS/3. 이미지 업로드 테스트.md",
     "_org/WPMS/2. TDD 예시 작성하기.md",
-    "_org/WPMS/1. TDD로 개발 시작하기.md",
     "05.Development/01.TDD/01.TDD in WPMS",
     "04.Infrastructure/03.Docker/01.Conatiner",
     "04.Infrastructure/05.OnPremise/01.Build",

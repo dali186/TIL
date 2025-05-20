@@ -10,6 +10,7 @@ terminated: 완전 삭제, 복구 불가
 ##### 2. Auto Scaling Group (ASG)
 > CPU 사용률 등 조건에 따라 수평 확장/축소
 
+*EC2 > Auto Scaling 그룹*
 ###### 2-1. VPC(Virtual Private Cloud)
 [[VPC 생성 가이드]]
 1. VPC
@@ -23,3 +24,7 @@ terminated: 완전 삭제, 복구 불가
 5. Security Group
 	- 방화벽 역할
 
+###### 2-2. Launcher Template(시작 템플릿) 생성
+[[시작 템플릿(Launch Template) 생성 가이드]]
+
+###### 2-3. ASG(Auto Scaling Group) 오트 스케일링 그룹 생성
