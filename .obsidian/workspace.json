@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
+                "file": "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aws-01.IAM"
+              "title": "aws-02.EC2"
             }
           }
         ]
@@ -173,9 +173,9 @@
   },
   "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
+    "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
+    "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
     "04.Infrastructure/01.Cloud/Index.md",
-    "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
-    "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
     "04.Infrastructure/01.Cloud/01.Azure/01.Cloud_Azure(KNOU).md",
     "03.Language/02.Java/02.Library/01.QueryDSL/01.QueryDSL - 1.md",
     "_org/3. NextJS로 전환.md",
@@ -203,7 +203,6 @@
     "_org/WPMS/2. TDD 예시 작성하기.md",
     "_org/WPMS/1. TDD로 개발 시작하기.md",
     "05.Development/01.TDD/01.TDD in WPMS",
-    "04.Infrastructure/Index.md",
     "04.Infrastructure/03.Docker/01.Conatiner",
     "04.Infrastructure/05.OnPremise/01.Build",
     "04.Infrastructure/05.OnPremise",
