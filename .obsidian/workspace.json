@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67322beca0d6c7f4",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "04.Infrastructure/01.Cloud/01.Azure/01.Cloud_Azure(KNOU).md",
     "05.Development/01.TDD/01.TDD in WPMS/01. TDD로 개발 시작하기.md",
