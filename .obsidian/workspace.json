@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67322beca0d6c7f4",
+  "active": "4b4055964d5e7122",
   "lastOpenFiles": [
     "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
     "04.Infrastructure/01.Cloud/02.AWS/fragments/시작 템플릿(Launch Template) 생성 가이드.md",
