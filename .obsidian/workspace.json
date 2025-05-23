@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67322beca0d6c7f4",
+  "active": "c683958a2a083dd5",
   "lastOpenFiles": [
     "04.Infrastructure/01.Cloud/02.AWS/fragments/시작 템플릿(Launch Template) 생성 가이드.md",
     "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
