@@ -171,10 +171,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "c683958a2a083dd5",
   "lastOpenFiles": [
-    "_org/fix it.md",
     "conflict-files-obsidian-git.md",
+    "_org/fix it.md",
     "04.Infrastructure/01.Cloud/02.AWS/aws-02.EC2.md",
     "04.Infrastructure/01.Cloud/02.AWS/fragments/시작 템플릿(Launch Template) 생성 가이드.md",
     "04.Infrastructure/01.Cloud/02.AWS/fragments/VPC 생성 가이드.md",
