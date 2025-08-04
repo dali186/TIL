@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Infra-Study/addtional-net.1 베스천 호스트.md",
-                "mode": "source",
+                "file": "aws/CloudFront.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "addtional-net.1 베스천 호스트"
+              "title": "CloudFront"
             }
           }
         ]
@@ -171,8 +171,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b4055964d5e7122",
+  "active": "67322beca0d6c7f4",
   "lastOpenFiles": [
+    "aws/S3_Performance.md",
+    "aws/ECS.md",
+    "aws/CloudFront.md",
+    "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Infra-Study/addtional-net.1 베스천 호스트.md",
+    "aws",
     "04.Infrastructure/02.CICD/01.act-runner/01.act-runner 구축해보기 - 1.md",
     "04.Infrastructure/01.Cloud/02.AWS/aws-01.IAM.md",
     "_org/fix it.md",
@@ -200,15 +205,10 @@
     "2025",
     "04.Infrastructure/02.CICD/02.Jenkins",
     "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Back-end) was.md",
-    "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/Meracdo/(Infra) GitHub Actions - workflow.md",
-    "_org/Storage/2024/99.WORKSPACE/99.PROJECTS/wems/0. 환경 구축.md",
-    "05.Development/01.TDD/01.TDD in WPMS/02. TDD로 개발 시작하기 2.md",
-    "_org/WPMS/3. 이미지 업로드 테스트.md",
     "05.Development/01.TDD/01.TDD in WPMS",
     "04.Infrastructure/03.Docker/01.Conatiner",
     "04.Infrastructure/05.OnPremise/01.Build",
     "04.Infrastructure/05.OnPremise",
-    "04.Infrastructure/02.CICD/01.act-runner",
     "01.Documents/00.Images/BLOG/spring_tdd_red.png",
     "01.Documents/00.Images/BLOG/spring_tdd_gren.png",
     "01.Documents/00.Images/BLOG/blog_erd_full.png",
